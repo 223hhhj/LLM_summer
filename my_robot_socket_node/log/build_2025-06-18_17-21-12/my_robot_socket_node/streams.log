@@ -1,0 +1,23 @@
+[0.442s] Invoking command in '/home/steven/ros2_ws/src/my_robot_socket_node': PYTHONPATH=/home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_socket_node build --build-base /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build install --record /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/install.log --single-version-externally-managed
+[0.599s] running egg_info
+[0.608s] writing build/my_robot_socket_node/my_robot_socket_node.egg-info/PKG-INFO
+[0.608s] writing dependency_links to build/my_robot_socket_node/my_robot_socket_node.egg-info/dependency_links.txt
+[0.608s] writing entry points to build/my_robot_socket_node/my_robot_socket_node.egg-info/entry_points.txt
+[0.608s] writing requirements to build/my_robot_socket_node/my_robot_socket_node.egg-info/requires.txt
+[0.608s] writing top-level names to build/my_robot_socket_node/my_robot_socket_node.egg-info/top_level.txt
+[0.620s] reading manifest file 'build/my_robot_socket_node/my_robot_socket_node.egg-info/SOURCES.txt'
+[0.621s] writing manifest file 'build/my_robot_socket_node/my_robot_socket_node.egg-info/SOURCES.txt'
+[0.621s] running build
+[0.621s] running build_py
+[0.621s] copying my_robot_socket_node/joint_reader_node.py -> /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build/lib/my_robot_socket_node
+[0.621s] running install
+[0.623s] running install_lib
+[0.629s] copying /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build/lib/my_robot_socket_node/joint_reader_node.py -> /home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node
+[0.629s] byte-compiling /home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node/joint_reader_node.py to joint_reader_node.cpython-310.pyc
+[0.630s] running install_egg_info
+[0.636s] removing '/home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.637s] Copying build/my_robot_socket_node/my_robot_socket_node.egg-info to /home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node-0.0.0-py3.10.egg-info
+[0.637s] running install_scripts
+[0.661s] Installing joint_reader script to /home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/my_robot_socket_node
+[0.661s] writing list of installed files to '/home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/install.log'
+[0.677s] Invoked command in '/home/steven/ros2_ws/src/my_robot_socket_node' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_socket_node build --build-base /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build install --record /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/install.log --single-version-externally-managed

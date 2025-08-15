@@ -1,0 +1,26 @@
+running egg_info
+writing build/dual_arm_collaboration/dual_arm_collaboration.egg-info/PKG-INFO
+writing dependency_links to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/dependency_links.txt
+writing entry points to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/entry_points.txt
+writing requirements to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/requires.txt
+writing top-level names to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/top_level.txt
+reading manifest file 'build/dual_arm_collaboration/dual_arm_collaboration.egg-info/SOURCES.txt'
+writing manifest file 'build/dual_arm_collaboration/dual_arm_collaboration.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/dual_arm_system.launch.py -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/launch
+copying config/dual_arm_planning_groups.yaml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+copying config/safety_settings.yaml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+copying config/dual_arm_controllers.yaml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+copying urdf/dual_arm_system.urdf.xacro -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/urdf
+copying rviz/dual_arm_view.rviz -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/rviz
+running install_egg_info
+removing '/home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration-1.0.0-py3.10.egg-info' (and everything under it)
+Copying build/dual_arm_collaboration/dual_arm_collaboration.egg-info to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration-1.0.0-py3.10.egg-info
+running install_scripts
+Installing arm0710_controller script to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/dual_arm_collaboration
+Installing dual_arm_coordinator script to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/dual_arm_collaboration
+writing list of installed files to '/home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/install.log'

@@ -1,0 +1,62 @@
+[0.432s] Invoking command in '/home/steven/ros2_ws/src/robot_interface': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data
+[0.592s] running egg_info
+[0.598s] writing build/robot_interface/robot_interface.egg-info/PKG-INFO
+[0.599s] writing dependency_links to build/robot_interface/robot_interface.egg-info/dependency_links.txt
+[0.599s] writing entry points to build/robot_interface/robot_interface.egg-info/entry_points.txt
+[0.599s] writing requirements to build/robot_interface/robot_interface.egg-info/requires.txt
+[0.599s] writing top-level names to build/robot_interface/robot_interface.egg-info/top_level.txt
+[0.603s] Traceback (most recent call last):
+[0.603s]   File "/home/steven/ros2_ws/src/robot_interface/setup.py", line 5, in <module>
+[0.603s]     setup(
+[0.603s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup
+[0.603s]     return distutils.core.setup(**attrs)
+[0.603s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 185, in setup
+[0.603s]     return run_commands(dist)
+[0.603s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 201, in run_commands
+[0.603s]     dist.run_commands()
+[0.603s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 968, in run_commands
+[0.603s]     self.run_command(cmd)
+[0.603s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1217, in run_command
+[0.603s]     super().run_command(command)
+[0.603s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 987, in run_command
+[0.603s]     cmd_obj.run()
+[0.603s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 308, in run
+[0.604s]     self.find_sources()
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 316, in find_sources
+[0.604s]     mm.run()
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 560, in run
+[0.604s]     self.add_defaults()
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 597, in add_defaults
+[0.604s]     sdist.add_defaults(self)
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 106, in add_defaults
+[0.604s]     super().add_defaults()
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 250, in add_defaults
+[0.604s]     self._add_defaults_python()
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 117, in _add_defaults_python
+[0.604s]     build_py = self.get_finalized_command('build_py')
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 305, in get_finalized_command
+[0.604s]     cmd_obj = self.distribution.get_command_obj(command, create)
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 859, in get_command_obj
+[0.604s]     klass = self.get_command_class(command)
+[0.604s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 952, in get_command_class
+[0.604s]     eps = metadata.entry_points(group='distutils.commands', name=command)
+[0.604s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[0.604s]     return SelectableGroups.load(eps).select(**params)
+[0.604s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+[0.604s]     ordered = sorted(eps, key=by_group)
+[0.604s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+[0.604s]     dist.entry_points for dist in unique(distributions())
+[0.604s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+[0.604s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[0.604s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 381, in _from_text_for
+[0.604s]     return cls(ep._for(dist) for ep in cls._from_text(text))
+[0.604s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 381, in <genexpr>
+[0.604s]     return cls(ep._for(dist) for ep in cls._from_text(text))
+[0.605s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 389, in <genexpr>
+[0.605s]     return (
+[0.605s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 103, in <genexpr>
+[0.605s]     section._replace(value=Pair.parse(section.value))
+[0.605s]   File "/usr/lib/python3.10/importlib/metadata/_collections.py", line 30, in parse
+[0.605s]     return cls(*map(str.strip, text.split("=", 1)))
+[0.605s] TypeError: 'str' object is not callable
+[0.615s] Invoked command in '/home/steven/ros2_ws/src/robot_interface' returned '1': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+gmake[2]: *** 沒有規則可製作目標「/usr/lib/x86_64-linux-gnu/libfreeimage.so」，由「ur5_ros2_cartesian」 需求。 停止。
+gmake[2]: *** 正在等待未完成的作業....
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

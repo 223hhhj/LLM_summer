@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::moveToPose(const Pose&, const string&)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:339:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kobservation_poses[m[K’ was not declared in this scope
+  339 |       if (!moveToPose([01;31m[Kobservation_poses[m[K[0], "Observation pose 0")) {
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

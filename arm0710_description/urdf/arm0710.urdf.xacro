@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arm0710">
+
+  <!-- 參數定義 -->
+  <xacro:arg name="prefix" default="" />
+  <xacro:property name="prefix" value="$(arg prefix)" />
+
+  <!-- 材質定義 -->
+  <material name="${prefix}default_material">
+    <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+  </material>
+
+  <!-- ARM0710 機器人 macro 定義 -->
+  <xacro:macro name="arm0710_robot" params="prefix:=''">
+    
+    <!-- Base Link -->
+    <link name="${prefix}base_link">
+      <inertial>
+        <origin xyz="4.38321153871523E-10 -0.0197289552878621 0.100874218917433" rpy="0 0 0" />
+        <mass value="8.85588047875456" />
+        <inertia ixx="0.0537141683691871" ixy="-2.59674279621959E-11" ixz="9.02636740758445E-19"
+                 iyy="0.0548829694116871" iyz="-1.30740113187687E-18" izz="0.0475552125206787" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/base_link.STL" />
+        </geometry>
+        <material name="${prefix}default_material" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/base_link.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Link 1 -->
+    <link name="${prefix}link1">
+      <inertial>
+        <origin xyz="4.38321153960351E-10 -0.0197289552878621 0.100874218917433" rpy="0 0 0" />
+        <mass value="8.85588047875456" />
+        <inertia ixx="0.0537141683691871" ixy="-2.59674279673715E-11" ixz="8.55092890238989E-19"
+                 iyy="0.0548829694116871" iyz="-1.14222586402274E-18" izz="0.0475552125206787" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link1.STL" />
+        </geometry>
+        <material name="${prefix}default_material" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link1.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Joint 1 -->
+    <joint name="${prefix}joint1" type="revolute">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <parent link="${prefix}base_link" />
+      <child link="${prefix}link1" />
+      <axis xyz="0 0 1" />
+      <limit lower="-3.14159" upper="3.14159" effort="100" velocity="1.0" />
+      <dynamics damping="0.1" friction="0.1" />
+    </joint>
+
+    <!-- Link 2 -->
+    <link name="${prefix}link2">
+      <inertial>
+        <origin xyz="-0.0178219401405618 0.0327709503182087 0.290326442977095" rpy="0 0 0" />
+        <mass value="5.6517097880937" />
+        <inertia ixx="0.0357578414294892" ixy="0.00227838095484891" ixz="0.00449914911281731"
+                 iyy="0.0328074186319928" iyz="-0.00827302700421379" izz="0.0334116363485583" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link2.STL" />
+        </geometry>
+        <material name="${prefix}default_material" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link2.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Joint 2 -->
+    <joint name="${prefix}joint2" type="revolute">
+      <origin xyz="0 0 0" rpy="0 0 1.05" />
+      <parent link="${prefix}link1" />
+      <child link="${prefix}link2" />
+      <axis xyz="0 0 -1" />
+      <limit lower="-3.14159" upper="3.14159" effort="100" velocity="1.0" />
+      <dynamics damping="0.1" friction="0.1" />
+    </joint>
+
+    <!-- Link 3 -->
+    <link name="${prefix}link3">
+      <inertial>
+        <origin xyz="-0.0361895445600017 0.193248750807713 -0.17066829013988" rpy="0 0 0" />
+        <mass value="1.92698961361683" />
+        <inertia ixx="0.0234974840389655" ixy="-0.000847090880731022" ixz="0.000997538118835251"
+                 iyy="0.00498156746464811" iyz="0.00700894851064686" izz="0.0221877902416339" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link3.STL" />
+        </geometry>
+        <material name="${prefix}default_material" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link3.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Joint 3 -->
+    <joint name="${prefix}joint3" type="revolute">
+      <origin xyz="0 0 0.24067" rpy="1.5708 0.59391 1.5416" />
+      <parent link="${prefix}link2" />
+      <child link="${prefix}link3" />
+      <axis xyz="0.41706 0.28161 0.86415" />
+      <limit lower="-3.14159" upper="3.14159" effort="100" velocity="1.0" />
+      <dynamics damping="0.1" friction="0.1" />
+    </joint>
+
+    <!-- Link 4 -->
+    <link name="${prefix}link4">
+      <inertial>
+        <origin xyz="0.0358833746392399 -0.0127276481718097 0.119680916308211" rpy="0 0 0" />
+        <mass value="4.19531741237965" />
+        <inertia ixx="0.0135578486871952" ixy="0.000326944567596886" ixz="-7.04589035883322E-05"
+                 iyy="0.0108014543205356" iyz="-0.000599340177941816" izz="0.0114520930240872" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link4.STL" />
+        </geometry>
+        <material name="${prefix}default_material" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link4.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Joint 4 -->
+    <joint name="${prefix}joint4" type="revolute">
+      <origin xyz="0.010583 0.38604 -0.007" rpy="-3.1416 0 2.4136" />
+      <parent link="${prefix}link3" />
+      <child link="${prefix}link4" />
+      <axis xyz="0.12396 -0.48773 0.86415" />
+      <limit lower="-3.14159" upper="3.14159" effort="50" velocity="1.0" />
+      <dynamics damping="0.1" friction="0.1" />
+    </joint>
+
+    <!-- Link 5 -->
+    <link name="${prefix}link5">
+      <inertial>
+        <origin xyz="0.0218763946306619 0.193497456974827 0.154340512219427" rpy="0 0 0" />
+        <mass value="1.37952769169633" />
+        <inertia ixx="0.00514571117541506" ixy="3.55575509122946E-05" ixz="-6.73223137526197E-05"
+                 iyy="0.00414178448556563" iyz="-0.000849338029901774" izz="0.00312824713038446" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link5.STL" />
+        </geometry>
+        <material name="${prefix}default_material" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link5.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Joint 5 -->
+    <joint name="${prefix}joint5" type="revolute">
+      <origin xyz="0.10018 -0.0255 0" rpy="1.5708 0 3.1416" />
+      <parent link="${prefix}link4" />
+      <child link="${prefix}link5" />
+      <axis xyz="-0.016403 -0.49324 -0.86974" />
+      <limit lower="-3.14159" upper="3.14159" effort="50" velocity="1.0" />
+      <dynamics damping="0.1" friction="0.1" />
+    </joint>
+
+    <!-- Link 6 -->
+    <link name="${prefix}link6">
+      <inertial>
+        <origin xyz="-0.0463754820238056 0.00743160902302253 0.252754872817663" rpy="0 0 0" />
+        <mass value="0.564846849917653" />
+        <inertia ixx="0.000702635867966236" ixy="-2.07077648621293E-05" ixz="-1.78765476612046E-05"
+                 iyy="0.000594265947428119" iyz="-6.44349064802551E-05" izz="0.000689632025099121" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link6.STL" />
+        </geometry>
+        <material name="${prefix}default_material" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://arm0710_description/meshes/arm0710/link6.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Joint 6 -->
+    <joint name="${prefix}joint6" type="revolute">
+      <origin xyz="0 0 0.293" rpy="1.5708 -1.0116 -3.1416" />
+      <parent link="${prefix}link5" />
+      <child link="${prefix}link6" />
+      <axis xyz="-0.34994 -0.36074 0.86453" />
+      <limit lower="-3.14159" upper="3.14159" effort="25" velocity="1.0" />
+      <dynamics damping="0.1" friction="0.1" />
+    </joint>
+
+    <!-- 末端執行器 -->
+    <link name="${prefix}end_effector">
+      <inertial>
+        <origin xyz="0 0 0.025" rpy="0 0 0" />
+        <mass value="0.1" />
+        <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0.025" rpy="0 0 0" />
+        <geometry>
+          <box size="0.05 0.05 0.05" />
+        </geometry>
+        <material name="${prefix}end_effector_material">
+          <color rgba="1.0 0.0 0.0 0.8" />
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.025" rpy="0 0 0" />
+        <geometry>
+          <box size="0.05 0.05 0.05" />
+        </geometry>
+      </collision>
+    </link>
+    
+    <!-- 末端執行器關節 -->
+    <joint name="${prefix}end_effector_joint" type="fixed">
+      <origin xyz="0 0 0.05" rpy="0 0 0" />
+      <parent link="${prefix}link6" />
+      <child link="${prefix}end_effector" />
+    </joint>
+
+    <!-- 添加 tool_frame（工具座標系，MoveIt 常用） -->
+    <link name="${prefix}tool_frame">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <mass value="0.001" />
+        <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+      </inertial>
+    </link>
+    
+    <joint name="${prefix}tool_joint" type="fixed">
+      <origin xyz="0 0 0.1" rpy="0 0 0" />
+      <parent link="${prefix}link6" />
+      <child link="${prefix}tool_frame" />
+    </joint>
+
+  </xacro:macro>
+
+  <!-- 如果直接啟動此檔案，使用預設無 prefix -->
+  <xacro:arm0710_robot prefix="${prefix}" />
+
+</robot>

@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build
+    available_commands = await self._get_available_commands(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands
+    output = await check_output(
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/yolo_pf_realsense/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3260, in <module>
+    def _initialize_master_working_set():
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3234, in _call_aside
+    f(*args, **kwargs)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3272, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 572, in _build_master
+    ws = cls()
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 565, in __init__
+    self.add_entry(entry)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 621, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2096, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2161, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2600, in from_location
+    basename, ext = os.path.splitext(basename)
+  File "/usr/lib/python3.10/posixpath.py", line 125, in splitext
+    return genericpath._splitext(p, sep, None, extsep)
+  File "/usr/lib/python3.10/genericpath.py", line 128, in _splitext
+    sepIndex = p.rfind(sep)
+TypeError: must be str, not function
+

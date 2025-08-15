@@ -1,0 +1,5 @@
+  File "/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface/robot_joint_publisher.py", line 28
+    self.timer = self.create_timer(0.01 self.timer_callback)  # 從 0.01 改為 0.05 (20Hz)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

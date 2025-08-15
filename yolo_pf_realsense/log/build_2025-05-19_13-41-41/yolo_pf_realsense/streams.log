@@ -1,0 +1,26 @@
+[0.421s] Invoking command in '/home/steven/ros2_ws/src/yolo_pf_realsense': PYTHONPATH=/home/steven/ros2_ws/src/yolo_pf_realsense/build/yolo_pf_realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/yolo_pf_realsense/install/yolo_pf_realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/yolo_pf_realsense build --build-base /home/steven/ros2_ws/src/yolo_pf_realsense/build/yolo_pf_realsense/build install --record /home/steven/ros2_ws/src/yolo_pf_realsense/build/yolo_pf_realsense/install.log --single-version-externally-managed install_data
+[0.468s] Traceback (most recent call last):
+[0.468s]   File "/home/steven/ros2_ws/src/yolo_pf_realsense/setup.py", line 1, in <module>
+[0.468s]     from setuptools import setup
+[0.468s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[0.468s]     import setuptools.version
+[0.468s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[0.468s]     import pkg_resources
+[0.468s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 409, in <module>
+[0.468s]     darwinVersionString = re.compile(r"darwin-(\d+)\.(\d+)\.(\d+)-(.*)")
+[0.468s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[0.468s]     return _compile(pattern, flags)
+[0.468s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[0.468s]     p = sre_compile.compile(pattern, flags)
+[0.468s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[0.468s]     p = sre_parse.parse(p, flags)
+[0.468s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[0.468s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[0.468s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.468s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.468s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.468s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.468s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.468s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.468s] TypeError: 'int' object is not callable
+[0.475s] Invoked command in '/home/steven/ros2_ws/src/yolo_pf_realsense' returned '1': PYTHONPATH=/home/steven/ros2_ws/src/yolo_pf_realsense/build/yolo_pf_realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/yolo_pf_realsense/install/yolo_pf_realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/yolo_pf_realsense build --build-base /home/steven/ros2_ws/src/yolo_pf_realsense/build/yolo_pf_realsense/build install --record /home/steven/ros2_ws/src/yolo_pf_realsense/build/yolo_pf_realsense/install.log --single-version-externally-managed install_data

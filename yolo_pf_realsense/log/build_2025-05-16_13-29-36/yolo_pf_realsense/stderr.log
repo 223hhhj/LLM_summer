@@ -1,0 +1,5 @@
+  File "/home/steven/ros2_ws/src/yolo_pf_realsense/install/yolo_pf_realsense/lib/python3.10/site-packages/yolo_pf_realsense/scripts/realsense_yolo_pf.py", line 52
+    return int(x_estimate), int(y_est
+                               ^
+SyntaxError: '(' was never closed
+

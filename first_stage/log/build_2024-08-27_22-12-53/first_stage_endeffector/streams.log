@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[3.342s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::moveToFinalPosition()[m[K’:
+[3.342s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:308:36:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pose[m[K’ was not declared in this scope
+[3.342s]   308 |     move_group_arm_->setPoseTarget([01;31m[Knew_pose[m[K);
+[3.342s]       |                                    [01;31m[K^~~~~~~~[m[K
+[6.705s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[6.705s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[6.705s] gmake: *** [Makefile:146：all] 錯誤 2
+[6.707s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Improved 7-DOF URDF based on SolidWorks export, modified for ROS2 functionality -->
+<robot name="arm0718">
+
+  <!-- 材質定義 -->
+  <material name="default_material">
+    <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+  </material>
+
+  <material name="end_effector_material">
+    <color rgba="1.0 0.0 0.0 0.8" />
+  </material>
+
+  <material name="tool_material">
+    <color rgba="0.0 1.0 0.0 0.7" />
+  </material>
+
+  <material name="tcp_material">
+    <color rgba="0.0 0.0 1.0 0.9" />
+  </material>
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.0123059234223451 -0.100304574267466 1.70932347836069E-18" rpy="0 0 0" />
+      <mass value="8.42454047875456" />
+      <inertia ixx="0.0538535223566871" ixy="1.32298921538988E-18" ixz="3.94153228574131E-19"
+               iyy="0.0474155131881787" iyz="1.90943400571187E-19" izz="0.0522226317316871" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/base_link.STL" />
+      </geometry>
+      <material name="default_material" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link 2 -->
+  <link name="link_2">
+    <inertial>
+      <origin xyz="0.0873279857714774 0.0361037285567238 0.0183691285816756" rpy="0 0 0" />
+      <mass value="5.65179598675955" />
+      <inertia ixx="0.0334123150568175" ixy="-0.00839381660395393" ixz="-0.00427066961371548"
+               iyy="0.0326857754574526" iyz="-0.00219414228049883" izz="0.0358819149729777" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_2.STL" />
+      </geometry>
+      <material name="default_material" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 2 (基座旋轉關節) -->
+  <joint name="joint1" type="revolute">
+    <origin xyz="0.0028552 -0.203 0.0014527" rpy="3.1416 0 -1.5708" />
+    <parent link="base_link" />
+    <child link="link_2" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-3.14159" upper="3.14159" effort="150" velocity="1.5" />
+    <dynamics damping="0.2" friction="0.1" />
+  </joint>
+
+  <!-- Link 3 -->
+  <link name="link_3">
+    <inertial>
+      <origin xyz="0.026985669985858 0.0961045029803493 0.052291222681499" rpy="0 0 0" />
+      <mass value="1.81899821933697" />
+      <inertia ixx="0.0208920270655717" ixy="-5.72343994536673E-05" ixz="-3.11416909100038E-05"
+               iyy="0.0061674227278674" iyz="-0.00713308142436323" izz="0.0153959374564056" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_3.STL" />
+      </geometry>
+      <material name="default_material" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 3 (肩部關節) -->
+  <joint name="joint2" type="revolute">
+    <origin xyz="0.12791 0.028965 0.10562" rpy="0 -1.1001 -1.5708" />
+    <parent link="link_2" />
+    <child link="link_3" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-2.79" upper="2.79" effort="120" velocity="1.2" />
+    <dynamics damping="0.15" friction="0.1" />
+  </joint>
+
+  <!-- Link 4 -->
+  <link name="link_4">
+    <inertial>
+      <origin xyz="0 0.0469070024918177 0.0224666637379653" rpy="0 0 0" />
+      <mass value="3.82808754456696" />
+      <inertia ixx="0.0201780834303075" ixy="3.48613085190715E-18" ixz="-1.30104260698261E-18"
+               iyy="0.0137935435121092" iyz="-0.00322382047297687" izz="0.0173118176854829" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_4.STL" />
+      </geometry>
+      <material name="default_material" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 4 (手肘關節) -->
+  <joint name="joint3" type="revolute">
+    <origin xyz="-0.074 0.21698 0.11806" rpy="0 0 0" />
+    <parent link="link_3" />
+    <child link="link_4" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-2.35" upper="2.35" effort="100" velocity="1.0" />
+    <dynamics damping="0.12" friction="0.08" />
+  </joint>
+
+  <!-- Link 5 -->
+  <link name="link_5">
+    <inertial>
+      <origin xyz="0.0743030110589211 0 1.38777878078145E-17" rpy="0 0 0" />
+      <mass value="1.37952769169633" />
+      <inertia ixx="0.00264530874714722" ixy="-6.09863722023096E-19" ixz="8.13151629364128E-19"
+               iyy="0.00515095606335488" iyz="4.13051400208683E-05" izz="0.00461947798086305" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_5.STL" />
+      </geometry>
+      <material name="default_material" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 5 (前臂旋轉關節) -->
+  <joint name="joint4" type="revolute">
+    <origin xyz="0 0.05489 0.11744" rpy="1.5708 -1.127 -1.5708" />
+    <parent link="link_4" />
+    <child link="link_5" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-3.14159" upper="3.14159" effort="50" velocity="1.5" />
+    <dynamics damping="0.08" friction="0.05" />
+  </joint>
+
+  <!-- Link 6 -->
+  <link name="link_6">
+    <inertial>
+      <origin xyz="0 0.00562356267962527 0.0107664337820233" rpy="0 0 0" />
+      <mass value="0.515366765623615" />
+      <inertia ixx="0.00071236571122841" ixy="6.43745039913268E-20" ixz="-1.49077798716757E-19"
+               iyy="0.000644624687007296" iyz="-5.80070087130675E-05" izz="0.000563867430594781" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_6.STL" />
+      </geometry>
+      <material name="default_material" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 6 (手腕俯仰關節) -->
+  <joint name="joint5" type="revolute">
+    <origin xyz="0.185 0 0" rpy="1.1259 1.4937 1.5708" />
+    <parent link="link_5" />
+    <child link="link_6" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-1.92" upper="1.92" effort="30" velocity="2.0" />
+    <dynamics damping="0.06" friction="0.03" />
+  </joint>
+
+  <!-- Link 7 (第7軸連桿) -->
+  <link name="link_7">
+    <inertial>
+      <origin xyz="-8.32667268468867E-17 0.0490072728963173 0.0938254961374241" rpy="0 0 0" />
+      <mass value="0.515366765623614" />
+      <inertia ixx="0.00068233251756308" ixy="1.32223436323865E-05" ixz="-6.90634240582264E-06"
+               iyy="0.000668220440762982" iyz="-7.03316282579037E-05" izz="0.000570304870504423" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_7.STL" />
+      </geometry>
+      <material name="default_material" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://arm0718_description/meshes/link_7.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 7 (手腕旋轉關節/末端關節) -->
+  <joint name="joint6" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="link_6" />
+    <child link="link_7" />
+    <axis xyz="0 -0.46297 -0.88637" />
+    <limit lower="-3.14159" upper="3.14159" effort="25" velocity="2.5" />
+    <dynamics damping="0.05" friction="0.02" />
+  </joint>
+
+
+  <!-- 輔助座標系：基座前方參考點 -->
+  <link name="base_front_frame">
+    <inertial>
+      <origin xyz="0 0 0" rpy="1.5708 1.5708 0" />
+      <mass value="0.001" />
+      <inertia ixx="0.000001" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.000001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <cylinder radius="0.005" length="0.02" />
+      </geometry>
+      <material name="tool_material" />
+    </visual>
+  </link>
+
+  <joint name="base_front_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="1.5708 1.5708 0" />
+    <parent link="base_link" />
+    <child link="base_front_frame" />
+  </joint>
+
+</robot>

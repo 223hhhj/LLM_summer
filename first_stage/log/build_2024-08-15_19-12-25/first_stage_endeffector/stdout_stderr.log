@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:20:49:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotController[m[K’ does not have any field named ‘[01m[Kretry_count[m[K’
+   20 |   RobotController() : Node("robot_controller"), [01;31m[Kretry_count[m[K(0)
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::waitForGraspConfirmation()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:170:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrasp_confirmed[m[K’ was not declared in this scope
+  170 |     [01;31m[Kgrasp_confirmed[m[K = false;
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::retryGrasp()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:189:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kretry_count[m[K’ was not declared in this scope
+  189 |     if ([01;31m[Kretry_count[m[K < 3) {
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::graspSuccessCallback(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:309:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrasp_confirmed[m[K’ was not declared in this scope
+  309 |     [01;31m[Kgrasp_confirmed[m[K = msg->data;
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

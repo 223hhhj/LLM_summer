@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable first_stage_endeffector[0m

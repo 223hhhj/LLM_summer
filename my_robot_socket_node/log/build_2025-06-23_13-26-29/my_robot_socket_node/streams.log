@@ -1,0 +1,65 @@
+[0.416s] Invoking command in '/home/steven/ros2_ws/src/my_robot_socket_node': PYTHONPATH=/home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_socket_node build --build-base /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build install --record /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/install.log --single-version-externally-managed
+[0.578s] running egg_info
+[0.587s] writing build/my_robot_socket_node/my_robot_socket_node.egg-info/PKG-INFO
+[0.587s] writing dependency_links to build/my_robot_socket_node/my_robot_socket_node.egg-info/dependency_links.txt
+[0.587s] writing entry points to build/my_robot_socket_node/my_robot_socket_node.egg-info/entry_points.txt
+[0.587s] writing requirements to build/my_robot_socket_node/my_robot_socket_node.egg-info/requires.txt
+[0.587s] writing top-level names to build/my_robot_socket_node/my_robot_socket_node.egg-info/top_level.txt
+[0.599s] reading manifest file 'build/my_robot_socket_node/my_robot_socket_node.egg-info/SOURCES.txt'
+[0.600s] writing manifest file 'build/my_robot_socket_node/my_robot_socket_node.egg-info/SOURCES.txt'
+[0.600s] running build
+[0.600s] running build_py
+[0.600s] copying my_robot_socket_node/joint_reader_node.py -> /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build/lib/my_robot_socket_node
+[0.600s] running install
+[0.602s] running install_lib
+[0.608s] copying /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build/lib/my_robot_socket_node/joint_reader_node.py -> /home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node
+[0.608s] byte-compiling /home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node/joint_reader_node.py to joint_reader_node.cpython-310.pyc
+[0.609s] running install_egg_info
+[0.615s] removing '/home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.615s] Copying build/my_robot_socket_node/my_robot_socket_node.egg-info to /home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages/my_robot_socket_node-0.0.0-py3.10.egg-info
+[0.615s] running install_scripts
+[0.633s] Traceback (most recent call last):
+[0.633s]   File "/home/steven/ros2_ws/src/my_robot_socket_node/setup.py", line 5, in <module>
+[0.633s]     setup(
+[0.633s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup
+[0.633s]     return distutils.core.setup(**attrs)
+[0.633s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 185, in setup
+[0.633s]     return run_commands(dist)
+[0.633s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 201, in run_commands
+[0.633s]     dist.run_commands()
+[0.633s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 968, in run_commands
+[0.633s]     self.run_command(cmd)
+[0.633s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1217, in run_command
+[0.633s]     super().run_command(command)
+[0.633s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 987, in run_command
+[0.634s]     cmd_obj.run()
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/install.py", line 68, in run
+[0.634s]     return orig.install.run(self)
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/command/install.py", line 709, in run
+[0.634s]     self.run_command(cmd_name)
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 319, in run_command
+[0.634s]     self.distribution.run_command(command)
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1217, in run_command
+[0.634s]     super().run_command(command)
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 987, in run_command
+[0.634s]     cmd_obj.run()
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/install_scripts.py", line 35, in run
+[0.634s]     bs_cmd = self.get_finalized_command('build_scripts')
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 305, in get_finalized_command
+[0.634s]     cmd_obj = self.distribution.get_command_obj(command, create)
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 859, in get_command_obj
+[0.634s]     klass = self.get_command_class(command)
+[0.634s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 952, in get_command_class
+[0.634s]     eps = metadata.entry_points(group='distutils.commands', name=command)
+[0.634s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[0.634s]     return SelectableGroups.load(eps).select(**params)
+[0.634s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 487, in select
+[0.634s]     return self._all.select(**params)
+[0.634s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in select
+[0.634s]     return EntryPoints(ep for ep in self if ep.matches(**params))
+[0.634s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in <genexpr>
+[0.635s]     return EntryPoints(ep for ep in self if ep.matches(**params))
+[0.635s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 231, in matches
+[0.635s]     attrs = (getattr(self, param) for param in params)
+[0.635s] TypeError: 'dict_keyiterator' object is not callable
+[0.648s] Invoked command in '/home/steven/ros2_ws/src/my_robot_socket_node' returned '1': PYTHONPATH=/home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/my_robot_socket_node/install/my_robot_socket_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_socket_node build --build-base /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/build install --record /home/steven/ros2_ws/src/my_robot_socket_node/build/my_robot_socket_node/install.log --single-version-externally-managed

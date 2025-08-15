@@ -1,0 +1,176 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:337:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  337 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:22:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   22 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoordinates_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   26 |     [01;31m[Kcoordinates_subscription[m[K = this->create_subscription<geometry_msgs::msg::Point>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_subscription[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   30 |     [01;31m[Korientation_subscription[m[K = this->create_subscription<geometry_msgs::msg::Quaternion>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_subscription[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_type_subscription[m[K’ was not declared in this scope
+   34 |     [01;31m[Korientation_type_subscription[m[K = this->create_subscription<std_msgs::msg::Int8>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_publisher[m[K’?
+   38 |     [01;31m[Kgripper_publisher[m[K = this->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_publisher[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_status_subscription[m[K’ was not declared in this scope
+   40 |     [01;31m[Kgripper_status_subscription[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   46 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1),
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::initializeMoveGroup()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   53 |     [01;31m[Ktimer_[m[K->cancel();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+   55 |     [01;31m[Kmove_group_arm[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), "ur_manipulator");
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::goHome()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:64:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+   64 |     if (![01;31m[Kmove_group_arm[m[K) {
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+   69 |     [01;31m[Kmove_group_arm[m[K->setStartStateToCurrentState();
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:82:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   82 |     [01;31m[Ktarget_pose[m[K.position.x = msg->x;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_received[m[K’ was not declared in this scope
+   86 |     if ([01;31m[Korientation_received[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   93 |     [01;31m[Ktarget_pose[m[K.orientation = *msg;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:94:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_received[m[K’ was not declared in this scope
+   94 |     [01;31m[Korientation_received[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationTypeCallback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_type[m[K’ was not declared in this scope
+  103 |     [01;31m[Korientation_type[m[K = msg->data;
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_type_received[m[K’ was not declared in this scope
+  104 |     [01;31m[Korientation_type_received[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToFinalPosition[m[K’ was not declared in this scope
+  105 |     [01;31m[KmoveToFinalPosition[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::gripperStatusCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:111:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_status[m[K’ was not declared in this scope; did you mean ‘[01m[KGripperStatus[m[K’?
+  111 |       [01;31m[Kgripper_status[m[K.store(GripperStatus::OBJECT_GRIPPED);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |       [32m[KGripperStatus[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:113:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_status[m[K’ was not declared in this scope; did you mean ‘[01m[KGripperStatus[m[K’?
+  113 |       [01;31m[Kgripper_status[m[K.store(GripperStatus::GRIP_FAILED);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |       [32m[KGripperStatus[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::planAndExecute()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:119:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+  119 |     if (![01;31m[Kmove_group_arm[m[K) {
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:125:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+  125 |                 [01;31m[Ktarget_pose[m[K.position.x, target_pose.position.y, target_pose.position.z,
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+  128 |     [01;31m[Kmove_group_arm[m[K->setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:128:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+  128 |     move_group_arm->setPoseTarget([01;31m[Ktarget_pose[m[K);
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:132:7:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToCamera[m[K’ was not declared in this scope
+  132 |       [01;31m[KmoveToCamera[m[K();
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::executePlan()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:139:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+  139 |     bool success = ([01;31m[Kmove_group_arm[m[K->plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::performGraspSequence()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:161:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+  161 |       [01;31m[Kmove_group_arm[m[K->setPoseTarget(target_pose);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:161:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+  161 |       move_group_arm->setPoseTarget([01;31m[Ktarget_pose[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:169:7:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+  169 |       [01;31m[KpublishGripperCommand[m[K(0, 30, 10);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:170:7:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitForGripperAction[m[K’ was not declared in this scope
+  170 |       [01;31m[KwaitForGripperAction[m[K();
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:188:11:[m[K [01;31m[Kerror: [m[K‘[01m[KcheckGripSuccess[m[K’ was not declared in this scope; did you mean ‘[01m[KgripSuccess[m[K’?
+  188 |       if ([01;31m[KcheckGripSuccess[m[K()) {
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |           [32m[KgripSuccess[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:204:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+  204 |       geometry_msgs::msg::Pose lift_pose = [01;31m[Ktarget_pose[m[K;
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:207:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+  207 |       [01;31m[Kmove_group_arm[m[K->setPoseTarget(lift_pose);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:216:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  216 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:232:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  232 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:281:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  281 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:289:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  289 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:293:24:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+  293 |   bool checkGripSuccess[01;35m[K()[m[K
+      |                        [01;35m[K^~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:293:24:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+  293 |   bool checkGripSuccess[01;36m[K()[m[K
+      |                        [01;36m[K^~[m[K
+      |                        [31m[K--[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:293:24:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:294:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  294 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:302:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  302 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:324:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korientation_received[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  324 |   bool [01;35m[Korientation_received[m[K = false;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:325:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korientation_type_received[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  325 |   bool [01;35m[Korientation_type_received[m[K = false;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:326:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korientation_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  326 |   int [01;35m[Korientation_type[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K At global scope:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:337:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  337 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

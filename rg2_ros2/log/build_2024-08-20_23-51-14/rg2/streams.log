@@ -1,0 +1,25 @@
+[0.306s] Invoking command in '/home/steven/ros2_ws/src/rg2_ros2/src/rg2': PYTHONPATH=/home/steven/ros2_ws/src/rg2_ros2/build/rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rg2 build --build-base /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build install --record /home/steven/ros2_ws/src/rg2_ros2/build/rg2/install.log --single-version-externally-managed install_data
+[0.413s] running egg_info
+[0.413s] writing ../../build/rg2/rg2.egg-info/PKG-INFO
+[0.413s] writing dependency_links to ../../build/rg2/rg2.egg-info/dependency_links.txt
+[0.413s] writing entry points to ../../build/rg2/rg2.egg-info/entry_points.txt
+[0.413s] writing requirements to ../../build/rg2/rg2.egg-info/requires.txt
+[0.413s] writing top-level names to ../../build/rg2/rg2.egg-info/top_level.txt
+[0.414s] reading manifest file '../../build/rg2/rg2.egg-info/SOURCES.txt'
+[0.414s] adding license file 'LICENSE'
+[0.414s] writing manifest file '../../build/rg2/rg2.egg-info/SOURCES.txt'
+[0.414s] running build
+[0.414s] running build_py
+[0.414s] copying rg2/rg2_ros2.py -> /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib/rg2
+[0.414s] running install
+[0.414s] running install_lib
+[0.414s] copying /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib/rg2/rg2_ros2.py -> /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2
+[0.415s] byte-compiling /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2/rg2_ros2.py to rg2_ros2.cpython-310.pyc
+[0.415s] running install_data
+[0.415s] running install_egg_info
+[0.416s] removing '/home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.416s] Copying ../../build/rg2/rg2.egg-info to /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2-0.0.0-py3.10.egg-info
+[0.416s] running install_scripts
+[0.425s] Installing test_node script to /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/rg2
+[0.425s] writing list of installed files to '/home/steven/ros2_ws/src/rg2_ros2/build/rg2/install.log'
+[0.435s] Invoked command in '/home/steven/ros2_ws/src/rg2_ros2/src/rg2' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/rg2_ros2/build/rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rg2 build --build-base /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build install --record /home/steven/ros2_ws/src/rg2_ros2/build/rg2/install.log --single-version-externally-managed install_data

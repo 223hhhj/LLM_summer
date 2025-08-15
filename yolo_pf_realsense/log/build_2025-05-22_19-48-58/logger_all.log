@@ -1,0 +1,117 @@
+[0.042s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.042s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71a43f35ac20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71a43f35a9e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71a43f35a9e0>>)
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.145s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/steven/ros2_ws/src/yolo_pf_realsense'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'yolo_pf_realsense'
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.161s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'yolo_pf_realsense' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_pf_realsense' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/steven/ros2_ws/src/yolo_pf_realsense/build/yolo_pf_realsense', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/steven/ros2_ws/src/yolo_pf_realsense/install/yolo_pf_realsense', 'merge_install': False, 'path': '/home/steven/ros2_ws/src/yolo_pf_realsense', 'symlink_install': False, 'test_result_base': None}
+[0.179s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.180s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/steven/ros2_ws/src/yolo_pf_realsense' with build type 'ament_python'
+[0.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_pf_realsense', 'ament_prefix_path')
+[0.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/steven/ros2_ws/src/yolo_pf_realsense/install/yolo_pf_realsense/share/yolo_pf_realsense/hook/ament_prefix_path.ps1'
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/steven/ros2_ws/src/yolo_pf_realsense/install/yolo_pf_realsense/share/yolo_pf_realsense/hook/ament_prefix_path.dsv'
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/steven/ros2_ws/src/yolo_pf_realsense/install/yolo_pf_realsense/share/yolo_pf_realsense/hook/ament_prefix_path.sh'
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/steven/ros2_ws/src/yolo_pf_realsense'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'Expected ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/yolo_pf_realsense/setup.py", line 7, in <module>
+    setup(
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 172, in setup
+    ok = dist.parse_command_line()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 471, in parse_command_line
+    if self.handle_display_options(option_order):
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1185, in handle_display_options
+    return _Distribution.handle_display_options(self, option_order)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 685, in handle_display_options
+    self.print_commands()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 964, in print_commands
+    return _Distribution.print_commands(self)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 754, in print_commands
+    self.print_command_list(std_commands, "Standard commands", max_length)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 721, in print_command_list
+    klass = self.get_command_class(cmd)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 957, in get_command_class
+    return _Distribution.get_command_class(self, command)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 827, in get_command_class
+    __import__(module_name)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/command/check.py", line 12, in <module>
+    import docutils.parsers.rst
+  File "/usr/lib/python3/dist-packages/docutils/parsers/rst/__init__.py", line 75, in <module>
+    from docutils.parsers.rst import roles, states
+  File "/usr/lib/python3/dist-packages/docutils/parsers/rst/states.py", line 1070, in <module>
+    class Body(RSTState):
+  File "/usr/lib/python3/dist-packages/docutils/parsers/rst/states.py", line 1869, in Body
+    substitution=re.compile(r"""
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 512, in _parse
+    sourceget()
+  File "/usr/lib/python3.10/sre_parse.py", line 257, in get
+    self.__next()
+  File "/usr/lib/python3.10/sre_parse.py", line 237, in __next
+    char = self.decoded_string[index]
+TypeError: string indices must be integers
+'
+[0.658s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.661s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.666s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/local_setup.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/steven/ros2_ws/src/yolo_pf_realsense/install/_local_setup_util_ps1.py'
+[0.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/setup.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/local_setup.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/steven/ros2_ws/src/yolo_pf_realsense/install/_local_setup_util_sh.py'
+[0.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/setup.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/local_setup.bash'
+[0.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/setup.bash'
+[0.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/local_setup.zsh'
+[0.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/yolo_pf_realsense/install/setup.zsh'

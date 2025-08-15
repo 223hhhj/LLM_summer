@@ -1,0 +1,125 @@
+[0.014s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.217s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.217s] -- Detecting CXX compile features
+[0.217s] -- Detecting CXX compile features - done
+[0.222s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.441s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.511s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.521s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.533s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.654s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.665s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.764s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.787s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.825s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.842s] -- Looking for pthread.h
+[0.894s] -- Looking for pthread.h - found
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.951s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.951s] -- Found Threads: TRUE  
+[1.095s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[1.100s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.345s] -- Found moveit_common: 2.5.5 (/home/steven/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[1.347s] -- Found moveit_core: 2.5.5 (/home/steven/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[1.374s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.435s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.455s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.460s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.498s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.595s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.736s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.336s] -- Found moveit_ros_planning: 2.5.5 (/home/steven/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.339s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.565s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/steven/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.567s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.664s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.794s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.027s] -- Found moveit_servo: 2.5.5 (/home/steven/ros2_ws/install/moveit_servo/share/moveit_servo/cmake)
+[3.346s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[3.356s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[3.438s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.439s] -- Found OGRE
+[3.439s] --   static     : OFF
+[3.439s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.439s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.440s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.440s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.440s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.440s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.440s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.440s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.440s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.440s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.440s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.441s] -- Could not find freeimage library
+[3.458s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.465s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.556s] -- Found X11: /usr/include   
+[3.556s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.611s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.611s] -- Looking for gethostbyname
+[3.664s] -- Looking for gethostbyname - found
+[3.664s] -- Looking for connect
+[3.722s] -- Looking for connect - found
+[3.722s] -- Looking for remove
+[3.775s] -- Looking for remove - found
+[3.775s] -- Looking for shmat
+[3.828s] -- Looking for shmat - found
+[3.828s] -- Looking for IceConnectionNumber in ICE
+[3.883s] -- Looking for IceConnectionNumber in ICE - found
+[3.885s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.885s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.208s] -- Found moveit_visual_tools: 4.1.0 (/home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[4.486s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.582s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.582s] -- Configured cppcheck include dirs: 
+[4.583s] -- Configured cppcheck exclude dirs and/or files: 
+[4.584s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.586s] -- Added test 'lint_cmake' to check CMake code style
+[4.587s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.591s] -- Added test 'uncrustify' to check C / C++ code style
+[4.591s] -- Configured uncrustify additional arguments: 
+[4.592s] -- Added test 'xmllint' to check XML markup files
+[4.594s] -- Configuring done
+[4.613s] -- Generating done
+[4.615s] -- Build files have been written to: /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector
+[4.627s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector
+[4.629s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[4.683s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[11.151s] [100%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+[11.448s] [100%] Built target first_stage_endeffector
+[11.458s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[11.498s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector
+[11.506s] -- Install configuration: ""
+[11.506s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector
+[11.508s] -- Set runtime path of "/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector" to ""
+[11.508s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/launch
+[11.508s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/launch/first_stage_endeffector.launch.py
+[11.508s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/package_run_dependencies/first_stage_endeffector
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/parent_prefix_path/first_stage_endeffector
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.sh
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.dsv
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.sh
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.dsv
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.bash
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.sh
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.zsh
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.dsv
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.dsv
+[11.509s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/packages/first_stage_endeffector
+[11.510s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig.cmake
+[11.510s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig-version.cmake
+[11.510s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.xml
+[11.512s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector

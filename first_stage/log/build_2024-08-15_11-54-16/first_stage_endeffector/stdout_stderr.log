@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:228:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRobotController::[m[K’ on member ‘[01m[KwaitForNewTarget[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  228 |   void [01;31m[KRobotController[m[K::waitForNewTarget()
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:235:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRobotController::[m[K’ on member ‘[01m[KcoordinatesCallback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  235 |   void [01;31m[KRobotController[m[K::coordinatesCallback(const geometry_msgs::msg::Point::SharedPtr msg)
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:235:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:80:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+   80 |   void [01;36m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRobotController::[m[K’ on member ‘[01m[KorientationCallback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  248 |   void [01;31m[KRobotController[m[K::orientationCallback(const geometry_msgs::msg::Quaternion::SharedPtr msg)
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:91:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’
+   91 |   void [01;36m[KorientationCallback[m[K(const geometry_msgs::msg::Quaternion::SharedPtr msg)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

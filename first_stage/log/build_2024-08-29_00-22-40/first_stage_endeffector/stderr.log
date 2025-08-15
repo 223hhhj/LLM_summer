@@ -1,0 +1,13 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:394:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool RobotController::executePlan()[m[K’ cannot be overloaded with ‘[01m[Kbool RobotController::executePlan()[m[K’
+  394 |   bool [01;31m[KexecutePlan[m[K()
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:221:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool RobotController::executePlan()[m[K’
+  221 |   bool [01;36m[KexecutePlan[m[K()
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:99:13:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitForOrientation[m[K’ was not declared in this scope
+   99 |         if ([01;31m[KwaitForOrientation[m[K()) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

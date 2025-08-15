@@ -1,0 +1,99 @@
+Traceback (most recent call last):
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2967, in re
+    return re.compile(self.pattern, self.flags)
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 594, in _parse
+    raise source.error(msg, len(this) + 1 + len(that))
+re.error: bad character range 0-9 at position 3719 (line 87, column 63)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/robot_interface/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 84, in <module>
+    __import__('pkg_resources.extern.packaging.requirements')
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 84, in <module>
+    REQUIREMENT.parseString("x[]")
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 1131, in parse_string
+    loc, tokens = self._parse(instring, 0)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3886, in parseImpl
+    loc, exprtokens = e._parse(instring, loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4114, in parseImpl
+    return e._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3864, in parseImpl
+    loc, resultlist = self.exprs[0]._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3886, in parseImpl
+    loc, exprtokens = e._parse(instring, loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4959, in parseImpl
+    loc, tokens = self_expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4114, in parseImpl
+    return e._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4375, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3864, in parseImpl
+    loc, resultlist = self.exprs[0]._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3958, in parseImpl
+    loc2 = e.try_parse(instring, loc, raise_fatal=True)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 880, in try_parse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2985, in parseImpl
+    result = self.re_match(instring, loc)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2975, in re_match
+    return self.re.match
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2969, in re
+    raise ValueError(
+ValueError: invalid pattern ("\n        (?P<operator>(~=|==|!=|<=|>=|<|>|===))\n        (?P<version>\n            (?:\n                # The identity operators allow for an escape hatch that will\n                # do an exact string match of the version you wish to install.\n                # This will not be parsed by PEP 440 and we cannot determine\n                # any semantic meaning from it. This operator is discouraged\n                # but included entirely as an escape hatch.\n                (?<====)  # Only match for the identity operator\n                \\s*\n                [^\\s]*    # We just match everything, except for whitespace\n                          # since we are only testing for strict identity.\n            )\n            |\n            (?:\n                # The (non)equality operators allow for wild card and local\n                # versions to be specified so we have to define these two\n                # operators separately to enable that.\n                (?<===|!=)            # Only match for equals and not equals\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n\n                # You cannot use a wild card and a dev or local version\n                # together so group them with a | and make them optional.\n                (?:\n                    (?:[-_\\.]?dev[-_\\.]?[0-9]*)?         # dev release\n                    (?:\\+[a-z0-9]+(?:[-_\\.][a-z0-9]+)*)? # local\n                    |\n                    \\.\\*  # Wild card syntax of .*\n                )?\n            )\n            |\n            (?:\n                # The compatible operator requires at least two digits in the\n                # release segment.\n                (?<=~=)               # Only match for the compatible operator\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)+   # release  (We have a + instead of a *)\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n                (?:[-_\\.]?dev[-_\\.]?[0-9]*)?          # dev release\n            )\n            |\n            (?:\n                # All other operators only allow a sub set of what the\n                # (non)equality operators do. Specifically they do not allow\n                # local versions to be specified nor do they allow the prefix\n                # matching wild cards.\n                (?<!==|!=|~=)         # We have special cases for these\n                                      # operators so we want to make sure they\n                                      # don't match here.\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n                (?:[-_\\.]?dev[-_\\.]?[0-9]*)?          # dev release\n            )\n        )\n        ") passed to Regex

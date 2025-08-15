@@ -1,0 +1,24 @@
+[0.326s] Invoking command in '/home/steven/ros2_ws/src/eye_in_hand_realsense': PYTHONPATH=/home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/eye_in_hand_realsense/install/eye_in_hand_realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/eye_in_hand_realsense build --build-base /home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/build install --record /home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/install.log --single-version-externally-managed install_data
+[0.438s] running egg_info
+[0.438s] writing build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info/PKG-INFO
+[0.438s] writing dependency_links to build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info/dependency_links.txt
+[0.438s] writing entry points to build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info/entry_points.txt
+[0.438s] writing requirements to build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info/requires.txt
+[0.439s] writing top-level names to build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info/top_level.txt
+[0.439s] reading manifest file 'build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info/SOURCES.txt'
+[0.440s] writing manifest file 'build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info/SOURCES.txt'
+[0.440s] running build
+[0.440s] running build_py
+[0.440s] copying eye_in_hand_realsense/yolo_eye_in_hand.py -> /home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/build/lib/eye_in_hand_realsense
+[0.440s] running install
+[0.440s] running install_lib
+[0.440s] copying /home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/build/lib/eye_in_hand_realsense/yolo_eye_in_hand.py -> /home/steven/ros2_ws/src/eye_in_hand_realsense/install/eye_in_hand_realsense/lib/python3.10/site-packages/eye_in_hand_realsense
+[0.440s] byte-compiling /home/steven/ros2_ws/src/eye_in_hand_realsense/install/eye_in_hand_realsense/lib/python3.10/site-packages/eye_in_hand_realsense/yolo_eye_in_hand.py to yolo_eye_in_hand.cpython-310.pyc
+[0.441s] running install_data
+[0.441s] running install_egg_info
+[0.442s] removing '/home/steven/ros2_ws/src/eye_in_hand_realsense/install/eye_in_hand_realsense/lib/python3.10/site-packages/eye_in_hand_realsense-0.0.0-py3.10.egg-info' (and everything under it)
+[0.442s] Copying build/eye_in_hand_realsense/eye_in_hand_realsense.egg-info to /home/steven/ros2_ws/src/eye_in_hand_realsense/install/eye_in_hand_realsense/lib/python3.10/site-packages/eye_in_hand_realsense-0.0.0-py3.10.egg-info
+[0.442s] running install_scripts
+[0.452s] Installing yolo_eye_in_hand script to /home/steven/ros2_ws/src/eye_in_hand_realsense/install/eye_in_hand_realsense/lib/eye_in_hand_realsense
+[0.453s] writing list of installed files to '/home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/install.log'
+[0.463s] Invoked command in '/home/steven/ros2_ws/src/eye_in_hand_realsense' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/eye_in_hand_realsense/install/eye_in_hand_realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/eye_in_hand_realsense build --build-base /home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/build install --record /home/steven/ros2_ws/src/eye_in_hand_realsense/build/eye_in_hand_realsense/install.log --single-version-externally-managed install_data

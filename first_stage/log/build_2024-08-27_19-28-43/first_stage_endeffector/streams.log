@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.246s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::graspObject()[m[K’:
+[4.246s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:174:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::computeCartesianPath(<brace-enclosed initializer list>, double, double, std::vector<double, std::allocator<double> >&)[m[K’
+[4.246s]   174 |     if ([01;31m[Kmove_group_arm_->computeCartesianPath({target_pose_}, 0.01, 0.0, approach_position)[m[K > 0.9) {
+[4.246s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.246s] In file included from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2[m[K:
+[4.246s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:743:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’
+[4.246s]   743 |   double [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[4.246s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.247s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:744:89:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ to ‘[01m[Kmoveit_msgs::msg::RobotTrajectory&[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&[m[K’}
+[4.247s]   744 |                               double jump_threshold, [01;36m[Kmoveit_msgs::msg::RobotTrajectory& trajectory[m[K,
+[4.247s]       |                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.247s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:759:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, const Constraints&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’
+[4.247s]   759 |   double [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[4.247s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.247s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:759:10:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 4 provided
+[8.525s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[8.525s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[8.525s] gmake: *** [Makefile:146：all] 錯誤 2
+[8.527s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

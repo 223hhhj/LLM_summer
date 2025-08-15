@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: robotiq3f-ros2
+Version: 1.0.0
+Summary: ROS2 package for Robotiq 3-finger gripper control
+Maintainer: Steven
+Maintainer-email: mike355116@gmail.com
+License: MIT

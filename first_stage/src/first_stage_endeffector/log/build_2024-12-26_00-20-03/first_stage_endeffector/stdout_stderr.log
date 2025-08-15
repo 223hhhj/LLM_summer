@@ -1,0 +1,35 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMOVE_TO_INTERMEDIATE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  105 |     switch [01;35m[K([m[Kstate_) {
+      |            [01;35m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KWAIT_AFTER_INTERMEDIATE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KWAIT_FOR_COORDINATES[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMOVE_TO_OBJECT[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KGRASP_OBJECT[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCHECK_GRASP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMOVE_TO_OBSERVATION[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KWAIT_FOR_ORIENTATION[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMOVE_TO_FINAL_POSITION[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[100%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+[100%] Built target first_stage_endeffector
+-- Install configuration: ""
+-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector
+-- Set runtime path of "/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector" to ""
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/launch
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/launch/first_stage_endeffector.launch.py
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/ament_index/resource_index/package_run_dependencies/first_stage_endeffector
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/ament_index/resource_index/parent_prefix_path/first_stage_endeffector
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.sh
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.sh
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.dsv
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.bash
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.sh
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.zsh
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.dsv
+-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/package.dsv
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/ament_index/resource_index/packages/first_stage_endeffector
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig.cmake
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig-version.cmake
+-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/package.xml

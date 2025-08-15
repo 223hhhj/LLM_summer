@@ -1,0 +1,122 @@
+[0.004s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': /usr/bin/cmake /home/steven/ros2_ws/src/itri_arm -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/itri_arm/install/itri_arm
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.214s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.264s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.614s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.665s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.687s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.773s] -- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.819s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.821s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.835s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.867s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.869s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.875s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.877s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.881s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.887s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.894s] -- Looking for pthread.h
+[0.938s] -- Looking for pthread.h - found
+[0.938s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.977s] -- Found Threads: TRUE  
+[1.004s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.033s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.075s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.077s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.077s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/steven/ros2_ws/src/itri_arm/include>
+[1.077s] -- Configured cppcheck exclude dirs and/or files: 
+[1.078s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.078s] -- Configured cpplint exclude dirs and/or files: 
+[1.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.079s] -- Added test 'lint_cmake' to check CMake code style
+[1.080s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.082s] -- Added test 'uncrustify' to check C / C++ code style
+[1.082s] -- Configured uncrustify additional arguments: 
+[1.082s] -- Added test 'xmllint' to check XML markup files
+[1.083s] -- Configuring done
+[1.110s] -- Generating done
+[1.112s] -- Build files have been written to: /home/steven/ros2_ws/src/itri_arm/build/itri_arm
+[1.117s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '0': /usr/bin/cmake /home/steven/ros2_ws/src/itri_arm -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/itri_arm/install/itri_arm
+[1.119s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32
+[1.146s] [ 50%] [32mBuilding CXX object CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o[0m
+[2.185s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.185s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:16[m[K,
+[2.185s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[2.185s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type itri_arm_hardware::ItriArmHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.185s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:164:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Clock[m[K’ has no member named ‘[01m[Kget_clock_ptr[m[K’; did you mean ‘[01m[Kget_clock_type[m[K’?
+[2.185s]   164 |     RCLCPP_WARN_THROTTLE(logger_, *rclcpp::Clock().[01;31m[Kget_clock_ptr[m[K(), 1000,
+[2.185s]       |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[2.187s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In lambda function:
+[2.187s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:164:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[2.187s]   164 |     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(logger_, *rclcpp::Clock().get_clock_ptr(), 1000,
+[2.187s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.191s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kbool itri_arm_hardware::ItriArmHardware::parse_joint_angles(const string&)[m[K’:
+[2.191s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:271:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Clock[m[K’ has no member named ‘[01m[Kget_clock_ptr[m[K’; did you mean ‘[01m[Kget_clock_type[m[K’?
+[2.191s]   271 |     RCLCPP_WARN_THROTTLE(logger_, *rclcpp::Clock().[01;31m[Kget_clock_ptr[m[K(), 1000,
+[2.191s]       |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[2.193s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In lambda function:
+[2.193s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:271:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[2.193s]   271 |     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(logger_, *rclcpp::Clock().get_clock_ptr(), 1000,
+[2.193s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.194s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kbool itri_arm_hardware::ItriArmHardware::send_joint_command()[m[K’:
+[2.194s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:305:65:[m[K [01;35m[Kwarning: [m[Kembedded ‘[01m[K\0[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-contains-nul-Wformat-contains-nul]8;;[m[K]
+[2.194s]   305 |   snprintf(cmd, sizeof(cmd), "MOVJ %.3f %.3f %.3f %.3f %.3f %.3f[01;35m[K\0[m[K",
+[2.194s]       |                                                                 [01;35m[K^~[m[K
+[2.512s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[2.512s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:314[m[K:
+[2.512s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = itri_arm_hardware::ItriArmHardware; B = hardware_interface::SystemInterface][m[K’:
+[2.512s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[2.512s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kitri_arm_hardware::ItriArmHardware::ItriArmHardware()[m[K’
+[2.512s]   218 |     return [01;31m[Knew C[m[K;
+[2.512s]       |            [01;31m[K^~~~~[m[K
+[2.512s] In file included from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[2.512s] [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Kitri_arm_hardware::ItriArmHardware::ItriArmHardware()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[2.512s]    28 | class [01;36m[KItriArmHardware[m[K : public hardware_interface::SystemInterface
+[2.512s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.512s] [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Logger::Logger()[m[K’ is private within this context
+[2.512s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.512s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:16[m[K,
+[2.512s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[2.512s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:114:3:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.513s]   114 |   [01;36m[KLogger[m[K()
+[2.513s]       |   [01;36m[K^~~~~~[m[K
+[2.595s] gmake[2]: *** [CMakeFiles/itri_arm_hardware.dir/build.make:76：CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o] 錯誤 1
+[2.595s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/itri_arm_hardware.dir/all] 錯誤 2
+[2.595s] gmake: *** [Makefile:146：all] 錯誤 2
+[2.597s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '2': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32

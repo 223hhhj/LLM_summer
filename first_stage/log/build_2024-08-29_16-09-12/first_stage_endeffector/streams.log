@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.191s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::moveToCamera()[m[K’:
+[4.191s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:194:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kshit_position[m[K’ was not declared in this scope
+[4.191s]   194 |     move_group_arm_->setJointValueTarget([01;31m[Kshit_position[m[K);
+[4.191s]       |                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[4.191s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:203:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<double, std::allocator<double> > intermediate_position[m[K’
+[4.191s]   203 |     std::vector<double> [01;31m[Kintermediate_position[m[K = {-1.73, -1.28, 2.47, -2.76, 1.53, 1.66};
+[4.191s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.191s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:193:25:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<double, std::allocator<double> > intermediate_position[m[K’ previously declared here
+[4.191s]   193 |     std::vector<double> [01;36m[Kintermediate_position[m[K = {-2.15,-2.01,1.76,-1.4,-1.34,1.4};
+[4.191s]       |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.488s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[8.488s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[8.489s] gmake: *** [Makefile:146：all] 錯誤 2
+[8.490s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

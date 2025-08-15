@@ -1,0 +1,35 @@
+[0.004s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target itri_arm_hardware[0m
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o[0m
+[0.997s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[0.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[0.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.998s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:16[m[K,
+[0.998s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[0.998s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type itri_arm_hardware::ItriArmHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[0.998s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:162:49:[m[K [01;31m[Kerror: [m[Kcannot capture ‘[01m[Krclcpp::Clock(RCL_SYSTEM_TIME)[m[K’ by reference
+[0.998s]   162 |     RCLCPP_WARN_THROTTLE(logger_, rclcpp::Clock([01;31m[K)[m[K, 1000,
+[0.998s]       |                                                 [01;31m[K^[m[K
+[1.000s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In lambda function:
+[1.000s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:162:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[1.000s]   162 |     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(logger_, rclcpp::Clock(), 1000,
+[1.000s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.004s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kbool itri_arm_hardware::ItriArmHardware::parse_joint_angles(const string&)[m[K’:
+[1.004s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:269:49:[m[K [01;31m[Kerror: [m[Kcannot capture ‘[01m[Krclcpp::Clock(RCL_SYSTEM_TIME)[m[K’ by reference
+[1.004s]   269 |     RCLCPP_WARN_THROTTLE(logger_, rclcpp::Clock([01;31m[K)[m[K, 1000,
+[1.004s]       |                                                 [01;31m[K^[m[K
+[1.006s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In lambda function:
+[1.006s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:269:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[1.006s]   269 |     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(logger_, rclcpp::Clock(), 1000,
+[1.006s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.404s] gmake[2]: *** [CMakeFiles/itri_arm_hardware.dir/build.make:76：CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o] 錯誤 1
+[1.404s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/itri_arm_hardware.dir/all] 錯誤 2
+[1.404s] gmake: *** [Makefile:146：all] 錯誤 2
+[1.406s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '2': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32

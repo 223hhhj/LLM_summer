@@ -1,0 +1,68 @@
+[0.010s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.050s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.145s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.183s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.185s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.254s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.293s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[0.294s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.344s] -- Found moveit_common: 2.5.5 (/home/steven/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.344s] -- Found moveit_core: 2.5.5 (/home/steven/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[0.350s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.364s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.369s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.380s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.404s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.435s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.525s] -- Found moveit_ros_planning: 2.5.5 (/home/steven/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[0.527s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.539s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/steven/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.541s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.548s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.558s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.572s] -- Found moveit_servo: 2.5.5 (/home/steven/ros2_ws/install/moveit_servo/share/moveit_servo/cmake)
+[0.587s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[0.589s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[0.604s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.609s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.610s] -- Found OGRE
+[0.610s] --   static     : OFF
+[0.610s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.610s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.610s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.610s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.610s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.610s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.610s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.610s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.610s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.610s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.610s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.679s] -- Found moveit_visual_tools: 4.1.0 (/home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[0.705s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.923s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.923s] -- Configured cppcheck include dirs: 
+[0.924s] -- Configured cppcheck exclude dirs and/or files: 
+[0.931s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.945s] -- Added test 'lint_cmake' to check CMake code style
+[0.952s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.006s] -- Added test 'uncrustify' to check C / C++ code style
+[1.006s] -- Configured uncrustify additional arguments: 
+[1.013s] -- Added test 'xmllint' to check XML markup files
+[1.014s] -- Configuring done
+[1.054s] -- Generating done
+[1.055s] -- Build files have been written to: /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector
+[1.081s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[1.129s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[12.370s] [100%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+[13.113s] /usr/bin/ld: /home/steven/ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5: undefined reference to `warehouse_ros::DatabaseLoader::~DatabaseLoader()'
+[13.133s] collect2: error: ld returned 1 exit status
+[13.135s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:423：first_stage_endeffector] 錯誤 1
+[13.135s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[13.135s] gmake: *** [Makefile:146：all] 錯誤 2
+[13.137s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

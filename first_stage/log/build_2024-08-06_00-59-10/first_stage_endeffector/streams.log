@@ -1,0 +1,134 @@
+[0.014s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.213s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:236:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[4.213s]   236 |     } [01;31m[Kelse[m[K {
+[4.213s]       |       [01;31m[K^~~~[m[K
+[4.213s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:239:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.213s]   239 |   }
+[4.213s]       |    [01;31m[K^[m[K
+[4.213s]       |    [32m[K;[m[K
+[4.224s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[4.224s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoordinates_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[4.224s]    19 |     [01;31m[Kcoordinates_subscription[m[K = this->create_subscription<geometry_msgs::msg::Point>(
+[4.224s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.224s]       |     [32m[Kcreate_subscription[m[K
+[4.267s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[4.267s]    23 |     [01;31m[Korientation_subscription[m[K = this->create_subscription<geometry_msgs::msg::Quaternion>(
+[4.267s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.267s]       |     [32m[Kcreate_subscription[m[K
+[4.267s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:25:35:[m[K [01;31m[Kerror: [m[K‘[01m[KorientationCallback[m[K’ is not a member of ‘[01m[KRobotController[m[K’
+[4.267s]    25 |       std::bind(&RobotController::[01;31m[KorientationCallback[m[K, this, std::placeholders::_1));
+[4.267s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.276s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_publisher[m[K’?
+[4.276s]    27 |     [01;31m[Kgripper_publisher[m[K = this->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10);
+[4.276s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.276s]       |     [32m[Kcreate_publisher[m[K
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[4.285s]    32 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1),
+[4.285s]       |     [01;31m[K^~~~~~[m[K
+[4.285s]       |     [32m[Ktimer_t[m[K
+[4.296s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::initializeMoveGroup()[m[K’:
+[4.296s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[4.296s]    40 |     [01;31m[Ktimer_[m[K->cancel();
+[4.296s]       |     [01;31m[K^~~~~~[m[K
+[4.296s]       |     [32m[Ktimer_t[m[K
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+[4.304s]    42 |     [01;31m[Kmove_group_arm[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), "ur_manipulator");
+[4.304s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.316s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::goHome()[m[K’:
+[4.316s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+[4.316s]    51 |     [01;31m[Kmove_group_arm[m[K->setStartStateToCurrentState();
+[4.316s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.328s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.328s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:82:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+[4.328s]    82 |     if (![01;31m[Kmove_group_arm[m[K) {
+[4.328s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.340s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:90:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_orientation[m[K’ was not declared in this scope
+[4.340s]    90 |     target_pose1.orientation = [01;31m[Kcurrent_orientation[m[K;  // 使用接收到的方向
+[4.340s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.349s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:95:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+[4.349s]    95 |     [01;31m[Kmove_group_arm[m[K->setPoseTarget(target_pose1);
+[4.349s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.350s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:98:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.350s]    98 |     bool [01;35m[Ksuccess[m[K = (move_group_arm->plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+[4.350s]       |          [01;35m[K^~~~~~~[m[K
+[4.358s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In function ‘[01m[Kvoid orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.358s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:243:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope
+[4.358s]   243 |     if (![01;31m[Kmove_group_arm[m[K) {
+[4.358s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.358s] In file included from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.358s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.358s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.358s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.358s]                  from [01m[K/home/steven/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.358s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[4.358s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.358s]   244 |       RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "MoveGroupInterface not initialized yet. Ignoring orientation.");
+[4.358s]       |                   [01;31m[K^~~~[m[K
+[4.358s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.358s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.358s]   244 |       [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "MoveGroupInterface not initialized yet. Ignoring orientation.");
+[4.358s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.358s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.358s]   244 |       [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "MoveGroupInterface not initialized yet. Ignoring orientation.");
+[4.359s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.359s]   244 |       [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "MoveGroupInterface not initialized yet. Ignoring orientation.");
+[4.359s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.359s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.359s]   244 |       RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "MoveGroupInterface not initialized yet. Ignoring orientation.");
+[4.359s]       |                   [01;31m[K^~~~[m[K
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.359s]   244 |       RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "MoveGroupInterface not initialized yet. Ignoring orientation.");
+[4.359s]       |                   [01;31m[K^~~~[m[K
+[4.359s] In file included from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.359s]   248 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received orientation: x=%f, y=%f, z=%f, w=%f",
+[4.359s]       |                 [01;31m[K^~~~[m[K
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.359s]   248 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received orientation: x=%f, y=%f, z=%f, w=%f",
+[4.359s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.359s]   248 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received orientation: x=%f, y=%f, z=%f, w=%f",
+[4.359s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.359s]   248 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received orientation: x=%f, y=%f, z=%f, w=%f",
+[4.359s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.359s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.359s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.359s]   248 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received orientation: x=%f, y=%f, z=%f, w=%f",
+[4.359s]       |                 [01;31m[K^~~~[m[K
+[4.359s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.359s]   248 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received orientation: x=%f, y=%f, z=%f, w=%f",
+[4.359s]       |                 [01;31m[K^~~~[m[K
+[4.368s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:252:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_orientation[m[K’ was not declared in this scope
+[4.368s]   252 |     [01;31m[Kcurrent_orientation[m[K = *msg;
+[4.368s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.397s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K At global scope:
+[4.397s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:261:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[4.397s]   261 | [01;31m[K}[m[K;
+[4.397s]       | [01;31m[K^[m[K
+[6.694s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[6.694s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[6.694s] gmake: *** [Makefile:146：all] 錯誤 2
+[6.695s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

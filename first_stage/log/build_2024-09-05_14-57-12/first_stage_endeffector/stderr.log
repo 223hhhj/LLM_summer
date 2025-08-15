@@ -1,0 +1,25 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:478:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+  478 |   void [01;31m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:465:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+  465 |   void [01;36m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:33:35:[m[K [01;31m[Kerror: [m[K‘[01m[KorientationTypeCallback[m[K’ is not a member of ‘[01m[KRobotController[m[K’
+   33 |       std::bind(&RobotController::[01;31m[KorientationTypeCallback[m[K, this, std::placeholders::_1));
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::graspObject()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:205:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+  205 |     [01;31m[KpublishGripperCommand[m[K(30, 10);  // 張開夾爪
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::controlGripper(int, int, const string&)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:372:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+  372 |     [01;31m[KpublishGripperCommand[m[K(width, force);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::releaseObject()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:420:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+  420 |     [01;31m[KpublishGripperCommand[m[K(30, 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

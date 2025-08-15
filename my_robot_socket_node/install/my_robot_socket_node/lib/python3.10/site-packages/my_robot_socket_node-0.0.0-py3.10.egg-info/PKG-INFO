@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-robot-socket-node
+Version: 0.0.0
+Summary: Socket-based robot joint reader
+Maintainer: steven
+Maintainer-email: steven@example.com
+License: MIT

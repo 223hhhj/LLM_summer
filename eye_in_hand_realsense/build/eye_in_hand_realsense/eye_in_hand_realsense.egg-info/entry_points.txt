@@ -1,0 +1,2 @@
+[console_scripts]
+yolo_eye_in_hand = eye_in_hand_realsense.yolo_eye_in_hand:main

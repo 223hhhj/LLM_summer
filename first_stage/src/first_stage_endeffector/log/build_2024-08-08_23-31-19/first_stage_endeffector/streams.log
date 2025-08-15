@@ -1,0 +1,97 @@
+[0.010s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.044s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:96:53:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[4.044s]    96 |   void orientationTypeCallback(const std_msgs::msg::[01;31m[KInt8[m[K::SharedPtr msg)
+[4.044s]       |                                                     [01;31m[K^~~~[m[K
+[4.044s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:96:69:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[4.044s]    96 |   void orientationTypeCallback(const std_msgs::msg::Int8::SharedPtr [01;31m[Kmsg[m[K)
+[4.044s]       |                                                                     [01;31m[K^~~[m[K
+[4.044s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:96:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[4.044s]    96 |   void orientationTypeCallback[34m[K([m[Kconst std_msgs::msg::Int8::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+[4.044s]       |                               [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~~~[m[K
+[4.044s]       |                                                                    [32m[K)[m[K
+[4.044s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:96:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.044s]    96 |   void orientationTypeCallback(const std_msgs::msg::Int8::[01;31m[KSharedPtr[m[K msg)
+[4.044s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[4.044s]       |                                                                    [32m[K;[m[K
+[4.046s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:96:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[4.046s]    96 |   void orientationTypeCallback(const std_msgs::msg::Int8::SharedPtr [01;31m[Kmsg[m[K)
+[4.046s]       |                                                                     [01;31m[K^~~[m[K
+[4.046s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:239:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’
+[4.046s]   239 |   void [01;31m[KpublishGripperCommand[m[K(int width, int force)
+[4.046s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.046s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:36:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’
+[4.046s]    36 |   void [01;36m[KpublishGripperCommand[m[K(int width, int force)
+[4.046s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.099s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:39:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[4.099s]   269 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KInt8[m[K>::SharedPtr orientation_type_subscription;
+[4.099s]       |                                       [01;31m[K^~~~[m[K
+[4.099s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.099s]   269 |   rclcpp::Subscription<std_msgs::msg::Int8[01;31m[K>[m[K::SharedPtr orientation_type_subscription;
+[4.099s]       |                                           [01;31m[K^[m[K
+[4.099s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[4.099s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[4.099s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[4.099s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.099s]   269 |   rclcpp::Subscription<std_msgs::msg::Int8>::[01;31m[KSharedPtr[m[K orientation_type_subscription;
+[4.099s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[4.099s]       |                                                       [32m[K;[m[K
+[4.108s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:56:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_type_subscription[m[K’ does not name a type
+[4.108s]   269 |   rclcpp::Subscription<std_msgs::msg::Int8>::SharedPtr [01;31m[Korientation_type_subscription[m[K;
+[4.108s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.108s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:270:64:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Publisher<std_msgs::msg::Int32MultiArray_<std::allocator<void> > >::SharedPtr RobotController::gripper_publisher[m[K’
+[4.108s]   270 |   rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Kgripper_publisher[m[K;
+[4.108s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.108s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:44:64:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Publisher<std_msgs::msg::Int32MultiArray_<std::allocator<void> > >::SharedPtr RobotController::gripper_publisher[m[K’
+[4.108s]    44 |   rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr [01;36m[Kgripper_publisher[m[K;
+[4.108s]       |                                                                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.126s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[4.126s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_type_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Korientation_subscription[m[K’?
+[4.126s]    28 |     [01;31m[Korientation_type_subscription[m[K = this->create_subscription<std_msgs::msg::Int8>(
+[4.126s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.126s]       |     [32m[Korientation_subscription[m[K
+[4.127s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:28:78:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[4.127s]    28 |     orientation_type_subscription = this->create_subscription<std_msgs::msg::[01;31m[KInt8[m[K>(
+[4.127s]       |                                                                              [01;31m[K^~~~[m[K
+[4.128s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:28:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_subscription<<expression error> >(const char [23], int, std::_Bind_helper<false, void (RobotController::*)(...), RobotController*, const std::_Placeholder<1>&>::type)[m[K’
+[4.128s]    28 |     orientation_type_subscription = [01;31m[Kthis->create_subscription<std_msgs::msg::Int8>([m[K
+[4.128s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.128s]    29 | [01;31m[K      "/lego_orientation_type", 10,[m[K
+[4.128s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                
+[4.128s]    30 | [01;31m[K      std::bind(&RobotController::orientationTypeCallback, this, std::placeholders::_1))[m[K;
+[4.128s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.128s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[4.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.128s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[4.128s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.128s]    92 | [01;36m[KNode[m[K::create_subscription(
+[4.128s]       | [01;36m[K^~~~[m[K
+[4.128s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.128s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:28:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.128s]    28 |     orientation_type_subscription = [01;31m[Kthis->create_subscription<std_msgs::msg::Int8>([m[K
+[4.128s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.128s]    29 | [01;31m[K      "/lego_orientation_type", 10,[m[K
+[4.128s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                
+[4.129s]    30 | [01;31m[K      std::bind(&RobotController::orientationTypeCallback, this, std::placeholders::_1))[m[K;
+[4.129s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.143s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::performFrontAction()[m[K’:
+[4.143s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:202:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_pose_id0[m[K’?
+[4.143s]   202 |     [01;31m[Knew_pose[m[K.orientation.x = 0.0;
+[4.143s]       |     [01;31m[K^~~~~~~~[m[K
+[4.143s]       |     [32m[Knew_pose_id0[m[K
+[4.149s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::performSideAction()[m[K’:
+[4.149s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:216:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_pose_id1[m[K’?
+[4.149s]   216 |     [01;31m[Knew_pose[m[K.orientation.x = 0.0;
+[4.149s]       |     [01;31m[K^~~~~~~~[m[K
+[4.149s]       |     [32m[Knew_pose_id1[m[K
+[4.154s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::performBackAction()[m[K’:
+[4.154s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:230:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_pose_id2[m[K’?
+[4.154s]   230 |     [01;31m[Knew_pose[m[K.orientation.x = 0.0;
+[4.154s]       |     [01;31m[K^~~~~~~~[m[K
+[4.154s]       |     [32m[Knew_pose_id2[m[K
+[7.073s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[7.073s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[7.073s] gmake: *** [Makefile:146：all] 錯誤 2
+[7.075s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/steven/ros2_ws/src/arm0718_description/build/arm0718_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robotiq3f_ros2:/home/steven/ros2_ws/install/robot_interface:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/my_robot_socket_node:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm /usr/bin/cmake /home/steven/ros2_ws/src/arm0718_description -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/arm0718_description/install/arm0718_description
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.062s] -- The CXX compiler identification is GNU 11.4.0
+[0.065s] -- Detecting C compiler ABI info
+[0.102s] -- Detecting C compiler ABI info - done
+[0.105s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.105s] -- Detecting C compile features
+[0.106s] -- Detecting C compile features - done
+[0.107s] -- Detecting CXX compiler ABI info
+[0.149s] -- Detecting CXX compiler ABI info - done
+[0.152s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.152s] -- Detecting CXX compile features
+[0.153s] -- Detecting CXX compile features - done
+[0.154s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.538s] -- Configuring done
+[0.539s] -- Generating done
+[0.539s] -- Build files have been written to: /home/steven/ros2_ws/src/arm0718_description/build/arm0718_description
+[0.541s] Invoked command in '/home/steven/ros2_ws/src/arm0718_description/build/arm0718_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robotiq3f_ros2:/home/steven/ros2_ws/install/robot_interface:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/my_robot_socket_node:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm /usr/bin/cmake /home/steven/ros2_ws/src/arm0718_description -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/arm0718_description/install/arm0718_description
+[0.542s] Invoking command in '/home/steven/ros2_ws/src/arm0718_description/build/arm0718_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robotiq3f_ros2:/home/steven/ros2_ws/install/robot_interface:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/my_robot_socket_node:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm /usr/bin/cmake --build /home/steven/ros2_ws/src/arm0718_description/build/arm0718_description -- -j32 -l32
+[0.562s] Invoked command in '/home/steven/ros2_ws/src/arm0718_description/build/arm0718_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robotiq3f_ros2:/home/steven/ros2_ws/install/robot_interface:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/my_robot_socket_node:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm /usr/bin/cmake --build /home/steven/ros2_ws/src/arm0718_description/build/arm0718_description -- -j32 -l32
+[0.567s] Invoking command in '/home/steven/ros2_ws/src/arm0718_description/build/arm0718_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robotiq3f_ros2:/home/steven/ros2_ws/install/robot_interface:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/my_robot_socket_node:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm /usr/bin/cmake --install /home/steven/ros2_ws/src/arm0718_description/build/arm0718_description
+[0.570s] -- Install configuration: ""
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/urdf
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/urdf/arm0718.urdf
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/urdf/arm0718.csv
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes/link_4.STL
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes/link_6.STL
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes/link_5.STL
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes/link_3.STL
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes/link_7.STL
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes/base_link.STL
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/meshes/link_2.STL
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/launch
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/launch/gazebo.launch
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/launch/display.launch.py
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/config
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/config/joint_names_arm0718.yaml
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/rviz
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/rviz/display.rviz
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/ament_index/resource_index/package_run_dependencies/arm0718_description
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/ament_index/resource_index/parent_prefix_path/arm0718_description
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/environment/ament_prefix_path.sh
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/environment/ament_prefix_path.dsv
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/environment/path.sh
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/environment/path.dsv
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/local_setup.bash
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/local_setup.sh
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/local_setup.zsh
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/local_setup.dsv
+[0.570s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/package.dsv
+[0.571s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/ament_index/resource_index/packages/arm0718_description
+[0.571s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/cmake/arm0718_descriptionConfig.cmake
+[0.571s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/cmake/arm0718_descriptionConfig-version.cmake
+[0.571s] -- Installing: /home/steven/ros2_ws/src/arm0718_description/install/arm0718_description/share/arm0718_description/package.xml
+[0.571s] Invoked command in '/home/steven/ros2_ws/src/arm0718_description/build/arm0718_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robotiq3f_ros2:/home/steven/ros2_ws/install/robot_interface:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/my_robot_socket_node:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm /usr/bin/cmake --install /home/steven/ros2_ws/src/arm0718_description/build/arm0718_description

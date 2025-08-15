@@ -1,0 +1,78 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:472:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+  472 |   void [01;31m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:459:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+  459 |   void [01;36m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:33:35:[m[K [01;31m[Kerror: [m[K‘[01m[KorientationTypeCallback[m[K’ is not a member of ‘[01m[KRobotController[m[K’
+   33 |       std::bind(&RobotController::[01;31m[KorientationTypeCallback[m[K, this, std::placeholders::_1));
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:95:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+   95 |           [01;31m[KsetState[m[K(State::WAIT_FOR_COORDINATES);
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:103:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  103 |           [01;31m[KsetState[m[K(State::GRASP_OBJECT);
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:109:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  109 |           [01;31m[KsetState[m[K(State::CHECK_GRASP);
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:117:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  117 |             [01;31m[KsetState[m[K(State::MOVE_TO_CAMERA);
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:133:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  133 |           [01;31m[KsetState[m[K(State::WAIT_FOR_ORIENTATION);
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:139:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  139 |           [01;31m[KsetState[m[K(State::MOVE_TO_FINAL_POSITION);
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:144:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  144 |           [01;31m[KsetState[m[K(State::RELEASE_OBJECT);
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:149:11:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  149 |           [01;31m[KsetState[m[K(State::FINISHED);
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::resetState()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:160:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  160 |     [01;31m[KsetState[m[K(State::WAIT_FOR_COORDINATES);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::initializeMoveGroup()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:172:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  172 |     [01;31m[KsetState[m[K(State::MOVE_TO_HOME);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::graspObject()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:208:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+  208 |     [01;31m[KpublishGripperCommand[m[K(30, 10);  // 張開夾爪
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::controlGripper(int, int, const string&)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:375:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+  375 |     [01;31m[KpublishGripperCommand[m[K(width, force);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::releaseObject()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:423:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+  423 |     [01;31m[KpublishGripperCommand[m[K(30, 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:467:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  467 |         [01;31m[KsetState[m[K(State::MOVE_TO_OBJECT);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Ksetstate[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::checkStateTransition()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:500:7:[m[K [01;31m[Kerror: [m[K‘[01m[KsetState[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  500 |       [01;31m[KsetState[m[K(State::MOVE_TO_OBJECT);
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Ksetstate[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

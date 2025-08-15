@@ -1,0 +1,2 @@
+[console_scripts]
+test_node = rg2.rg2_ros2:main

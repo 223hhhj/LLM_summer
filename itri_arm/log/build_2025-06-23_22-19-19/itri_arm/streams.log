@@ -1,0 +1,43 @@
+[0.004s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target itri_arm_hardware[0m
+[0.036s] [ 50%] [32mBuilding CXX object CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o[0m
+[2.078s] [100%] [32m[1mLinking CXX shared library libitri_arm_hardware.so[0m
+[2.215s] [100%] Built target itri_arm_hardware
+[2.222s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '0': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32
+[2.228s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': /usr/bin/cmake --install /home/steven/ros2_ws/src/itri_arm/build/itri_arm
+[2.231s] -- Install configuration: ""
+[2.231s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/itri_arm_hardware.xml
+[2.231s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/include/itri_arm
+[2.231s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/include/itri_arm/itri_arm
+[2.231s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/include/itri_arm/itri_arm/itri_arm_hardware.hpp
+[2.231s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/lib/libitri_arm_hardware.so
+[2.232s] -- Set runtime path of "/home/steven/ros2_ws/src/itri_arm/install/itri_arm/lib/libitri_arm_hardware.so" to ""
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/config
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/config/controllers.yaml
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/launch
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/launch/itri_arm_control.launch.py
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/urdf
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/urdf/itri_arm_hardware.xml
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/library_path.sh
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/library_path.dsv
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/package_run_dependencies/itri_arm
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/parent_prefix_path/itri_arm
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/ament_prefix_path.sh
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/ament_prefix_path.dsv
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/path.sh
+[2.232s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/path.dsv
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.bash
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.sh
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.zsh
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.dsv
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/package.dsv
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/packages/itri_arm
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/itri_arm
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/export_itri_armExport.cmake
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/export_itri_armExport-noconfig.cmake
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/ament_cmake_export_targets-extras.cmake
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/itri_armConfig.cmake
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/itri_armConfig-version.cmake
+[2.233s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/package.xml
+[2.234s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '0': /usr/bin/cmake --install /home/steven/ros2_ws/src/itri_arm/build/itri_arm

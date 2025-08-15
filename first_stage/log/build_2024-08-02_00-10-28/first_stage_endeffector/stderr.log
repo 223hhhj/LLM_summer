@@ -1,0 +1,44 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:110:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[KcomputeCartesianPath[m[K’
+  110 |   double fraction = move_group_arm.[01;31m[KcomputeCartesianPath[m[K(approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:115:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kexecute[m[K’
+  115 |     move_group_arm.[01;31m[Kexecute[m[K(trajectory_approach);
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:120:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_node[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_arm[m[K’?
+  120 |   gripper_publisher = [01;31m[Kmove_group_node[m[K->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10);
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                       [32m[Kmove_group_arm[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:120:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  120 |   gripper_publisher = move_group_node->create_publisher<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K("custom_gripper", 10);
+      |                                                                                       [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:120:89:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  120 |   gripper_publisher = move_group_node->create_publisher<std_msgs::msg::Int32MultiArray>([01;35m[K"custom_gripper"[m[K, 10);
+      |                                                                                         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:122:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_width[m[K’ was not declared in this scope
+  122 |   [01;31m[Kgripper_width[m[K = -8;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:123:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_force[m[K’ was not declared in this scope
+  123 |   [01;31m[Kgripper_force[m[K = 10;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:143:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[KcomputeCartesianPath[m[K’
+  143 |   fraction = move_group_arm.[01;31m[KcomputeCartesianPath[m[K(post_grasp_waypoints, eef_step, jump_threshold, trajectory_post_grasp);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:148:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kexecute[m[K’
+  148 |     move_group_arm.[01;31m[Kexecute[m[K(trajectory_post_grasp);
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:160:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[KcomputeCartesianPath[m[K’
+  160 |   fraction = move_group_arm.[01;31m[KcomputeCartesianPath[m[K(move_x_waypoints, eef_step, jump_threshold, trajectory_move_x);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:165:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kexecute[m[K’
+  165 |     move_group_arm.[01;31m[Kexecute[m[K(trajectory_move_x);
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:177:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[KcomputeCartesianPath[m[K’
+  177 |   fraction = move_group_arm.[01;31m[KcomputeCartesianPath[m[K(move_z_down_waypoints, eef_step, jump_threshold, trajectory_move_z_down);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:182:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kexecute[m[K’
+  182 |     move_group_arm.[01;31m[Kexecute[m[K(trajectory_move_z_down);
+      |                    [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

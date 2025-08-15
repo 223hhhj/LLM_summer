@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build
+    available_commands = await self._get_available_commands(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands
+    output = await check_output(
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/robot_interface/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 83, in <module>
+    __import__('pkg_resources.extern.packaging.specifiers')
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/specifiers.py", line 227, in <module>
+    class LegacySpecifier(_IndividualSpecifier):
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/specifiers.py", line 241, in LegacySpecifier
+    _regex = re.compile(r"^\s*" + _regex_str + r"\s*$", re.VERBOSE | re.IGNORECASE)
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 792, in compile
+    code = _code(p, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 628, in _code
+    _compile_info(code, p, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 564, in _compile_info
+    lo, hi = pattern.getwidth()
+  File "/usr/lib/python3.10/sre_parse.py", line 180, in getwidth
+    for op, av in self.data:
+TypeError: '_NamedIntConstant' object is not iterable
+

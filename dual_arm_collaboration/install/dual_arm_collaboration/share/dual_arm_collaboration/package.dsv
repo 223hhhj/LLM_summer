@@ -1,0 +1,3 @@
+source;share/dual_arm_collaboration/hook/pythonpath.ps1
+source;share/dual_arm_collaboration/hook/pythonpath.dsv
+source;share/dual_arm_collaboration/hook/pythonpath.sh

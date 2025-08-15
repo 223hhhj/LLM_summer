@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:104:32:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((RobotController*)this)->RobotController::moveToFinalPosition()[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  104 |         if ([01;31m[KmoveToFinalPosition()[m[K) {
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Kvoid[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

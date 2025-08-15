@@ -1,0 +1,15 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:238:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’
+  238 |   void [01;31m[KpublishGripperCommand[m[K(int width, int force)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:160:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’
+  160 |   void [01;36m[KpublishGripperCommand[m[K(int width, int force)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:246:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::waitForGripperAction()[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::waitForGripperAction()[m[K’
+  246 |   void [01;31m[KwaitForGripperAction[m[K()
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:167:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::waitForGripperAction()[m[K’
+  167 |   void [01;36m[KwaitForGripperAction[m[K()
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

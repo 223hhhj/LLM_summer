@@ -1,0 +1,64 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:115:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00006253\U00005f00\U00005939\U0000722a
+  115 |         # [01;31m[K打开夹爪[m[K
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:119:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U000063a5\U00008fd1\U00007269\U00004f53
+  119 |         # [01;31m[K接近物体[m[K
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:122:43:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  122 |         approach_pose.position.z -= 0.04  [01;31m[K#[m[K 接近物体时向下移动
+      |                                           [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:126:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00006293\U000053d6\U00007269\U00004f53
+  126 |         # [01;31m[K抓取物体[m[K
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:130:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00006293\U000053d6\U0000540e\U00005411\U00004e0a\U000079fb\U000052a8
+  130 |         # [01;31m[K抓取后向上移动[m[K
+      |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:132:62:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  132 |         self.move_group_arm.setPoseTarget(self.target_pose)  [01;31m[K#[m[K 回到原始高度
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdef[m[K’ does not name a type
+   99 |     [01;31m[Kdef[m[K planAndExecute(self):
+      |     [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:101:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  101 |             [01;31m[KRCLCPP_WARN[m[K(self.get_logger(), "MoveGroupInterface not initialized yet. Ignoring coordinates.")
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:104:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  104 |         [01;31m[KRCLCPP_INFO[m[K(self.get_logger(), "Received target pose: position(x=%f, y=%f, z=%f), orientation(x=%f, y=%f, z=%f, w=%f)",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:120:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  120 |         [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Approaching object")
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:131:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  131 |         [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Moving up after grasp")
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::goHome()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[KexecutePlan[m[K’ was not declared in this scope
+   67 |     [01;31m[KexecutePlan[m[K();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:78:7:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+   78 |       [01;31m[KplanAndExecute[m[K();
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:88:7:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+   88 |       [01;31m[KplanAndExecute[m[K();
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::moveToFinalPosition()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:197:5:[m[K [01;31m[Kerror: [m[K‘[01m[KexecutePlan[m[K’ was not declared in this scope
+  197 |     [01;31m[KexecutePlan[m[K();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

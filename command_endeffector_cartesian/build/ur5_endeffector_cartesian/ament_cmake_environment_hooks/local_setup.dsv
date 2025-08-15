@@ -1,0 +1,2 @@
+source;share/ur5_endeffector_cartesian/environment/ament_prefix_path.sh
+source;share/ur5_endeffector_cartesian/environment/path.sh

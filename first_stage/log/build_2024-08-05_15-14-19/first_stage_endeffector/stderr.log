@@ -1,0 +1,34 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:182:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose4[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose1[m[K’?
+  182 |       [01;31m[Ktarget_pose4[m[K.orientation.x = 1.0;//quaternion.getX();
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+      |       [32m[Ktarget_pose1[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:190:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[KsetPoseTarget[m[K’
+  190 |       move_group_arm.[01;31m[KsetPoseTarget[m[K(target_pose4);//設定目標 指令
+      |                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:191:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_arm[m[K’ was not declared in this scope; did you mean ‘[01m[Ksuccess[m[K’?
+  191 |       [01;31m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) == moveit::core::MoveItErrorCode::SUCCESS);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+      |       [32m[Ksuccess[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:191:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kplan[m[K’
+  191 |       success_arm = (move_group_arm.[01;31m[Kplan[m[K(my_plan_arm) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:191:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan_arm[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_plan[m[K’?
+  191 |       success_arm = (move_group_arm.plan([01;31m[Kmy_plan_arm[m[K) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                          [01;31m[K^~~~~~~~~~~[m[K
+      |                                          [32m[Kmy_plan[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:196:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kexecute[m[K’
+  196 |       move_group_arm.[01;31m[Kexecute[m[K(my_plan_arm);
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:199:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_attempts[m[K’ was not declared in this scope
+  199 |         while(success_arm == false && attempts2 < [01;31m[Kmax_attempts[m[K){
+      |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:200:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kplan[m[K’
+  200 |         success_arm = (move_group_arm.[01;31m[Kplan[m[K(my_plan_arm) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                       [01;31m[K^~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:203:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kexecute[m[K’
+  203 |         move_group_arm.[01;31m[Kexecute[m[K(my_plan_arm);
+      |                        [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

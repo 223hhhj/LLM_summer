@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.317s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In lambda function:
+[4.317s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:240:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoint[m[K’; did you mean ‘[01m[KPoint_[m[K’?
+[4.318s]   240 |       this->target_pose.position = msg->[01;31m[Kpoint[m[K;
+[4.318s]       |                                         [01;31m[K^~~~~[m[K
+[4.318s]       |                                         [32m[KPoint_[m[K
+[9.163s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[9.163s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[9.163s] gmake: *** [Makefile:146：all] 錯誤 2
+[9.164s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

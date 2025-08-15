@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.000083] (yolo_pf_realsense) JobQueued: {'identifier': 'yolo_pf_realsense', 'dependencies': OrderedDict()}
+[0.000102] (yolo_pf_realsense) JobStarted: {'identifier': 'yolo_pf_realsense'}
+[0.099781] (-) TimerEvent: {}
+[0.200147] (-) TimerEvent: {}
+[0.300572] (-) TimerEvent: {}
+[0.400738] (-) TimerEvent: {}
+[0.500996] (-) TimerEvent: {}
+[0.601263] (-) TimerEvent: {}
+[0.701418] (-) TimerEvent: {}
+[0.801689] (-) TimerEvent: {}
+[0.901961] (-) TimerEvent: {}
+[1.002115] (-) TimerEvent: {}
+[1.092499] (yolo_pf_realsense) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' died with <Signals.SIGSEGV: 11>.\n'}
+[1.092686] (yolo_pf_realsense) JobEnded: {'identifier': 'yolo_pf_realsense', 'rc': 1}
+[1.102222] (-) TimerEvent: {}
+[1.102734] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+  File "/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2/first_stage_rg2_ros2.py", line 62
+    感谢您提供这些新的输出信息。从错误信息中我们可以看到，问题出在 'SecondaryMonitor' object has no attribute 'wait_for_var_change'。这表明我们使用的 urx 库版本可能不支持 wait_for_var_change 方法，或者这个方法在最新版本中已经被移除或重命名。
+                 ^
+SyntaxError: invalid character '。' (U+3002)
+

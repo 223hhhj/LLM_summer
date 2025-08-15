@@ -1,0 +1,258 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (first_stage_endeffector) JobQueued: {'identifier': 'first_stage_endeffector', 'dependencies': OrderedDict()}
+[0.000494] (first_stage_endeffector) JobStarted: {'identifier': 'first_stage_endeffector'}
+[0.006610] (first_stage_endeffector) JobProgress: {'identifier': 'first_stage_endeffector', 'progress': 'cmake'}
+[0.006977] (first_stage_endeffector) JobProgress: {'identifier': 'first_stage_endeffector', 'progress': 'build'}
+[0.007306] (first_stage_endeffector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector', '--', '-j32', '-l32'], 'cwd': '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'steven'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/steven/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/steven/ws_moveit2/install/moveit_visual_tools/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_core/lib:/home/steven/ws_moveit2/install/moveit_ros_control_interface/lib:/home/steven/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/steven/ws_moveit2/install/moveit_setup_assistant/lib:/home/steven/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/steven/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/steven/ws_moveit2/install/moveit_setup_controllers/lib:/home/steven/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/steven/ws_moveit2/install/moveit_setup_framework/lib:/home/steven/ws_moveit2/install/moveit_servo/lib:/home/steven/ws_moveit2/install/moveit_ros_visualization/lib:/home/steven/ws_moveit2/install/moveit_hybrid_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/steven/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/steven/ws_moveit2/install/moveit_ros_warehouse/lib:/home/steven/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/steven/ws_moveit2/install/moveit_ros_perception/lib:/home/steven/ws_moveit2/install/moveit_ros_move_group/lib:/home/steven/ws_moveit2/install/moveit_planners_ompl/lib:/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/steven/ws_moveit2/install/moveit_planners_chomp/lib:/home/steven/ws_moveit2/install/moveit_kinematics/lib:/home/steven/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/steven/ws_moveit2/install/chomp_motion_planner/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/home/steven/ws_moveit2/install/rviz_marker_tools/lib:/home/steven/ws_moveit2/install/rosparam_shortcuts/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64:'), ('HOME', '/home/steven'), ('OLDPWD', '/home/steven'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1514'), ('SYSTEMD_EXEC_PID', '1958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2716214'), ('COLCON_PREFIX_PATH', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install:/home/steven/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'steven'), ('JOURNAL_STREAM', '8:20885'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'steven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/steven/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/cuda-12.3/bin:/home/steven/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/steven/openMVG_build/software/SfM:/usr/local/bin'), ('SESSION_MANAGER', 'local/steven-MS-7D86:@/tmp/.ICE-unix/1925,unix/steven-MS-7D86:/tmp/.ICE-unix/1925'), ('INVOCATION_ID', '72a9eb493cb649ae8c0d5cceb2d38e5d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_TW.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/steven/ws_moveit2/install/moveit_runtime:/home/steven/ws_moveit2/install/moveit2_tutorials:/home/steven/ws_moveit2/install/moveit:/home/steven/ws_moveit2/install/moveit_planners:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner:/home/steven/ws_moveit2/install/moveit_visual_tools:/home/steven/ws_moveit2/install/moveit_task_constructor_visualization:/home/steven/ws_moveit2/install/moveit_task_constructor_demo:/home/steven/ws_moveit2/install/moveit_task_constructor_capabilities:/home/steven/ws_moveit2/install/moveit_task_constructor_core:/home/steven/ws_moveit2/install/moveit_ros_control_interface:/home/steven/ws_moveit2/install/moveit_plugins:/home/steven/ws_moveit2/install/moveit_simple_controller_manager:/home/steven/ws_moveit2/install/moveit_setup_assistant:/home/steven/ws_moveit2/install/moveit_setup_srdf_plugins:/home/steven/ws_moveit2/install/moveit_setup_core_plugins:/home/steven/ws_moveit2/install/moveit_setup_controllers:/home/steven/ws_moveit2/install/moveit_setup_app_plugins:/home/steven/ws_moveit2/install/moveit_setup_framework:/home/steven/ws_moveit2/install/moveit_servo:/home/steven/ws_moveit2/install/moveit_ros:/home/steven/ws_moveit2/install/moveit_ros_visualization:/home/steven/ws_moveit2/install/moveit_hybrid_planning:/home/steven/ws_moveit2/install/moveit_ros_planning_interface:/home/steven/ws_moveit2/install/moveit_ros_benchmarks:/home/steven/ws_moveit2/install/moveit_ros_warehouse:/home/steven/ws_moveit2/install/moveit_ros_robot_interaction:/home/steven/ws_moveit2/install/moveit_ros_perception:/home/steven/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/steven/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/steven/ws_moveit2/install/moveit_ros_move_group:/home/steven/ws_moveit2/install/moveit_planners_ompl:/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/steven/ws_moveit2/install/moveit_planners_chomp:/home/steven/ws_moveit2/install/moveit_kinematics:/home/steven/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/steven/ws_moveit2/install/chomp_motion_planner:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/rviz_marker_tools:/home/steven/ws_moveit2/install/rosparam_shortcuts:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs:/home/steven/ws_moveit2/install/moveit_resources_prbt_support:/home/steven/ws_moveit2/install/moveit_resources:/home/steven/ws_moveit2/install/moveit_resources_pr2_description:/home/steven/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_panda_description:/home/steven/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_fanuc_description:/home/steven/ws_moveit2/install/moveit_common:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:6d3adaf5-1eb3-4c17-97a5-c72fabc5dbb0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/steven/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/steven/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/steven/ws_moveit2/install/moveit_runtime:/home/steven/ws_moveit2/install/moveit2_tutorials:/home/steven/ws_moveit2/install/moveit:/home/steven/ws_moveit2/install/moveit_planners:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner:/home/steven/ws_moveit2/install/moveit_visual_tools:/home/steven/ws_moveit2/install/moveit_task_constructor_visualization:/home/steven/ws_moveit2/install/moveit_task_constructor_demo:/home/steven/ws_moveit2/install/moveit_task_constructor_capabilities:/home/steven/ws_moveit2/install/moveit_task_constructor_core:/home/steven/ws_moveit2/install/moveit_ros_control_interface:/home/steven/ws_moveit2/install/moveit_plugins:/home/steven/ws_moveit2/install/moveit_simple_controller_manager:/home/steven/ws_moveit2/install/moveit_setup_assistant:/home/steven/ws_moveit2/install/moveit_setup_srdf_plugins:/home/steven/ws_moveit2/install/moveit_setup_core_plugins:/home/steven/ws_moveit2/install/moveit_setup_controllers:/home/steven/ws_moveit2/install/moveit_setup_app_plugins:/home/steven/ws_moveit2/install/moveit_setup_framework:/home/steven/ws_moveit2/install/moveit_servo:/home/steven/ws_moveit2/install/moveit_ros:/home/steven/ws_moveit2/install/moveit_ros_visualization:/home/steven/ws_moveit2/install/moveit_hybrid_planning:/home/steven/ws_moveit2/install/moveit_ros_planning_interface:/home/steven/ws_moveit2/install/moveit_ros_benchmarks:/home/steven/ws_moveit2/install/moveit_ros_warehouse:/home/steven/ws_moveit2/install/moveit_ros_robot_interaction:/home/steven/ws_moveit2/install/moveit_ros_perception:/home/steven/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/steven/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/steven/ws_moveit2/install/moveit_ros_move_group:/home/steven/ws_moveit2/install/moveit_planners_ompl:/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/steven/ws_moveit2/install/moveit_planners_chomp:/home/steven/ws_moveit2/install/moveit_kinematics:/home/steven/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/steven/ws_moveit2/install/chomp_motion_planner:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/rviz_marker_tools:/home/steven/ws_moveit2/install/rosparam_shortcuts:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs:/home/steven/ws_moveit2/install/moveit_resources_prbt_support:/home/steven/ws_moveit2/install/moveit_resources:/home/steven/ws_moveit2/install/moveit_resources_pr2_description:/home/steven/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_panda_description:/home/steven/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_fanuc_description:/home/steven/ws_moveit2/install/moveit_common:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.028448] (first_stage_endeffector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099443] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099736] (-) TimerEvent: {}
+[0.114382] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.115712] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.118562] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.124904] (first_stage_endeffector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.133069] (first_stage_endeffector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.164815] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.166353] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199855] (-) TimerEvent: {}
+[0.240765] (first_stage_endeffector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299938] (-) TimerEvent: {}
+[0.319702] (first_stage_endeffector) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread \n'}
+[0.320253] (first_stage_endeffector) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.400023] (-) TimerEvent: {}
+[0.500254] (-) TimerEvent: {}
+[0.552857] (first_stage_endeffector) StdoutLine: {'line': b'-- Found moveit_common: 2.5.5 (/home/steven/ws_moveit2/install/moveit_common/share/moveit_common/cmake)\n'}
+[0.552990] (first_stage_endeffector) StdoutLine: {'line': b'-- Found moveit_core: 2.5.5 (/home/steven/ws_moveit2/install/moveit_core/share/moveit_core/cmake)\n'}
+[0.557419] (first_stage_endeffector) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.570895] (first_stage_endeffector) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.578248] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.600355] (-) TimerEvent: {}
+[0.602286] (first_stage_endeffector) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.626365] (first_stage_endeffector) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.700460] (-) TimerEvent: {}
+[0.729450] (first_stage_endeffector) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.800551] (-) TimerEvent: {}
+[0.900805] (-) TimerEvent: {}
+[1.001073] (-) TimerEvent: {}
+[1.101287] (-) TimerEvent: {}
+[1.183969] (first_stage_endeffector) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.5 (/home/steven/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)\n'}
+[1.186899] (first_stage_endeffector) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.201363] (-) TimerEvent: {}
+[1.301565] (-) TimerEvent: {}
+[1.401801] (-) TimerEvent: {}
+[1.404070] (first_stage_endeffector) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/home/steven/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)\n'}
+[1.406903] (first_stage_endeffector) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.501891] (-) TimerEvent: {}
+[1.502582] (first_stage_endeffector) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.601989] (-) TimerEvent: {}
+[1.628588] (first_stage_endeffector) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.702080] (-) TimerEvent: {}
+[1.802336] (-) TimerEvent: {}
+[1.848264] (first_stage_endeffector) StdoutLine: {'line': b'-- Found moveit_servo: 2.5.5 (/home/steven/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake)\n'}
+[1.902504] (-) TimerEvent: {}
+[2.002752] (-) TimerEvent: {}
+[2.103007] (-) TimerEvent: {}
+[2.172021] (first_stage_endeffector) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[2.177697] (first_stage_endeffector) StdoutLine: {'line': b'-- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)\n'}
+[2.203138] (-) TimerEvent: {}
+[2.228969] (first_stage_endeffector) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.229481] (first_stage_endeffector) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.229570] (first_stage_endeffector) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.229620] (first_stage_endeffector) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.229687] (first_stage_endeffector) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.229752] (first_stage_endeffector) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.229800] (first_stage_endeffector) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.229846] (first_stage_endeffector) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[2.229892] (first_stage_endeffector) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.229938] (first_stage_endeffector) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.229983] (first_stage_endeffector) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.230036] (first_stage_endeffector) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.230082] (first_stage_endeffector) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.230127] (first_stage_endeffector) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.230964] (first_stage_endeffector) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[2.256449] (first_stage_endeffector) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.256611] (first_stage_endeffector) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.303232] (-) TimerEvent: {}
+[2.403513] (-) TimerEvent: {}
+[2.503798] (-) TimerEvent: {}
+[2.554852] (first_stage_endeffector) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.0 (/home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)\n'}
+[2.604017] (-) TimerEvent: {}
+[2.704283] (-) TimerEvent: {}
+[2.804557] (-) TimerEvent: {}
+[2.820684] (first_stage_endeffector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.896726] (first_stage_endeffector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.896880] (first_stage_endeffector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.896931] (first_stage_endeffector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.899315] (first_stage_endeffector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.903960] (first_stage_endeffector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.904604] (-) TimerEvent: {}
+[2.906505] (first_stage_endeffector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.925836] (first_stage_endeffector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.925939] (first_stage_endeffector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.928574] (first_stage_endeffector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.929107] (first_stage_endeffector) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.949727] (first_stage_endeffector) StdoutLine: {'line': b'-- Generating done\n'}
+[2.951170] (first_stage_endeffector) StdoutLine: {'line': b'-- Build files have been written to: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector\n'}
+[2.977808] (first_stage_endeffector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target first_stage_endeffector\x1b[0m\n'}
+[2.996935] (first_stage_endeffector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o\x1b[0m\n'}
+[3.004687] (-) TimerEvent: {}
+[3.104891] (-) TimerEvent: {}
+[3.205216] (-) TimerEvent: {}
+[3.305527] (-) TimerEvent: {}
+[3.405835] (-) TimerEvent: {}
+[3.506057] (-) TimerEvent: {}
+[3.606347] (-) TimerEvent: {}
+[3.706785] (-) TimerEvent: {}
+[3.807069] (-) TimerEvent: {}
+[3.907344] (-) TimerEvent: {}
+[4.007670] (-) TimerEvent: {}
+[4.108091] (-) TimerEvent: {}
+[4.208510] (-) TimerEvent: {}
+[4.308856] (-) TimerEvent: {}
+[4.409215] (-) TimerEvent: {}
+[4.509563] (-) TimerEvent: {}
+[4.609899] (-) TimerEvent: {}
+[4.710187] (-) TimerEvent: {}
+[4.810455] (-) TimerEvent: {}
+[4.910705] (-) TimerEvent: {}
+[5.010957] (-) TimerEvent: {}
+[5.111209] (-) TimerEvent: {}
+[5.211469] (-) TimerEvent: {}
+[5.311700] (-) TimerEvent: {}
+[5.411968] (-) TimerEvent: {}
+[5.512353] (-) TimerEvent: {}
+[5.612593] (-) TimerEvent: {}
+[5.712816] (-) TimerEvent: {}
+[5.813037] (-) TimerEvent: {}
+[5.913414] (-) TimerEvent: {}
+[6.013675] (-) TimerEvent: {}
+[6.114014] (-) TimerEvent: {}
+[6.214354] (-) TimerEvent: {}
+[6.314624] (-) TimerEvent: {}
+[6.414886] (-) TimerEvent: {}
+[6.515140] (-) TimerEvent: {}
+[6.615399] (-) TimerEvent: {}
+[6.715678] (-) TimerEvent: {}
+[6.815938] (-) TimerEvent: {}
+[6.916198] (-) TimerEvent: {}
+[7.016498] (-) TimerEvent: {}
+[7.116967] (-) TimerEvent: {}
+[7.217276] (-) TimerEvent: {}
+[7.317657] (-) TimerEvent: {}
+[7.418023] (-) TimerEvent: {}
+[7.518425] (-) TimerEvent: {}
+[7.618861] (-) TimerEvent: {}
+[7.719109] (-) TimerEvent: {}
+[7.819391] (-) TimerEvent: {}
+[7.919687] (-) TimerEvent: {}
+[8.019936] (-) TimerEvent: {}
+[8.120214] (-) TimerEvent: {}
+[8.220518] (-) TimerEvent: {}
+[8.320794] (-) TimerEvent: {}
+[8.421096] (-) TimerEvent: {}
+[8.521365] (-) TimerEvent: {}
+[8.621647] (-) TimerEvent: {}
+[8.722011] (-) TimerEvent: {}
+[8.822280] (-) TimerEvent: {}
+[8.922536] (-) TimerEvent: {}
+[9.022815] (-) TimerEvent: {}
+[9.123133] (-) TimerEvent: {}
+[9.223417] (-) TimerEvent: {}
+[9.323708] (-) TimerEvent: {}
+[9.423974] (-) TimerEvent: {}
+[9.524253] (-) TimerEvent: {}
+[9.624637] (-) TimerEvent: {}
+[9.724901] (-) TimerEvent: {}
+[9.825158] (-) TimerEvent: {}
+[9.925416] (-) TimerEvent: {}
+[10.025685] (-) TimerEvent: {}
+[10.126033] (-) TimerEvent: {}
+[10.226390] (-) TimerEvent: {}
+[10.326785] (-) TimerEvent: {}
+[10.427089] (-) TimerEvent: {}
+[10.527406] (-) TimerEvent: {}
+[10.627693] (-) TimerEvent: {}
+[10.727944] (-) TimerEvent: {}
+[10.828215] (-) TimerEvent: {}
+[10.928497] (-) TimerEvent: {}
+[11.028781] (-) TimerEvent: {}
+[11.129142] (-) TimerEvent: {}
+[11.229396] (-) TimerEvent: {}
+[11.329746] (-) TimerEvent: {}
+[11.430041] (-) TimerEvent: {}
+[11.530319] (-) TimerEvent: {}
+[11.630683] (-) TimerEvent: {}
+[11.731002] (-) TimerEvent: {}
+[11.831280] (-) TimerEvent: {}
+[11.931601] (-) TimerEvent: {}
+[12.031960] (-) TimerEvent: {}
+[12.132239] (-) TimerEvent: {}
+[12.232597] (-) TimerEvent: {}
+[12.332843] (-) TimerEvent: {}
+[12.433077] (-) TimerEvent: {}
+[12.533334] (-) TimerEvent: {}
+[12.633671] (-) TimerEvent: {}
+[12.733931] (-) TimerEvent: {}
+[12.834191] (-) TimerEvent: {}
+[12.934470] (-) TimerEvent: {}
+[13.034711] (-) TimerEvent: {}
+[13.135105] (-) TimerEvent: {}
+[13.235363] (-) TimerEvent: {}
+[13.335657] (-) TimerEvent: {}
+[13.435974] (-) TimerEvent: {}
+[13.536257] (-) TimerEvent: {}
+[13.636559] (-) TimerEvent: {}
+[13.736799] (-) TimerEvent: {}
+[13.837075] (-) TimerEvent: {}
+[13.937421] (-) TimerEvent: {}
+[14.037751] (-) TimerEvent: {}
+[14.138021] (-) TimerEvent: {}
+[14.238292] (-) TimerEvent: {}
+[14.338606] (-) TimerEvent: {}
+[14.438900] (-) TimerEvent: {}
+[14.539158] (-) TimerEvent: {}
+[14.639452] (-) TimerEvent: {}
+[14.739815] (-) TimerEvent: {}
+[14.840164] (-) TimerEvent: {}
+[14.940545] (-) TimerEvent: {}
+[15.040822] (-) TimerEvent: {}
+[15.141125] (-) TimerEvent: {}
+[15.241446] (-) TimerEvent: {}
+[15.341697] (-) TimerEvent: {}
+[15.441948] (-) TimerEvent: {}
+[15.454457] (first_stage_endeffector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable first_stage_endeffector\x1b[0m\n'}
+[15.542045] (-) TimerEvent: {}
+[15.642305] (-) TimerEvent: {}
+[15.742596] (-) TimerEvent: {}
+[15.843011] (-) TimerEvent: {}
+[15.943408] (-) TimerEvent: {}
+[16.043704] (-) TimerEvent: {}
+[16.143974] (-) TimerEvent: {}
+[16.214002] (first_stage_endeffector) StdoutLine: {'line': b'[100%] Built target first_stage_endeffector\n'}
+[16.222331] (first_stage_endeffector) CommandEnded: {'returncode': 0}
+[16.243218] (first_stage_endeffector) JobProgress: {'identifier': 'first_stage_endeffector', 'progress': 'install'}
+[16.243989] (-) TimerEvent: {}
+[16.250410] (first_stage_endeffector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector'], 'cwd': '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'steven'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/steven/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/steven/ws_moveit2/install/moveit_visual_tools/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_core/lib:/home/steven/ws_moveit2/install/moveit_ros_control_interface/lib:/home/steven/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/steven/ws_moveit2/install/moveit_setup_assistant/lib:/home/steven/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/steven/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/steven/ws_moveit2/install/moveit_setup_controllers/lib:/home/steven/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/steven/ws_moveit2/install/moveit_setup_framework/lib:/home/steven/ws_moveit2/install/moveit_servo/lib:/home/steven/ws_moveit2/install/moveit_ros_visualization/lib:/home/steven/ws_moveit2/install/moveit_hybrid_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/steven/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/steven/ws_moveit2/install/moveit_ros_warehouse/lib:/home/steven/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/steven/ws_moveit2/install/moveit_ros_perception/lib:/home/steven/ws_moveit2/install/moveit_ros_move_group/lib:/home/steven/ws_moveit2/install/moveit_planners_ompl/lib:/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/steven/ws_moveit2/install/moveit_planners_chomp/lib:/home/steven/ws_moveit2/install/moveit_kinematics/lib:/home/steven/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/steven/ws_moveit2/install/chomp_motion_planner/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/home/steven/ws_moveit2/install/rviz_marker_tools/lib:/home/steven/ws_moveit2/install/rosparam_shortcuts/lib:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64:'), ('HOME', '/home/steven'), ('OLDPWD', '/home/steven'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1514'), ('SYSTEMD_EXEC_PID', '1958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2716214'), ('COLCON_PREFIX_PATH', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install:/home/steven/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'steven'), ('JOURNAL_STREAM', '8:20885'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'steven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/steven/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/cuda-12.3/bin:/home/steven/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/steven/openMVG_build/software/SfM:/usr/local/bin'), ('SESSION_MANAGER', 'local/steven-MS-7D86:@/tmp/.ICE-unix/1925,unix/steven-MS-7D86:/tmp/.ICE-unix/1925'), ('INVOCATION_ID', '72a9eb493cb649ae8c0d5cceb2d38e5d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_TW.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/steven/ws_moveit2/install/moveit_runtime:/home/steven/ws_moveit2/install/moveit2_tutorials:/home/steven/ws_moveit2/install/moveit:/home/steven/ws_moveit2/install/moveit_planners:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner:/home/steven/ws_moveit2/install/moveit_visual_tools:/home/steven/ws_moveit2/install/moveit_task_constructor_visualization:/home/steven/ws_moveit2/install/moveit_task_constructor_demo:/home/steven/ws_moveit2/install/moveit_task_constructor_capabilities:/home/steven/ws_moveit2/install/moveit_task_constructor_core:/home/steven/ws_moveit2/install/moveit_ros_control_interface:/home/steven/ws_moveit2/install/moveit_plugins:/home/steven/ws_moveit2/install/moveit_simple_controller_manager:/home/steven/ws_moveit2/install/moveit_setup_assistant:/home/steven/ws_moveit2/install/moveit_setup_srdf_plugins:/home/steven/ws_moveit2/install/moveit_setup_core_plugins:/home/steven/ws_moveit2/install/moveit_setup_controllers:/home/steven/ws_moveit2/install/moveit_setup_app_plugins:/home/steven/ws_moveit2/install/moveit_setup_framework:/home/steven/ws_moveit2/install/moveit_servo:/home/steven/ws_moveit2/install/moveit_ros:/home/steven/ws_moveit2/install/moveit_ros_visualization:/home/steven/ws_moveit2/install/moveit_hybrid_planning:/home/steven/ws_moveit2/install/moveit_ros_planning_interface:/home/steven/ws_moveit2/install/moveit_ros_benchmarks:/home/steven/ws_moveit2/install/moveit_ros_warehouse:/home/steven/ws_moveit2/install/moveit_ros_robot_interaction:/home/steven/ws_moveit2/install/moveit_ros_perception:/home/steven/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/steven/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/steven/ws_moveit2/install/moveit_ros_move_group:/home/steven/ws_moveit2/install/moveit_planners_ompl:/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/steven/ws_moveit2/install/moveit_planners_chomp:/home/steven/ws_moveit2/install/moveit_kinematics:/home/steven/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/steven/ws_moveit2/install/chomp_motion_planner:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/rviz_marker_tools:/home/steven/ws_moveit2/install/rosparam_shortcuts:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs:/home/steven/ws_moveit2/install/moveit_resources_prbt_support:/home/steven/ws_moveit2/install/moveit_resources:/home/steven/ws_moveit2/install/moveit_resources_pr2_description:/home/steven/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_panda_description:/home/steven/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_fanuc_description:/home/steven/ws_moveit2/install/moveit_common:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:6d3adaf5-1eb3-4c17-97a5-c72fabc5dbb0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/steven/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/steven/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/steven/ws_moveit2/install/moveit_runtime:/home/steven/ws_moveit2/install/moveit2_tutorials:/home/steven/ws_moveit2/install/moveit:/home/steven/ws_moveit2/install/moveit_planners:/home/steven/ws_moveit2/install/pilz_industrial_motion_planner:/home/steven/ws_moveit2/install/moveit_visual_tools:/home/steven/ws_moveit2/install/moveit_task_constructor_visualization:/home/steven/ws_moveit2/install/moveit_task_constructor_demo:/home/steven/ws_moveit2/install/moveit_task_constructor_capabilities:/home/steven/ws_moveit2/install/moveit_task_constructor_core:/home/steven/ws_moveit2/install/moveit_ros_control_interface:/home/steven/ws_moveit2/install/moveit_plugins:/home/steven/ws_moveit2/install/moveit_simple_controller_manager:/home/steven/ws_moveit2/install/moveit_setup_assistant:/home/steven/ws_moveit2/install/moveit_setup_srdf_plugins:/home/steven/ws_moveit2/install/moveit_setup_core_plugins:/home/steven/ws_moveit2/install/moveit_setup_controllers:/home/steven/ws_moveit2/install/moveit_setup_app_plugins:/home/steven/ws_moveit2/install/moveit_setup_framework:/home/steven/ws_moveit2/install/moveit_servo:/home/steven/ws_moveit2/install/moveit_ros:/home/steven/ws_moveit2/install/moveit_ros_visualization:/home/steven/ws_moveit2/install/moveit_hybrid_planning:/home/steven/ws_moveit2/install/moveit_ros_planning_interface:/home/steven/ws_moveit2/install/moveit_ros_benchmarks:/home/steven/ws_moveit2/install/moveit_ros_warehouse:/home/steven/ws_moveit2/install/moveit_ros_robot_interaction:/home/steven/ws_moveit2/install/moveit_ros_perception:/home/steven/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/steven/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/steven/ws_moveit2/install/moveit_ros_move_group:/home/steven/ws_moveit2/install/moveit_planners_ompl:/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/steven/ws_moveit2/install/moveit_planners_chomp:/home/steven/ws_moveit2/install/moveit_kinematics:/home/steven/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/steven/ws_moveit2/install/chomp_motion_planner:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/rviz_marker_tools:/home/steven/ws_moveit2/install/rosparam_shortcuts:/home/steven/ws_moveit2/install/moveit_task_constructor_msgs:/home/steven/ws_moveit2/install/moveit_resources_prbt_support:/home/steven/ws_moveit2/install/moveit_resources:/home/steven/ws_moveit2/install/moveit_resources_pr2_description:/home/steven/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_panda_description:/home/steven/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/steven/ws_moveit2/install/moveit_resources_fanuc_description:/home/steven/ws_moveit2/install/moveit_common:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[16.256689] (first_stage_endeffector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.256796] (first_stage_endeffector) StdoutLine: {'line': b'-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector\n'}
+[16.261848] (first_stage_endeffector) StdoutLine: {'line': b'-- Set runtime path of "/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector" to ""\n'}
+[16.262267] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/launch\n'}
+[16.262354] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/launch/first_stage_endeffector.launch.py\n'}
+[16.262434] (first_stage_endeffector) StdoutLine: {'line': b'-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/ament_index/resource_index/package_run_dependencies/first_stage_endeffector\n'}
+[16.262491] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/ament_index/resource_index/parent_prefix_path/first_stage_endeffector\n'}
+[16.262543] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.sh\n'}
+[16.262594] (first_stage_endeffector) StdoutLine: {'line': b'-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.dsv\n'}
+[16.262642] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.sh\n'}
+[16.262689] (first_stage_endeffector) StdoutLine: {'line': b'-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.dsv\n'}
+[16.262734] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.bash\n'}
+[16.262781] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.sh\n'}
+[16.262827] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.zsh\n'}
+[16.262884] (first_stage_endeffector) StdoutLine: {'line': b'-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.dsv\n'}
+[16.262929] (first_stage_endeffector) StdoutLine: {'line': b'-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/package.dsv\n'}
+[16.262975] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/ament_index/resource_index/packages/first_stage_endeffector\n'}
+[16.263020] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig.cmake\n'}
+[16.263066] (first_stage_endeffector) StdoutLine: {'line': b'-- Up-to-date: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig-version.cmake\n'}
+[16.263114] (first_stage_endeffector) StdoutLine: {'line': b'-- Installing: /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install/first_stage_endeffector/share/first_stage_endeffector/package.xml\n'}
+[16.264005] (first_stage_endeffector) CommandEnded: {'returncode': 0}
+[16.293448] (first_stage_endeffector) JobEnded: {'identifier': 'first_stage_endeffector', 'rc': 0}
+[16.293936] (-) EventReactorShutdown: {}

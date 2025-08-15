@@ -1,0 +1,54 @@
+# dual_arm_collaboration/config/dual_arm_controllers.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    
+    # UR5 控制器
+    ur5_joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    ur5_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    
+    # ARM0710 控制器  
+    arm0710_joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    arm0710_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+# UR5 軌跡控制器參數
+ur5_joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - ur5_shoulder_pan_joint
+      - ur5_shoulder_lift_joint
+      - ur5_elbow_joint
+      - ur5_wrist_1_joint
+      - ur5_wrist_2_joint
+      - ur5_wrist_3_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+
+# ARM0710 軌跡控制器參數
+arm0710_joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - arm0710_joint1
+      - arm0710_joint2
+      - arm0710_joint3
+      - arm0710_joint4
+      - arm0710_joint5
+      - arm0710_joint6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0

@@ -1,0 +1,43 @@
+[0.429s] Invoking command in '/home/steven/ros2_ws/src/robot_interface': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data
+[0.489s] Traceback (most recent call last):
+[0.489s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2050, in try_parse
+[0.489s]     return packaging.version.Version(name)
+[0.489s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__
+[0.489s]     raise InvalidVersion(f"Invalid version: '{version}'")
+[0.489s] pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: '/home/steven/.local/lib/python3.10/site'
+[0.489s] 
+[0.489s] During handling of the above exception, another exception occurred:
+[0.489s] 
+[0.489s] Traceback (most recent call last):
+[0.489s]   File "/home/steven/ros2_ws/src/robot_interface/setup.py", line 1, in <module>
+[0.489s]     from setuptools import setup
+[0.489s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[0.489s]     import setuptools.version
+[0.489s]   File "/home/steven/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[0.489s]     import pkg_resources
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3260, in <module>
+[0.490s]     def _initialize_master_working_set():
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3234, in _call_aside
+[0.490s]     f(*args, **kwargs)
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3272, in _initialize_master_working_set
+[0.490s]     working_set = WorkingSet._build_master()
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 572, in _build_master
+[0.490s]     ws = cls()
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 565, in __init__
+[0.490s]     self.add_entry(entry)
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 621, in add_entry
+[0.490s]     for dist in find_distributions(entry, True):
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2092, in find_on_path
+[0.490s]     path_item_entries = _by_version_descending(filtered)
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2062, in _by_version_descending
+[0.490s]     return sorted(names, key=_by_version, reverse=True)
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2060, in _by_version
+[0.490s]     return [try_parse(part) for part in parts]
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2060, in <listcomp>
+[0.490s]     return [try_parse(part) for part in parts]
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2052, in try_parse
+[0.490s]     return packaging.version.Version('0')
+[0.490s]   File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 281, in __init__
+[0.490s]     self._key = _cmpkey(
+[0.490s] TypeError: 'int' object is not callable
+[0.497s] Invoked command in '/home/steven/ros2_ws/src/robot_interface' returned '1': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data

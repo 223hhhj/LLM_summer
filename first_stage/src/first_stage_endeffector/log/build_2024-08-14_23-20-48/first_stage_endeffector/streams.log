@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.185s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:239:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’
+[4.185s]   239 |   void [01;31m[KpublishGripperCommand[m[K(int width, int force)
+[4.185s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.185s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:161:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’
+[4.185s]   161 |   void [01;36m[KpublishGripperCommand[m[K(int width, int force)
+[4.185s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.185s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:247:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::waitForGripperAction()[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::waitForGripperAction()[m[K’
+[4.185s]   247 |   void [01;31m[KwaitForGripperAction[m[K()
+[4.185s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.185s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:168:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::waitForGripperAction()[m[K’
+[4.185s]   168 |   void [01;36m[KwaitForGripperAction[m[K()
+[4.185s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.625s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[8.626s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[8.626s] gmake: *** [Makefile:146：all] 錯誤 2
+[8.627s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

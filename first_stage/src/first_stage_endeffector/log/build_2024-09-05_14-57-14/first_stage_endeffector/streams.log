@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.385s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:478:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+[4.385s]   478 |   void [01;31m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+[4.385s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.385s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:465:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+[4.385s]   465 |   void [01;36m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+[4.385s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.392s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[4.393s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:33:35:[m[K [01;31m[Kerror: [m[K‘[01m[KorientationTypeCallback[m[K’ is not a member of ‘[01m[KRobotController[m[K’
+[4.393s]    33 |       std::bind(&RobotController::[01;31m[KorientationTypeCallback[m[K, this, std::placeholders::_1));
+[4.393s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.421s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::graspObject()[m[K’:
+[4.421s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:205:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+[4.421s]   205 |     [01;31m[KpublishGripperCommand[m[K(30, 10);  // 張開夾爪
+[4.421s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.441s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::controlGripper(int, int, const string&)[m[K’:
+[4.441s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:372:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+[4.441s]   372 |     [01;31m[KpublishGripperCommand[m[K(width, force);
+[4.441s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.456s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::releaseObject()[m[K’:
+[4.456s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:420:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishGripperCommand[m[K’ was not declared in this scope
+[4.456s]   420 |     [01;31m[KpublishGripperCommand[m[K(30, 10);
+[4.456s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.912s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[8.912s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[8.912s] gmake: *** [Makefile:146：all] 錯誤 2
+[8.914s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

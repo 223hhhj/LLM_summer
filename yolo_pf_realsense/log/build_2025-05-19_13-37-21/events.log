@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000341] (yolo_pf_realsense) JobQueued: {'identifier': 'yolo_pf_realsense', 'dependencies': OrderedDict()}
+[0.000386] (yolo_pf_realsense) JobStarted: {'identifier': 'yolo_pf_realsense'}
+[0.100031] (-) TimerEvent: {}
+[0.200341] (-) TimerEvent: {}
+[0.300615] (-) TimerEvent: {}
+[0.400892] (-) TimerEvent: {}
+[0.501280] (-) TimerEvent: {}
+[0.601679] (-) TimerEvent: {}
+[0.702067] (-) TimerEvent: {}
+[0.802481] (-) TimerEvent: {}
+[0.902873] (-) TimerEvent: {}
+[1.003270] (-) TimerEvent: {}
+[1.103673] (-) TimerEvent: {}
+[1.204067] (-) TimerEvent: {}
+[1.304433] (-) TimerEvent: {}
+[1.356669] (yolo_pf_realsense) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: \n'}
+[1.356987] (yolo_pf_realsense) JobEnded: {'identifier': 'yolo_pf_realsense', 'rc': 1}
+[1.366938] (-) EventReactorShutdown: {}

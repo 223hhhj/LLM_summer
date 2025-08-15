@@ -1,0 +1,31 @@
+# dual_arm_collaboration/config/safety_settings.yaml
+safety_settings:
+  # 工作空間限制
+  workspace_limits:
+    ur5:
+      x_min: -0.8
+      x_max: 0.8
+      y_min: -1.2
+      y_max: -0.2
+      z_min: 0.0
+      z_max: 1.5
+    
+    arm0710:
+      x_min: -0.8
+      x_max: 0.8
+      y_min: 0.2
+      y_max: 1.2
+      z_min: 0.0
+      z_max: 1.5
+  
+  # 安全距離設定
+  collision_detection:
+    min_distance: 0.2  # 20cm 最小距離
+    warning_distance: 0.3  # 30cm 警告距離
+    emergency_stop_distance: 0.1  # 10cm 緊急停止距離
+  
+  # 速度限制
+  velocity_limits:
+    normal_mode: 0.5  # 50% 正常速度
+    collaborative_mode: 0.3  # 30% 協作速度
+    approach_mode: 0.1  # 10% 接近速度

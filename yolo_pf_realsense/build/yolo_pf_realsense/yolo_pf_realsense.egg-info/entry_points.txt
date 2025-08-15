@@ -1,0 +1,2 @@
+[console_scripts]
+realsense_yolo_pf = yolo_pf_realsense.scripts.realsense_yolo_pf:main

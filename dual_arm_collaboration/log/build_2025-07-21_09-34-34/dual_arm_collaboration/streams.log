@@ -1,0 +1,28 @@
+[0.466s] Invoking command in '/home/steven/ros2_ws/src/dual_arm_collaboration': PYTHONPATH=/home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/dual_arm_collaboration build --build-base /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build install --record /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/install.log --single-version-externally-managed install_data
+[0.645s] running egg_info
+[0.652s] writing build/dual_arm_collaboration/dual_arm_collaboration.egg-info/PKG-INFO
+[0.652s] writing dependency_links to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/dependency_links.txt
+[0.652s] writing entry points to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/entry_points.txt
+[0.652s] writing requirements to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/requires.txt
+[0.652s] writing top-level names to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/top_level.txt
+[0.665s] reading manifest file 'build/dual_arm_collaboration/dual_arm_collaboration.egg-info/SOURCES.txt'
+[0.666s] writing manifest file 'build/dual_arm_collaboration/dual_arm_collaboration.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] running install
+[0.669s] running install_lib
+[0.675s] running install_data
+[0.676s] copying launch/dual_arm_system.launch.py -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/launch
+[0.676s] copying config/dual_arm_planning_groups.yaml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+[0.676s] copying config/safety_settings.yaml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+[0.676s] copying config/dual_arm_controllers.yaml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+[0.676s] copying urdf/dual_arm_system.urdf.xacro -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/urdf
+[0.676s] copying rviz/dual_arm_view.rviz -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/rviz
+[0.676s] running install_egg_info
+[0.683s] removing '/home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration-1.0.0-py3.10.egg-info' (and everything under it)
+[0.684s] Copying build/dual_arm_collaboration/dual_arm_collaboration.egg-info to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration-1.0.0-py3.10.egg-info
+[0.684s] running install_scripts
+[0.710s] Installing arm0710_controller script to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/dual_arm_collaboration
+[0.710s] Installing dual_arm_coordinator script to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/dual_arm_collaboration
+[0.710s] writing list of installed files to '/home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/install.log'
+[0.727s] Invoked command in '/home/steven/ros2_ws/src/dual_arm_collaboration' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/dual_arm_collaboration build --build-base /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build install --record /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[3.173s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::moveToObservation()[m[K’:
+[3.173s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:275:10:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPose[m[K’ was not declared in this scope
+[3.173s]   275 |     if (![01;31m[KmoveToPose[m[K(observation_poses[0], "Observation pose 0")) return false;
+[3.173s]       |          [01;31m[K^~~~~~~~~~[m[K
+[3.180s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:281:10:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveRelativeZ[m[K’ was not declared in this scope
+[3.180s]   281 |     if (![01;31m[KmoveRelativeZ[m[K(-0.1, "Moving down for better view")) return false;
+[3.180s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[3.185s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:290:10:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPose[m[K’ was not declared in this scope
+[3.185s]   290 |     if (![01;31m[KmoveToPose[m[K(observation_poses[1], "Observation pose 1")) return false;
+[3.185s]       |          [01;31m[K^~~~~~~~~~[m[K
+[3.191s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:296:10:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveRelativeZ[m[K’ was not declared in this scope
+[3.191s]   296 |     if (![01;31m[KmoveRelativeZ[m[K(-0.1, "Moving down for better view")) return false;
+[3.191s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[6.740s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[6.740s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[6.740s] gmake: *** [Makefile:146：all] 錯誤 2
+[6.742s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

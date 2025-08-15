@@ -1,0 +1,4 @@
+source;share/itri_arm/local_setup.bash
+source;share/itri_arm/local_setup.dsv
+source;share/itri_arm/local_setup.sh
+source;share/itri_arm/local_setup.zsh

@@ -1,0 +1,29 @@
+[0.448s] Invoking command in '/home/steven/ros2_ws/src/robot_interface': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data
+[0.619s] running egg_info
+[0.625s] writing build/robot_interface/robot_interface.egg-info/PKG-INFO
+[0.625s] writing dependency_links to build/robot_interface/robot_interface.egg-info/dependency_links.txt
+[0.625s] writing entry points to build/robot_interface/robot_interface.egg-info/entry_points.txt
+[0.625s] writing requirements to build/robot_interface/robot_interface.egg-info/requires.txt
+[0.625s] writing top-level names to build/robot_interface/robot_interface.egg-info/top_level.txt
+[0.638s] reading manifest file 'build/robot_interface/robot_interface.egg-info/SOURCES.txt'
+[0.639s] writing manifest file 'build/robot_interface/robot_interface.egg-info/SOURCES.txt'
+[0.639s] running build
+[0.639s] running build_py
+[0.639s] copying robot_interface/robot_joint_publisher.py -> /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build/lib/robot_interface
+[0.639s] running install
+[0.641s] running install_lib
+[0.648s] copying /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build/lib/robot_interface/robot_joint_publisher.py -> /home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface
+[0.648s] byte-compiling /home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface/robot_joint_publisher.py to robot_joint_publisher.cpython-310.pyc
+[0.648s] running install_data
+[0.648s] running install_egg_info
+[0.648s]   File "/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface/robot_joint_publisher.py", line 28
+[0.648s]     self.timer = self.create_timer(0.01 self.timer_callback)  # 從 0.01 改為 0.05 (20Hz)
+[0.648s]                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+[0.648s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[0.648s] 
+[0.655s] removing '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[0.655s] Copying build/robot_interface/robot_interface.egg-info to /home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface-0.0.0-py3.10.egg-info
+[0.655s] running install_scripts
+[0.681s] Installing robot_joint_publisher script to /home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/robot_interface
+[0.681s] writing list of installed files to '/home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log'
+[0.696s] Invoked command in '/home/steven/ros2_ws/src/robot_interface' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data

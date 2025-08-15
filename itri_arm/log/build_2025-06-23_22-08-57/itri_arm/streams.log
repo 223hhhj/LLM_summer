@@ -1,0 +1,69 @@
+[0.006s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32
+[0.031s] [35m[1mConsolidate compiler generated dependencies of target itri_arm_hardware[0m
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o[0m
+[0.949s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[0.949s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.949s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:16[m[K,
+[0.949s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[0.949s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type itri_arm_hardware::ItriArmHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[0.949s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:164:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Clock[m[K’ has no member named ‘[01m[Kget_clock_ptr[m[K’; did you mean ‘[01m[Kget_clock_type[m[K’?
+[0.949s]   164 |     RCLCPP_WARN_THROTTLE(logger_, *rclcpp::Clock().[01;31m[Kget_clock_ptr[m[K(), 1000,
+[0.949s]       |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[0.951s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In lambda function:
+[0.951s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:164:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[0.951s]   164 |     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(logger_, *rclcpp::Clock().get_clock_ptr(), 1000,
+[0.951s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.955s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kbool itri_arm_hardware::ItriArmHardware::parse_joint_angles(const string&)[m[K’:
+[0.955s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:271:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Clock[m[K’ has no member named ‘[01m[Kget_clock_ptr[m[K’; did you mean ‘[01m[Kget_clock_type[m[K’?
+[0.955s]   271 |     RCLCPP_WARN_THROTTLE(logger_, *rclcpp::Clock().[01;31m[Kget_clock_ptr[m[K(), 1000,
+[0.955s]       |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[0.957s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In lambda function:
+[0.957s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:271:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[0.957s]   271 |     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(logger_, *rclcpp::Clock().get_clock_ptr(), 1000,
+[0.957s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.958s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kbool itri_arm_hardware::ItriArmHardware::send_joint_command()[m[K’:
+[0.958s] [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:305:65:[m[K [01;35m[Kwarning: [m[Kembedded ‘[01m[K\0[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-contains-nul-Wformat-contains-nul]8;;[m[K]
+[0.958s]   305 |   snprintf(cmd, sizeof(cmd), "MOVJ %.3f %.3f %.3f %.3f %.3f %.3f[01;35m[K\0[m[K",
+[0.958s]       |                                                                 [01;35m[K^~[m[K
+[1.271s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.271s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:314[m[K:
+[1.271s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = itri_arm_hardware::ItriArmHardware; B = hardware_interface::SystemInterface][m[K’:
+[1.271s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[1.271s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kitri_arm_hardware::ItriArmHardware::ItriArmHardware()[m[K’
+[1.271s]   218 |     return [01;31m[Knew C[m[K;
+[1.271s]       |            [01;31m[K^~~~~[m[K
+[1.271s] In file included from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[1.271s] [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Kitri_arm_hardware::ItriArmHardware::ItriArmHardware()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[1.271s]    28 | class [01;36m[KItriArmHardware[m[K : public hardware_interface::SystemInterface
+[1.271s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[1.271s] [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Logger::Logger()[m[K’ is private within this context
+[1.271s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.271s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:16[m[K,
+[1.271s]                  from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[1.271s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:114:3:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.271s]   114 |   [01;36m[KLogger[m[K()
+[1.271s]       |   [01;36m[K^~~~~~[m[K
+[1.349s] gmake[2]: *** [CMakeFiles/itri_arm_hardware.dir/build.make:76：CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o] 錯誤 1
+[1.349s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/itri_arm_hardware.dir/all] 錯誤 2
+[1.349s] gmake: *** [Makefile:146：all] 錯誤 2
+[1.352s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '2': /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32

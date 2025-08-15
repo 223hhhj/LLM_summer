@@ -1,0 +1,2 @@
+[console_scripts]
+joint_reader = my_robot_socket_node.joint_reader_node:main

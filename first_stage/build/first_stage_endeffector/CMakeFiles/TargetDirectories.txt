@@ -1,0 +1,10 @@
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/uninstall.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/first_stage_endeffector_uninstall.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/first_stage_endeffector.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/test.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/edit_cache.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/rebuild_cache.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/list_install_components.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/install.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/install/local.dir
+/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector/CMakeFiles/install/strip.dir

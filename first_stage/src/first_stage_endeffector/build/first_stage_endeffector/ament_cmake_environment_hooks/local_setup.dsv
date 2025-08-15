@@ -1,0 +1,2 @@
+source;share/first_stage_endeffector/environment/ament_prefix_path.sh
+source;share/first_stage_endeffector/environment/path.sh

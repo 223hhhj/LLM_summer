@@ -1,0 +1,4 @@
+[console_scripts]
+gripper_status_viewer = robotiq3f_ros2.gripper_status_viewer:main
+gripper_test_commander = robotiq3f_ros2.gripper_test_commander:main
+robotiq_gripper_node = robotiq3f_ros2.robotiq_gripper_node:main

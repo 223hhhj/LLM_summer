@@ -1,0 +1,89 @@
+[0.011s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.282s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kbool RobotController::moveToFinalPosition()[m[K’:
+[4.282s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:227:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.282s]   227 |       if (![01;31m[KmoveToPosition[m[K("home1 (case 0)", home1)) return false;
+[4.282s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.282s]       |            [32m[KmoveToFinalPosition[m[K
+[4.292s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:228:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.292s]   228 |       if (![01;31m[KcontrolGripper[m[K(50, 10)) return false;
+[4.292s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.300s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:229:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.300s]   229 |       if (![01;31m[KmoveToPosition[m[K("home2 (case 0)", home2)) return false;
+[4.300s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.300s]       |            [32m[KmoveToFinalPosition[m[K
+[4.308s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:230:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.308s]   230 |       if (![01;31m[KcontrolGripper[m[K(30, 10)) return false;
+[4.308s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.315s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:231:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.315s]   231 |       if (![01;31m[KmoveToPosition[m[K("home3 (case 0)", home3)) return false;
+[4.315s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.315s]       |            [32m[KmoveToFinalPosition[m[K
+[4.324s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:232:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.324s]   232 |       if (![01;31m[KcontrolGripper[m[K(50, 10)) return false;
+[4.324s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.331s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:243:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.331s]   243 |       if (![01;31m[KmoveToPosition[m[K("home1 (case 1)", home1)) return false;
+[4.331s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.331s]       |            [32m[KmoveToFinalPosition[m[K
+[4.340s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.340s]   244 |       if (![01;31m[KcontrolGripper[m[K(50, 10)) return false;
+[4.340s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.346s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:245:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.346s]   245 |       if (![01;31m[KmoveToPosition[m[K("home2 (case 1)", home2)) return false;
+[4.346s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.346s]       |            [32m[KmoveToFinalPosition[m[K
+[4.354s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:246:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.354s]   246 |       if (![01;31m[KcontrolGripper[m[K(30, 10)) return false;
+[4.354s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.361s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:247:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.361s]   247 |       if (![01;31m[KmoveToPosition[m[K("home3 (case 1)", home3)) return false;
+[4.361s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.362s]       |            [32m[KmoveToFinalPosition[m[K
+[4.370s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.370s]   248 |       if (![01;31m[KcontrolGripper[m[K(50, 10)) return false;
+[4.370s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.383s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:262:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.383s]   262 |       if (![01;31m[KmoveToPosition[m[K("home1 (case 2)", home1)) return false;
+[4.383s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.383s]       |            [32m[KmoveToFinalPosition[m[K
+[4.395s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:263:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.395s]   263 |       if (![01;31m[KcontrolGripper[m[K(50, 10)) return false;
+[4.395s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.403s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:264:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.403s]   264 |       if (![01;31m[KmoveToPosition[m[K("home2 (case 2)", home2)) return false;
+[4.403s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.403s]       |            [32m[KmoveToFinalPosition[m[K
+[4.413s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:265:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.413s]   265 |       if (![01;31m[KcontrolGripper[m[K(30, 10)) return false;
+[4.413s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.419s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:266:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.419s]   266 |       if (![01;31m[KmoveToPosition[m[K("home3 (case 2)", home3)) return false;
+[4.419s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.419s]       |            [32m[KmoveToFinalPosition[m[K
+[4.428s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:267:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.428s]   267 |       if (![01;31m[KcontrolGripper[m[K(50, 10)) return false;
+[4.428s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.436s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:268:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.436s]   268 |       if (![01;31m[KmoveToPosition[m[K("home4 (case 2)", home4)) return false;
+[4.436s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.436s]       |            [32m[KmoveToFinalPosition[m[K
+[4.443s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:269:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.443s]   269 |       if (![01;31m[KmoveToPosition[m[K("home5 (case 2)", home5)) return false;
+[4.443s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.443s]       |            [32m[KmoveToFinalPosition[m[K
+[4.452s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:270:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.452s]   270 |       if (![01;31m[KcontrolGripper[m[K(30, 10)) return false;
+[4.453s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.460s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:271:12:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPosition[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToFinalPosition[m[K’?
+[4.460s]   271 |       if (![01;31m[KmoveToPosition[m[K("home6 (case 2)", home6)) return false;
+[4.460s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.460s]       |            [32m[KmoveToFinalPosition[m[K
+[4.468s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:272:12:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.468s]   272 |       if (![01;31m[KcontrolGripper[m[K(50, 10)) return false;
+[4.468s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.845s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[8.845s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[8.845s] gmake: *** [Makefile:146：all] 錯誤 2
+[8.847s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

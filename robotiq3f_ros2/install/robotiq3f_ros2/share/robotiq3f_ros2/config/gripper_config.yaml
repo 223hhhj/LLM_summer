@@ -1,0 +1,7 @@
+robotiq_gripper_node:
+  ros__parameters:
+    gripper_ip: "192.168.1.11"
+    modbus_port: 502
+    unit_id: 9
+    update_interval: 0.1
+    timeout: 10.0

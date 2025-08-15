@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000218] (robot_interface) JobQueued: {'identifier': 'robot_interface', 'dependencies': OrderedDict()}
+[0.000443] (robot_interface) JobStarted: {'identifier': 'robot_interface'}
+[0.003111] (robot_interface) JobEnded: {'identifier': 'robot_interface', 'rc': 1}
+[0.013273] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+[0.288s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build
+    available_commands = await self._get_available_commands(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands
+    output = await check_output(
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/yolo_pf_realsense/setup.py", line 7, in <module>
+    setup(
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 147, in setup
+    _setup_distribution = dist = klass(attrs)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 474, in __init__
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 487, in select
+    return self._all.select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in select
+    return EntryPoints(ep for ep in self if ep.matches(**params))
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in <genexpr>
+    return EntryPoints(ep for ep in self if ep.matches(**params))
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 231, in matches
+    attrs = (getattr(self, param) for param in params)
+TypeError: 'dict_keyiterator' object is not callable
+

@@ -1,0 +1,6 @@
+source;share/eye_in_hand_realsense/hook/pythonpath.ps1
+source;share/eye_in_hand_realsense/hook/pythonpath.dsv
+source;share/eye_in_hand_realsense/hook/pythonpath.sh
+source;share/eye_in_hand_realsense/hook/ament_prefix_path.ps1
+source;share/eye_in_hand_realsense/hook/ament_prefix_path.dsv
+source;share/eye_in_hand_realsense/hook/ament_prefix_path.sh

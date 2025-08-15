@@ -1,0 +1,25 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:166:33:[m[K [01;31m[Kerror: [m[K‘[01m[KRELEASE_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’; did you mean ‘[01m[KGRASP_OBJECT[m[K’?
+  166 |                 setState(State::[01;31m[KRELEASE_OBJECT[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                 [32m[KGRASP_OBJECT[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:170:19:[m[K [01;31m[Kerror: [m[K‘[01m[KRELEASE_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’; did you mean ‘[01m[KGRASP_OBJECT[m[K’?
+  170 |       case State::[01;31m[KRELEASE_OBJECT[m[K:
+      |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                   [32m[KGRASP_OBJECT[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMOVE_TO_INTERMEDIATE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   89 |     switch [01;35m[K([m[Kstate_) {
+      |            [01;35m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KWAIT_AFTER_INTERMEDIATE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KWAIT_FOR_COORDINATES[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMOVE_TO_OBJECT[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KGRASP_OBJECT[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCHECK_GRASP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kstd::string RobotController::stateToString(RobotController::State)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:943:19:[m[K [01;31m[Kerror: [m[K‘[01m[KRELEASE_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’; did you mean ‘[01m[KGRASP_OBJECT[m[K’?
+  943 |       case State::[01;31m[KRELEASE_OBJECT[m[K: return "RELEASE_OBJECT";
+      |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                   [32m[KGRASP_OBJECT[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

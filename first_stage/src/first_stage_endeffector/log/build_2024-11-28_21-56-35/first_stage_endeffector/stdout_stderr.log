@@ -1,0 +1,6 @@
+[ 50%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+/usr/bin/ld: /home/steven/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5: undefined reference to `warehouse_ros::DatabaseLoader::~DatabaseLoader()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:423：first_stage_endeffector] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

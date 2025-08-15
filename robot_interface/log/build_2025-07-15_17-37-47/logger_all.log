@@ -1,0 +1,143 @@
+[0.042s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.042s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70bc0a567070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70bc0a566e30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70bc0a566e30>>)
+[0.114s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.package_identification.python_setup_py': 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2050, in try_parse
+    return packaging.version.Version(name)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__
+    raise InvalidVersion(f"Invalid version: '{version}'")
+pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: '.egg-info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 9, in <module>
+    import setuptools
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3260, in <module>
+    def _initialize_master_working_set():
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3234, in _call_aside
+    f(*args, **kwargs)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3295, in _initialize_master_working_set
+    list(map(working_set.add_entry, sys.path))
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 621, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2092, in find_on_path
+    path_item_entries = _by_version_descending(filtered)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2062, in _by_version_descending
+    return sorted(names, key=_by_version, reverse=True)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2060, in _by_version
+    return [try_parse(part) for part in parts]
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2060, in <listcomp>
+    return [try_parse(part) for part in parts]
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2052, in try_parse
+    return packaging.version.Version('0')
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 271, in __init__
+    release=tuple(int(i) for i in match.group("release").split(".")),
+AttributeError: 'NoneType' object has no attribute 'split'
+
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.115s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/steven/ros2_ws/src/robot_interface'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'robot_interface'
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/steven/ros2_ws/src/robot_interface/install
+[0.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/steven/ros2_ws/src/robot_interface/build/robot_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/steven/ros2_ws/src/robot_interface/install/robot_interface', 'merge_install': False, 'path': '/home/steven/ros2_ws/src/robot_interface', 'symlink_install': False, 'test_result_base': None}
+[0.225s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.226s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/steven/ros2_ws/src/robot_interface' with build type 'ament_python'
+[0.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interface', 'ament_prefix_path')
+[0.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/hook/ament_prefix_path.ps1'
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/hook/ament_prefix_path.dsv'
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/hook/ament_prefix_path.sh'
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/steven/ros2_ws/src/robot_interface'
+[0.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/steven/ros2_ws/src/robot_interface': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/steven/ros2_ws/src/robot_interface' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/steven/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/steven/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed install_data
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/steven/ros2_ws/src/robot_interface/install/robot_interface' for CMake module files
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/steven/ros2_ws/src/robot_interface/install/robot_interface' for CMake config files
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/bin'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/pkgconfig/robot_interface.pc'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages'
+[0.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interface', 'pythonpath')
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/hook/pythonpath.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/hook/pythonpath.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/hook/pythonpath.sh'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/bin'
+[0.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interface)
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/package.ps1'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/package.dsv'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/package.sh'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/package.bash'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/robot_interface/package.zsh'
+[0.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/steven/ros2_ws/src/robot_interface/install/robot_interface/share/colcon-core/packages/robot_interface)
+[0.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.926s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.930s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.930s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.930s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.936s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.936s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/robot_interface/install/local_setup.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/steven/ros2_ws/src/robot_interface/install/_local_setup_util_ps1.py'
+[0.937s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/robot_interface/install/setup.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/robot_interface/install/local_setup.sh'
+[0.937s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/steven/ros2_ws/src/robot_interface/install/_local_setup_util_sh.py'
+[0.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/robot_interface/install/setup.sh'
+[0.938s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/robot_interface/install/local_setup.bash'
+[0.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/robot_interface/install/setup.bash'
+[0.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/steven/ros2_ws/src/robot_interface/install/local_setup.zsh'
+[0.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/steven/ros2_ws/src/robot_interface/install/setup.zsh'

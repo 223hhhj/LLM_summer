@@ -1,0 +1,5 @@
+  File "/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2/first_stage_rg2_ros2.py", line 13
+    boilerplate =  
+                   ^
+SyntaxError: invalid syntax
+

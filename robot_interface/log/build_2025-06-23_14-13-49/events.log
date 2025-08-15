@@ -1,0 +1,25 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (robot_interface) JobQueued: {'identifier': 'robot_interface', 'dependencies': OrderedDict()}
+[0.000508] (robot_interface) JobStarted: {'identifier': 'robot_interface'}
+[0.100089] (-) TimerEvent: {}
+[0.200339] (-) TimerEvent: {}
+[0.300616] (-) TimerEvent: {}
+[0.400903] (-) TimerEvent: {}
+[0.501173] (-) TimerEvent: {}
+[0.601437] (-) TimerEvent: {}
+[0.701766] (-) TimerEvent: {}
+[0.802049] (-) TimerEvent: {}
+[0.902319] (-) TimerEvent: {}
+[1.002486] (-) TimerEvent: {}
+[1.102759] (-) TimerEvent: {}
+[1.202872] (-) TimerEvent: {}
+[1.303042] (-) TimerEvent: {}
+[1.403335] (-) TimerEvent: {}
+[1.503460] (-) TimerEvent: {}
+[1.603632] (-) TimerEvent: {}
+[1.703814] (-) TimerEvent: {}
+[1.803977] (-) TimerEvent: {}
+[1.904143] (-) TimerEvent: {}
+[1.945648] (robot_interface) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: \n'}
+[1.945880] (robot_interface) JobEnded: {'identifier': 'robot_interface', 'rc': 1}
+[1.956190] (-) EventReactorShutdown: {}

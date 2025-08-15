@@ -1,0 +1,33 @@
+running develop
+Removing /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2.egg-link (link to .)
+running egg_info
+writing ../../build/rg2/rg2.egg-info/PKG-INFO
+writing dependency_links to ../../build/rg2/rg2.egg-info/dependency_links.txt
+writing entry points to ../../build/rg2/rg2.egg-info/entry_points.txt
+writing requirements to ../../build/rg2/rg2.egg-info/requires.txt
+writing top-level names to ../../build/rg2/rg2.egg-info/top_level.txt
+reading manifest file '../../build/rg2/rg2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rg2/rg2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build
+creating /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib
+creating /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib/rg2
+copying rg2/rg2_ros2.py -> /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib/rg2
+copying rg2/__init__.py -> /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib/rg2
+running install
+running install_lib
+creating /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2
+copying /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib/rg2/rg2_ros2.py -> /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2
+copying /home/steven/ros2_ws/src/rg2_ros2/build/rg2/build/lib/rg2/__init__.py -> /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2
+byte-compiling /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2/rg2_ros2.py to rg2_ros2.cpython-310.pyc
+byte-compiling /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rg2 -> /home/steven/ros2_ws/src/rg2_ros2/install/rg2/share/ament_index/resource_index/packages
+copying package.xml -> /home/steven/ros2_ws/src/rg2_ros2/install/rg2/share/rg2
+running install_egg_info
+Copying ../../build/rg2/rg2.egg-info to /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /home/steven/ros2_ws/src/rg2_ros2/install/rg2/lib/rg2
+writing list of installed files to '/home/steven/ros2_ws/src/rg2_ros2/build/rg2/install.log'

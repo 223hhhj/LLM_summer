@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/robot_interface/setup.py", line 5, in <module>
+    setup(
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 86, in setup
+    _install_setup_requires(attrs)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 75, in _install_setup_requires
+    dist = MinimalDistribution(attrs)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 57, in __init__
+    super().__init__(filtered)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 474, in __init__
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 487, in select
+    return self._all.select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in select
+    return EntryPoints(ep for ep in self if ep.matches(**params))
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in <genexpr>
+    return EntryPoints(ep for ep in self if ep.matches(**params))
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 232, in matches
+    return all(map(operator.eq, params.values(), attrs))
+TypeError: eq expected 2 arguments, got 1

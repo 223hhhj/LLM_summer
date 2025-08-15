@@ -1,0 +1,60 @@
+running egg_info
+writing build/robot_interface/robot_interface.egg-info/PKG-INFO
+writing dependency_links to build/robot_interface/robot_interface.egg-info/dependency_links.txt
+writing entry points to build/robot_interface/robot_interface.egg-info/entry_points.txt
+writing requirements to build/robot_interface/robot_interface.egg-info/requires.txt
+writing top-level names to build/robot_interface/robot_interface.egg-info/top_level.txt
+Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/robot_interface/setup.py", line 5, in <module>
+    setup(
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 185, in setup
+    return run_commands(dist)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 201, in run_commands
+    dist.run_commands()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 968, in run_commands
+    self.run_command(cmd)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 308, in run
+    self.find_sources()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 316, in find_sources
+    mm.run()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 560, in run
+    self.add_defaults()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 597, in add_defaults
+    sdist.add_defaults(self)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 106, in add_defaults
+    super().add_defaults()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 250, in add_defaults
+    self._add_defaults_python()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 117, in _add_defaults_python
+    build_py = self.get_finalized_command('build_py')
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 305, in get_finalized_command
+    cmd_obj = self.distribution.get_command_obj(command, create)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 859, in get_command_obj
+    klass = self.get_command_class(command)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 952, in get_command_class
+    eps = metadata.entry_points(group='distutils.commands', name=command)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+    ordered = sorted(eps, key=by_group)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+    dist.entry_points for dist in unique(distributions())
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 381, in _from_text_for
+    return cls(ep._for(dist) for ep in cls._from_text(text))
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 381, in <genexpr>
+    return cls(ep._for(dist) for ep in cls._from_text(text))
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 389, in <genexpr>
+    return (
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 103, in <genexpr>
+    section._replace(value=Pair.parse(section.value))
+  File "/usr/lib/python3.10/importlib/metadata/_collections.py", line 30, in parse
+    return cls(*map(str.strip, text.split("=", 1)))
+TypeError: 'str' object is not callable

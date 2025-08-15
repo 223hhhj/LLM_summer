@@ -1,0 +1,49 @@
+[0.012s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.164s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:99:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdef[m[K’ does not name a type
+[4.164s]    99 |   [01;31m[Kdef[m[K planAndExecute(self):
+[4.164s]       |   [01;31m[K^~~[m[K
+[4.164s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.164s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.164s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.164s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.165s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[4.165s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:101:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[4.165s]   101 |           [01;31m[KRCLCPP_WARN[m[K(self.get_logger(), "MoveGroupInterface not initialized yet. Ignoring coordinates.")
+[4.165s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[4.165s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:104:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[4.165s]   104 |       [01;31m[KRCLCPP_INFO[m[K(self.get_logger(), "Received target pose: position(x=%f, y=%f, z=%f), orientation(x=%f, y=%f, z=%f, w=%f)",
+[4.165s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.165s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:120:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[4.165s]   120 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Approaching object")
+[4.165s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.165s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:131:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[4.165s]   131 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Moving up after grasp")
+[4.165s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.268s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::goHome()[m[K’:
+[4.269s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[KexecutePlan[m[K’ was not declared in this scope
+[4.269s]    67 |     [01;31m[KexecutePlan[m[K();
+[4.269s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.280s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.280s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:78:7:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+[4.281s]    78 |       [01;31m[KplanAndExecute[m[K();
+[4.281s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.291s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.291s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:88:7:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+[4.291s]    88 |       [01;31m[KplanAndExecute[m[K();
+[4.291s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.302s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::moveToFinalPosition()[m[K’:
+[4.302s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:197:5:[m[K [01;31m[Kerror: [m[K‘[01m[KexecutePlan[m[K’ was not declared in this scope
+[4.302s]   197 |     [01;31m[KexecutePlan[m[K();
+[4.302s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[8.636s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[8.636s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[8.637s] gmake: *** [Makefile:146：all] 錯誤 2
+[8.638s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

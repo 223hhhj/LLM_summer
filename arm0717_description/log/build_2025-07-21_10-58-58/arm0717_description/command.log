@@ -1,0 +1,6 @@
+Invoking command in '/home/steven/ros2_ws/src/arm0717_description/build/arm0717_description': /usr/bin/cmake /home/steven/ros2_ws/src/arm0717_description -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/arm0717_description/install/arm0717_description
+Invoked command in '/home/steven/ros2_ws/src/arm0717_description/build/arm0717_description' returned '0': /usr/bin/cmake /home/steven/ros2_ws/src/arm0717_description -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/arm0717_description/install/arm0717_description
+Invoking command in '/home/steven/ros2_ws/src/arm0717_description/build/arm0717_description': /usr/bin/cmake --build /home/steven/ros2_ws/src/arm0717_description/build/arm0717_description -- -j32 -l32
+Invoked command in '/home/steven/ros2_ws/src/arm0717_description/build/arm0717_description' returned '0': /usr/bin/cmake --build /home/steven/ros2_ws/src/arm0717_description/build/arm0717_description -- -j32 -l32
+Invoking command in '/home/steven/ros2_ws/src/arm0717_description/build/arm0717_description': /usr/bin/cmake --install /home/steven/ros2_ws/src/arm0717_description/build/arm0717_description
+Invoked command in '/home/steven/ros2_ws/src/arm0717_description/build/arm0717_description' returned '0': /usr/bin/cmake --install /home/steven/ros2_ws/src/arm0717_description/build/arm0717_description

@@ -1,0 +1,51 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:278:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd_msgs[m[K’?
+  278 |   rclcpp::Publisher<[01;31m[Kcustom_msgs[m[K::msg::IdentificationRequest>::SharedPtr identification_request_publisher;
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+      |                     [32m[Kstd_msgs[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:278:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  278 |   rclcpp::Publisher<custom_msgs::msg::IdentificationRequest[01;31m[K>[m[K::SharedPtr identification_request_publisher;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:278:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  278 |   rclcpp::Publisher<custom_msgs::msg::IdentificationRequest>::[01;31m[KSharedPtr[m[K identification_request_publisher;
+      |                                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:278:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentification_request_publisher[m[K’ does not name a type
+  278 |   rclcpp::Publisher<custom_msgs::msg::IdentificationRequest>::SharedPtr [01;31m[Kidentification_request_publisher[m[K;
+      |                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentification_request_publisher[m[K’ was not declared in this scope
+   35 |     [01;31m[Kidentification_request_publisher[m[K = this->create_publisher<custom_msgs::msg::IdentificationRequest>("/request_identification", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:35:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd_msgs[m[K’?
+   35 |     identification_request_publisher = this->create_publisher<[01;31m[Kcustom_msgs[m[K::msg::IdentificationRequest>("/request_identification", 10);
+      |                                                               [01;31m[K^~~~~~~~~~~[m[K
+      |                                                               [32m[Kstd_msgs[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:35:46:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   35 |     identification_request_publisher = this->[01;31m[Kcreate_publisher<custom_msgs::msg::IdentificationRequest>[m[K("/request_identification", 10);
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:35:103:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_publisher<<expression error> >(const char [24], int)[m[K’
+   35 |     identification_request_publisher = [01;31m[Kthis->create_publisher<custom_msgs::msg::IdentificationRequest>("/request_identification", 10)[m[K;
+      |                                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:35:103:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |     identification_request_publisher = [01;31m[Kthis->create_publisher<custom_msgs::msg::IdentificationRequest>("/request_identification", 10)[m[K;
+      |                                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::requestNewIdentification(bool)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:189:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_msgs[m[K’ has not been declared
+  189 |     auto request_msg = [01;31m[Kcustom_msgs[m[K::msg::IdentificationRequest();
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:191:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentification_request_publisher[m[K’ was not declared in this scope
+  191 |     [01;31m[Kidentification_request_publisher[m[K->publish(request_msg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

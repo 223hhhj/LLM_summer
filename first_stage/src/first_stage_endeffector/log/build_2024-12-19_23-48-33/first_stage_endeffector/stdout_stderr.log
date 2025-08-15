@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:240:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool RobotController::moveToPose(const Pose&, const string&)[m[K’ cannot be overloaded with ‘[01m[Kbool RobotController::moveToPose(const Pose&, const string&)[m[K’
+  240 |   bool [01;31m[KmoveToPose[m[K(const geometry_msgs::msg::Pose& target_pose, const std::string& pose_name)
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:82:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool RobotController::moveToPose(const Pose&, const string&)[m[K’
+   82 |   bool [01;36m[KmoveToPose[m[K(const geometry_msgs::msg::Pose& target_pose, const std::string& pose_name);
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:271:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool RobotController::moveRelativeZ(double, const string&)[m[K’ cannot be overloaded with ‘[01m[Kbool RobotController::moveRelativeZ(double, const string&)[m[K’
+  271 |   bool [01;31m[KmoveRelativeZ[m[K(double z_offset, const std::string& movement_name)
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:83:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool RobotController::moveRelativeZ(double, const string&)[m[K’
+   83 |   bool [01;36m[KmoveRelativeZ[m[K(double z_offset, const std::string& movement_name);
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (my_robot_socket_node) JobQueued: {'identifier': 'my_robot_socket_node', 'dependencies': OrderedDict()}
+[0.000361] (my_robot_socket_node) JobStarted: {'identifier': 'my_robot_socket_node'}
+[0.100035] (-) TimerEvent: {}
+[0.200293] (-) TimerEvent: {}
+[0.300563] (-) TimerEvent: {}
+[0.400933] (-) TimerEvent: {}
+[0.501207] (-) TimerEvent: {}
+[0.601483] (-) TimerEvent: {}
+[0.701774] (-) TimerEvent: {}
+[0.802062] (-) TimerEvent: {}
+[0.902340] (-) TimerEvent: {}
+[1.002696] (-) TimerEvent: {}
+[1.102879] (-) TimerEvent: {}
+[1.203096] (-) TimerEvent: {}
+[1.303293] (-) TimerEvent: {}
+[1.362374] (my_robot_socket_node) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: \n'}
+[1.362579] (my_robot_socket_node) JobEnded: {'identifier': 'my_robot_socket_node', 'rc': 1}
+[1.372824] (-) EventReactorShutdown: {}

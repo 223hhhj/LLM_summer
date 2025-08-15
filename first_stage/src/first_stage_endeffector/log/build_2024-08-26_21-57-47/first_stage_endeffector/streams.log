@@ -1,0 +1,101 @@
+[0.009s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.275s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::moveToFinalPosition()[m[K’:
+[4.275s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:187:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.275s]   187 |             [01;31m[KexecutePlan("home1")[m[K;
+[4.275s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.275s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.275s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.275s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.275s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.284s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:188:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.284s]   188 |             [01;31m[KcontrolGripper[m[K(50, 10);
+[4.284s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.284s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:191:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.284s]   191 |             [01;31m[KexecutePlan("home2")[m[K;
+[4.284s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.284s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.284s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.284s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:195:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.285s]   195 |             [01;31m[KexecutePlan("home3")[m[K;
+[4.285s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.285s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.285s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:209:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.285s]   209 |             [01;31m[KexecutePlan("home1")[m[K;
+[4.285s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.285s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.285s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.285s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.293s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:210:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.293s]   210 |             [01;31m[KcontrolGripper[m[K(50, 10);
+[4.293s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.293s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:213:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.293s]   213 |             [01;31m[KexecutePlan("home2")[m[K;
+[4.293s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.294s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.294s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:217:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.294s]   217 |             [01;31m[KexecutePlan("home3")[m[K;
+[4.294s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.294s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.294s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:234:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.294s]   234 |             [01;31m[KexecutePlan("home1")[m[K;
+[4.294s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.294s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.294s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.303s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:235:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[4.303s]   235 |             [01;31m[KcontrolGripper[m[K(50, 10);
+[4.303s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.303s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:238:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.303s]   238 |             [01;31m[KexecutePlan("home2")[m[K;
+[4.303s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.303s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.303s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.303s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.303s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.303s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:242:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.303s]   242 |             [01;31m[KexecutePlan("home3")[m[K;
+[4.303s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.303s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.303s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.303s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.303s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:246:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.304s]   246 |             [01;31m[KexecutePlan("home4")[m[K;
+[4.304s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.304s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.304s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:249:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.304s]   249 |             [01;31m[KexecutePlan("home5")[m[K;
+[4.304s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.304s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.304s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:253:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::executePlan(const char [6])[m[K’
+[4.304s]   253 |             [01;31m[KexecutePlan("home6")[m[K;
+[4.304s]       |             [01;31m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::executePlan()[m[K’
+[4.304s]   118 |   bool [01;36m[KexecutePlan[m[K()
+[4.304s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[4.304s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[8.738s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[8.738s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[8.739s] gmake: *** [Makefile:146：all] 錯誤 2
+[8.740s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

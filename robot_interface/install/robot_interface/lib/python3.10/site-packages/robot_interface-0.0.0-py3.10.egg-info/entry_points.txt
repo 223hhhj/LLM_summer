@@ -1,0 +1,2 @@
+[console_scripts]
+robot_joint_publisher = robot_interface.robot_joint_publisher:main

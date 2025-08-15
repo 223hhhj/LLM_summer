@@ -1,0 +1,455 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (first_stage_endeffector) JobQueued: {'identifier': 'first_stage_endeffector', 'dependencies': OrderedDict()}
+[0.000158] (first_stage_rg2) JobQueued: {'identifier': 'first_stage_rg2', 'dependencies': OrderedDict()}
+[0.000175] (first_stage_endeffector) JobStarted: {'identifier': 'first_stage_endeffector'}
+[0.004465] (first_stage_rg2) JobStarted: {'identifier': 'first_stage_rg2'}
+[0.007536] (first_stage_endeffector) JobProgress: {'identifier': 'first_stage_endeffector', 'progress': 'cmake'}
+[0.008148] (first_stage_endeffector) JobProgress: {'identifier': 'first_stage_endeffector', 'progress': 'build'}
+[0.008491] (first_stage_endeffector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector', '--', '-j32', '-l32'], 'cwd': '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'steven'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/steven'), ('OLDPWD', '/home/steven'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '2160'), ('SYSTEMD_EXEC_PID', '2369'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9177'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'steven'), ('JOURNAL_STREAM', '8:5909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'steven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/steven/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/steven-MS-7D86:@/tmp/.ICE-unix/2345,unix/steven-MS-7D86:/tmp/.ICE-unix/2345'), ('INVOCATION_ID', 'fbcdd433a5174133a59dc28fd9b8956c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_TW.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:8a888e40-76ae-443d-b71a-2ac229b2ac4e'), ('QT_ACCESSIBILITY', '1'), ('COLCON_WS', '/home/steven/workspace'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/install/ur5_apriltag_move:/opt/ros/humble:/opt/ros/humble')]), 'shell': False}
+[0.087409] (first_stage_endeffector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target first_stage_endeffector\x1b[0m\n'}
+[0.099644] (-) TimerEvent: {}
+[0.119482] (first_stage_endeffector) StderrLine: {'line': b'gmake[2]: *** \xe6\xb2\x92\xe6\x9c\x89\xe8\xa6\x8f\xe5\x89\x87\xe5\x8f\xaf\xe8\xa3\xbd\xe4\xbd\x9c\xe7\x9b\xae\xe6\xa8\x99\xe3\x80\x8c/usr/lib/x86_64-linux-gnu/libfreeimage.so\xe3\x80\x8d\xef\xbc\x8c\xe7\x94\xb1\xe3\x80\x8cfirst_stage_endeffector\xe3\x80\x8d \xe9\x9c\x80\xe6\xb1\x82\xe3\x80\x82 \xe5\x81\x9c\xe6\xad\xa2\xe3\x80\x82\n'}
+[0.119620] (first_stage_endeffector) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbd\x9c\xe6\xa5\xad....\n'}
+[0.124132] (first_stage_endeffector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o\x1b[0m\n'}
+[0.199732] (-) TimerEvent: {}
+[0.299952] (-) TimerEvent: {}
+[0.400177] (-) TimerEvent: {}
+[0.500475] (-) TimerEvent: {}
+[0.509028] (first_stage_rg2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_stage_rg2', 'build', '--build-base', '/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/build', 'install', '--record', '/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/steven/ros2_ws/src/first_stage/src/first_stage_rg2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:en', 'USER': 'steven', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'HOME': '/home/steven', 'OLDPWD': '/home/steven', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW', 'MANAGERPID': '2160', 'SYSTEMD_EXEC_PID': '2369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9177', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'steven', 'JOURNAL_STREAM': '8:5909', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'steven', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/steven/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/steven-MS-7D86:@/tmp/.ICE-unix/2345,unix/steven-MS-7D86:/tmp/.ICE-unix/2345', 'INVOCATION_ID': 'fbcdd433a5174133a59dc28fd9b8956c', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'TERMINATOR_UUID': 'urn:uuid:8a888e40-76ae-443d-b71a-2ac229b2ac4e', 'QT_ACCESSIBILITY': '1', 'COLCON_WS': '/home/steven/workspace', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'lzh_TW', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/install/ur5_apriltag_move:/opt/ros/humble:/opt/ros/humble'}, 'shell': False}
+[0.600562] (-) TimerEvent: {}
+[0.683653] (first_stage_rg2) StdoutLine: {'line': b'running egg_info\n'}
+[0.689984] (first_stage_rg2) StdoutLine: {'line': b'writing ../../build/first_stage_rg2/first_stage_rg2.egg-info/PKG-INFO\n'}
+[0.690272] (first_stage_rg2) StdoutLine: {'line': b'writing dependency_links to ../../build/first_stage_rg2/first_stage_rg2.egg-info/dependency_links.txt\n'}
+[0.690325] (first_stage_rg2) StdoutLine: {'line': b'writing entry points to ../../build/first_stage_rg2/first_stage_rg2.egg-info/entry_points.txt\n'}
+[0.690455] (first_stage_rg2) StdoutLine: {'line': b'writing requirements to ../../build/first_stage_rg2/first_stage_rg2.egg-info/requires.txt\n'}
+[0.690500] (first_stage_rg2) StdoutLine: {'line': b'writing top-level names to ../../build/first_stage_rg2/first_stage_rg2.egg-info/top_level.txt\n'}
+[0.700643] (-) TimerEvent: {}
+[0.703192] (first_stage_rg2) StdoutLine: {'line': b"reading manifest file '../../build/first_stage_rg2/first_stage_rg2.egg-info/SOURCES.txt'\n"}
+[0.703475] (first_stage_rg2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.703759] (first_stage_rg2) StdoutLine: {'line': b"writing manifest file '../../build/first_stage_rg2/first_stage_rg2.egg-info/SOURCES.txt'\n"}
+[0.703934] (first_stage_rg2) StdoutLine: {'line': b'running build\n'}
+[0.703976] (first_stage_rg2) StdoutLine: {'line': b'running build_py\n'}
+[0.704133] (first_stage_rg2) StdoutLine: {'line': b'running install\n'}
+[0.706386] (first_stage_rg2) StdoutLine: {'line': b'running install_lib\n'}
+[0.713343] (first_stage_rg2) StdoutLine: {'line': b'running install_data\n'}
+[0.713621] (first_stage_rg2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.720393] (first_stage_rg2) StdoutLine: {'line': b"removing '/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.720549] (first_stage_rg2) StdoutLine: {'line': b'Copying ../../build/first_stage_rg2/first_stage_rg2.egg-info to /home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2-0.0.0-py3.10.egg-info\n'}
+[0.720859] (first_stage_rg2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.747673] (first_stage_rg2) StdoutLine: {'line': b'Installing rg2_node script to /home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/first_stage_rg2\n'}
+[0.747954] (first_stage_rg2) StdoutLine: {'line': b"writing list of installed files to '/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/install.log'\n"}
+[0.765796] (first_stage_rg2) CommandEnded: {'returncode': 0}
+[0.773698] (first_stage_rg2) JobEnded: {'identifier': 'first_stage_rg2', 'rc': 0}
+[0.800777] (-) TimerEvent: {}
+[0.901074] (-) TimerEvent: {}
+[1.001401] (-) TimerEvent: {}
+[1.101718] (-) TimerEvent: {}
+[1.202025] (-) TimerEvent: {}
+[1.302353] (-) TimerEvent: {}
+[1.402670] (-) TimerEvent: {}
+[1.502989] (-) TimerEvent: {}
+[1.603303] (-) TimerEvent: {}
+[1.703623] (-) TimerEvent: {}
+[1.803937] (-) TimerEvent: {}
+[1.904243] (-) TimerEvent: {}
+[2.004562] (-) TimerEvent: {}
+[2.104879] (-) TimerEvent: {}
+[2.205194] (-) TimerEvent: {}
+[2.305529] (-) TimerEvent: {}
+[2.405823] (-) TimerEvent: {}
+[2.506156] (-) TimerEvent: {}
+[2.606375] (-) TimerEvent: {}
+[2.706568] (-) TimerEvent: {}
+[2.806760] (-) TimerEvent: {}
+[2.906956] (-) TimerEvent: {}
+[3.007158] (-) TimerEvent: {}
+[3.107349] (-) TimerEvent: {}
+[3.207543] (-) TimerEvent: {}
+[3.307736] (-) TimerEvent: {}
+[3.407924] (-) TimerEvent: {}
+[3.469236] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:15:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kversion control conflict marker in file\n'}
+[3.469411] (first_stage_endeffector) StderrLine: {'line': b'   15 | \x1b[01;31m\x1b[K<<<<<<<\x1b[m\x1b[K HEAD\n'}
+[3.469436] (first_stage_endeffector) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.469456] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp:8\x1b[m\x1b[K,\n'}
+[3.469475] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:16\x1b[m\x1b[K:\n'}
+[3.469500] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:27:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.469519] (first_stage_endeffector) StderrLine: {'line': b'   27 |   explicit Init_Float64MultiArray_data\x1b[34m\x1b[K(\x1b[m\x1b[K::std_msgs::msg::Float64MultiArray\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K msg)\n'}
+[3.469536] (first_stage_endeffector) StderrLine: {'line': b'      |                                       \x1b[34m\x1b[K~\x1b[m\x1b[K                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[3.469553] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                          \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.469569] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:30:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.469588] (first_stage_endeffector) StderrLine: {'line': b'   30 |   ::std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K data(::std_msgs::msg::Float64MultiArray::_data_type arg)\n'}
+[3.469605] (first_stage_endeffector) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.469621] (first_stage_endeffector) StderrLine: {'line': b'      |                    \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.469637] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:37:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.469654] (first_stage_endeffector) StderrLine: {'line': b'   37 |   ::std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K msg_;\n'}
+[3.469670] (first_stage_endeffector) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.469687] (first_stage_endeffector) StderrLine: {'line': b'      |                    \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.469702] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:46:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float64MultiArray\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.469718] (first_stage_endeffector) StderrLine: {'line': b'   46 |   Init_Float64MultiArray_data layout(::std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K::_layout_type arg)\n'}
+[3.469734] (first_stage_endeffector) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.469749] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:46:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.469766] (first_stage_endeffector) StderrLine: {'line': b'   46 | at64MultiArray_data layout(::std_msgs::msg::Float64MultiArray::_layout_type \x1b[01;31m\x1b[Karg\x1b[m\x1b[K)\n'}
+[3.469784] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.469799] (first_stage_endeffector) StderrLine: {'line': b'\n'}
+[3.469816] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:53:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.469832] (first_stage_endeffector) StderrLine: {'line': b'   53 |   ::std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K msg_;\n'}
+[3.469850] (first_stage_endeffector) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.469866] (first_stage_endeffector) StderrLine: {'line': b'      |                    \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.469881] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::builder::Init_Float64MultiArray_layout::Init_Float64MultiArray_layout()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.469897] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::builder::Init_Float64MultiArray_layout\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kmsg_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.469915] (first_stage_endeffector) StderrLine: {'line': b'   44 |   : \x1b[01;31m\x1b[Kmsg_\x1b[m\x1b[K(::rosidl_runtime_cpp::MessageInitialization::SKIP)\n'}
+[3.469933] (first_stage_endeffector) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.473201] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::builder::Init_Float64MultiArray_data std_msgs::msg::builder::Init_Float64MultiArray_layout::layout(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.473224] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:48:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.473242] (first_stage_endeffector) StderrLine: {'line': b'   48 |     \x1b[01;31m\x1b[Kmsg_\x1b[m\x1b[K.layout = std::move(arg);\n'}
+[3.473259] (first_stage_endeffector) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.473276] (first_stage_endeffector) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.473845] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:48:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.473865] (first_stage_endeffector) StderrLine: {'line': b'   48 |     msg_.layout = std::move(\x1b[01;31m\x1b[Karg\x1b[m\x1b[K);\n'}
+[3.473882] (first_stage_endeffector) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.474082] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:48:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[3.474278] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:50\x1b[m\x1b[K,\n'}
+[3.474301] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Geometry:11\x1b[m\x1b[K,\n'}
+[3.474318] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/joint_model.h:46\x1b[m\x1b[K,\n'}
+[3.474335] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[3.474353] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[3.474371] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[3.474389] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.474406] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2\x1b[m\x1b[K:\n'}
+[3.474423] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:1852:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::arg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.474516] (first_stage_endeffector) StderrLine: {'line': b' 1852 |     \x1b[01;36m\x1b[Karg\x1b[m\x1b[K(_Tp __x)\n'}
+[3.474534] (first_stage_endeffector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.474550] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:29\x1b[m\x1b[K,\n'}
+[3.474566] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/slot.hpp:15\x1b[m\x1b[K,\n'}
+[3.474581] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/connection.hpp:24\x1b[m\x1b[K,\n'}
+[3.474632] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/signal.hpp:22\x1b[m\x1b[K,\n'}
+[3.474650] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2.hpp:19\x1b[m\x1b[K,\n'}
+[3.474666] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene_monitor/current_state_monitor.h:45\x1b[m\x1b[K,\n'}
+[3.474682] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene_monitor/planning_scene_monitor.h:46\x1b[m\x1b[K,\n'}
+[3.474698] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:44\x1b[m\x1b[K,\n'}
+[3.474713] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:6\x1b[m\x1b[K:\n'}
+[3.474729] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/arg.hpp:37:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::arg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.474745] (first_stage_endeffector) StderrLine: {'line': b'   37 | template< int I > struct \x1b[01;36m\x1b[Karg\x1b[m\x1b[K\n'}
+[3.474762] (first_stage_endeffector) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.474779] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/mpl/arg.hpp:23\x1b[m\x1b[K,\n'}
+[3.474794] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/placeholders.hpp:24\x1b[m\x1b[K,\n'}
+[3.474811] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/iterator/iterator_categories.hpp:16\x1b[m\x1b[K,\n'}
+[3.474826] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/iterator/iterator_adaptor.hpp:14\x1b[m\x1b[K,\n'}
+[3.474841] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/iterator/reverse_iterator.hpp:10\x1b[m\x1b[K,\n'}
+[3.474857] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/detail/auto_buffer.hpp:22\x1b[m\x1b[K,\n'}
+[3.474872] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/connection.hpp:21\x1b[m\x1b[K,\n'}
+[3.474887] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/signal.hpp:22\x1b[m\x1b[K,\n'}
+[3.474903] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2.hpp:19\x1b[m\x1b[K,\n'}
+[3.474919] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene_monitor/current_state_monitor.h:45\x1b[m\x1b[K,\n'}
+[3.474935] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene_monitor/planning_scene_monitor.h:46\x1b[m\x1b[K,\n'}
+[3.474951] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:44\x1b[m\x1b[K,\n'}
+[3.474967] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:6\x1b[m\x1b[K:\n'}
+[3.474983] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/mpl/arg_fwd.hpp:23:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmpl_::arg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.474998] (first_stage_endeffector) StderrLine: {'line': b'   23 | template< BOOST_MPL_AUX_NTTP_DECL(int, N) > struct \x1b[01;36m\x1b[Karg\x1b[m\x1b[K;\n'}
+[3.475014] (first_stage_endeffector) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.475030] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:380\x1b[m\x1b[K,\n'}
+[3.475045] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Geometry:11\x1b[m\x1b[K,\n'}
+[3.475060] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/joint_model.h:46\x1b[m\x1b[K,\n'}
+[3.475075] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[3.475090] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[3.475106] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[3.475122] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.475144] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2\x1b[m\x1b[K:\n'}
+[3.475164] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:88:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KEigen::arg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.475182] (first_stage_endeffector) StderrLine: {'line': b'   88 |   \x1b[01;36m\x1b[KEIGEN_ARRAY_DECLARE_GLOBAL_UNARY\x1b[m\x1b[K(arg,scalar_arg_op,complex argument,\\sa ArrayBase::arg DOXCOMMA MatrixBase::cwiseArg)\n'}
+[3.475199] (first_stage_endeffector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.475216] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/mpl/arg.hpp:23\x1b[m\x1b[K,\n'}
+[3.475233] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/placeholders.hpp:24\x1b[m\x1b[K,\n'}
+[3.475250] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/iterator/iterator_categories.hpp:16\x1b[m\x1b[K,\n'}
+[3.475266] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/iterator/iterator_adaptor.hpp:14\x1b[m\x1b[K,\n'}
+[3.475282] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/iterator/reverse_iterator.hpp:10\x1b[m\x1b[K,\n'}
+[3.475299] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/detail/auto_buffer.hpp:22\x1b[m\x1b[K,\n'}
+[3.475315] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/connection.hpp:21\x1b[m\x1b[K,\n'}
+[3.475331] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2/signal.hpp:22\x1b[m\x1b[K,\n'}
+[3.475347] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/signals2.hpp:19\x1b[m\x1b[K,\n'}
+[3.475363] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene_monitor/current_state_monitor.h:45\x1b[m\x1b[K,\n'}
+[3.475380] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene_monitor/planning_scene_monitor.h:46\x1b[m\x1b[K,\n'}
+[3.475395] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:44\x1b[m\x1b[K,\n'}
+[3.475412] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:6\x1b[m\x1b[K:\n'}
+[3.475428] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/mpl/arg_fwd.hpp:23:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmpl_::arg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.475445] (first_stage_endeffector) StderrLine: {'line': b'   23 | template< BOOST_MPL_AUX_NTTP_DECL(int, N) > struct \x1b[01;36m\x1b[Karg\x1b[m\x1b[K;\n'}
+[3.475461] (first_stage_endeffector) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.475477] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:171\x1b[m\x1b[K,\n'}
+[3.475493] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Geometry:11\x1b[m\x1b[K,\n'}
+[3.475508] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/joint_model.h:46\x1b[m\x1b[K,\n'}
+[3.475524] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[3.475540] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[3.475555] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[3.475571] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.475586] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2\x1b[m\x1b[K:\n'}
+[3.475603] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:1258:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KEigen::numext::arg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.475621] (first_stage_endeffector) StderrLine: {'line': b' 1258 | inline EIGEN_MATHFUNC_RETVAL(arg, Scalar) \x1b[01;36m\x1b[Karg\x1b[m\x1b[K(const Scalar& x)\n'}
+[3.475637] (first_stage_endeffector) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.475652] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp:8\x1b[m\x1b[K,\n'}
+[3.475668] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:16\x1b[m\x1b[K:\n'}
+[3.475684] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:\x1b[m\x1b[K At global scope:\n'}
+[3.475700] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:65:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.475718] (first_stage_endeffector) StderrLine: {'line': b'   65 | auto build<::std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>()\n'}
+[3.475735] (first_stage_endeffector) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.475751] (first_stage_endeffector) StderrLine: {'line': b'      |                             \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.475767] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:65:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate-id \xe2\x80\x98\x1b[01m\x1b[Kbuild<<expression error> >\x1b[m\x1b[K\xe2\x80\x99 for \xe2\x80\x98\x1b[01m\x1b[Kauto std_msgs::build()\x1b[m\x1b[K\xe2\x80\x99 does not match any template declaration\n'}
+[3.475785] (first_stage_endeffector) StderrLine: {'line': b'   65 | auto \x1b[01;31m\x1b[Kbuild<::std_msgs::msg::Float64MultiArray>\x1b[m\x1b[K()\n'}
+[3.475802] (first_stage_endeffector) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.475818] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/color_rgba.hpp:8\x1b[m\x1b[K,\n'}
+[3.475834] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:45\x1b[m\x1b[K,\n'}
+[3.475849] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.475865] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2\x1b[m\x1b[K:\n'}
+[3.475881] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp:93:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageType> auto std_msgs::build()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.475898] (first_stage_endeffector) StderrLine: {'line': b'   93 | auto \x1b[01;36m\x1b[Kbuild\x1b[m\x1b[K();\n'}
+[3.475914] (first_stage_endeffector) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.477695] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp:9\x1b[m\x1b[K,\n'}
+[3.477719] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:16\x1b[m\x1b[K:\n'}
+[3.477747] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.477765] (first_stage_endeffector) StderrLine: {'line': b'   28 |   const \x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K & msg,\n'}
+[3.477782] (first_stage_endeffector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.477830] (first_stage_endeffector) StderrLine: {'line': b'      |         \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.477865] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid std_msgs::msg::to_flow_style_yaml(const int&, std::ostream&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.477899] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:35:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Klayout\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.477917] (first_stage_endeffector) StderrLine: {'line': b'   35 |     to_flow_style_yaml(msg.\x1b[01;31m\x1b[Klayout\x1b[m\x1b[K, out);\n'}
+[3.477934] (first_stage_endeffector) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.477951] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:41:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.477969] (first_stage_endeffector) StderrLine: {'line': b'   41 |     if (msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.size() == 0) {\n'}
+[3.477987] (first_stage_endeffector) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.478003] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:45:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.478022] (first_stage_endeffector) StderrLine: {'line': b'   45 |       size_t pending_items = msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.size();\n'}
+[3.478039] (first_stage_endeffector) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.478056] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:46:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.478073] (first_stage_endeffector) StderrLine: {'line': b'   46 |       for (auto item : msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K) {\n'}
+[3.478090] (first_stage_endeffector) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.481257] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:\x1b[m\x1b[K At global scope:\n'}
+[3.481402] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.481457] (first_stage_endeffector) StderrLine: {'line': b'   59 |   const \x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K & msg,\n'}
+[3.481482] (first_stage_endeffector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.481528] (first_stage_endeffector) StderrLine: {'line': b'      |         \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.481547] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid std_msgs::msg::to_block_style_yaml(const int&, std::ostream&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.481566] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:68:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Klayout\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.481585] (first_stage_endeffector) StderrLine: {'line': b'   68 |     to_block_style_yaml(msg.\x1b[01;31m\x1b[Klayout\x1b[m\x1b[K, out, indentation + 2);\n'}
+[3.481602] (first_stage_endeffector) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.481665] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:76:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.481685] (first_stage_endeffector) StderrLine: {'line': b'   76 |     if (msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.size() == 0) {\n'}
+[3.481703] (first_stage_endeffector) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.481769] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:80:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.481795] (first_stage_endeffector) StderrLine: {'line': b'   80 |       for (auto item : msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K) {\n'}
+[3.481814] (first_stage_endeffector) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.485402] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:\x1b[m\x1b[K At global scope:\n'}
+[3.485448] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:92:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.485470] (first_stage_endeffector) StderrLine: {'line': b'   92 | inline std::string to_yaml(const \x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K & msg, bool use_flow_style = false)\n'}
+[3.485489] (first_stage_endeffector) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.485509] (first_stage_endeffector) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.485561] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:112:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.485582] (first_stage_endeffector) StderrLine: {'line': b'  112 |   const std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K & msg,\n'}
+[3.485601] (first_stage_endeffector) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.485620] (first_stage_endeffector) StderrLine: {'line': b'      |                        \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.485680] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:119:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.485825] (first_stage_endeffector) StderrLine: {'line': b'  119 | inline std::string to_yaml(const std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K & msg)\n'}
+[3.485844] (first_stage_endeffector) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.485865] (first_stage_endeffector) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.485883] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:125:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.485903] (first_stage_endeffector) StderrLine: {'line': b'  125 | inline const char * data_type<std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>()\n'}
+[3.485919] (first_stage_endeffector) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.485935] (first_stage_endeffector) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.485951] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:125:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate-id \xe2\x80\x98\x1b[01m\x1b[Kdata_type<<expression error> >\x1b[m\x1b[K\xe2\x80\x99 for \xe2\x80\x98\x1b[01m\x1b[Kconst char* rosidl_generator_traits::data_type()\x1b[m\x1b[K\xe2\x80\x99 does not match any template declaration\n'}
+[3.485969] (first_stage_endeffector) StderrLine: {'line': b'  125 | inline const char * \x1b[01;31m\x1b[Kdata_type<std_msgs::msg::Float64MultiArray>\x1b[m\x1b[K()\n'}
+[3.485986] (first_stage_endeffector) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.486003] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15\x1b[m\x1b[K,\n'}
+[3.486020] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.486037] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.486053] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.486069] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[3.486086] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[3.486103] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.486119] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.486137] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.486155] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.486172] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.486188] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.486204] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.486221] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.486237] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.486253] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1\x1b[m\x1b[K:\n'}
+[3.486269] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:152:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> const char* rosidl_generator_traits::data_type()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.486287] (first_stage_endeffector) StderrLine: {'line': b'  152 | inline const char * \x1b[01;36m\x1b[Kdata_type\x1b[m\x1b[K();\n'}
+[3.486303] (first_stage_endeffector) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.486320] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp:9\x1b[m\x1b[K,\n'}
+[3.486337] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:16\x1b[m\x1b[K:\n'}
+[3.486354] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:131:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.486372] (first_stage_endeffector) StderrLine: {'line': b'  131 | inline const char * name<std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>()\n'}
+[3.486389] (first_stage_endeffector) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.486405] (first_stage_endeffector) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.486422] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:131:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate-id \xe2\x80\x98\x1b[01m\x1b[Kname<<expression error> >\x1b[m\x1b[K\xe2\x80\x99 for \xe2\x80\x98\x1b[01m\x1b[Kconst char* rosidl_generator_traits::name()\x1b[m\x1b[K\xe2\x80\x99 does not match any template declaration\n'}
+[3.486441] (first_stage_endeffector) StderrLine: {'line': b'  131 | inline const char * \x1b[01;31m\x1b[Kname<std_msgs::msg::Float64MultiArray>\x1b[m\x1b[K()\n'}
+[3.486458] (first_stage_endeffector) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.486476] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15\x1b[m\x1b[K,\n'}
+[3.486493] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.486510] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.486526] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.486543] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[3.486560] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[3.486577] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.486593] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.486609] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.486625] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.486640] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.486656] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.486674] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.486690] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.486710] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.486726] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1\x1b[m\x1b[K:\n'}
+[3.486744] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:155:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> const char* rosidl_generator_traits::name()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.486761] (first_stage_endeffector) StderrLine: {'line': b'  155 | inline const char * \x1b[01;36m\x1b[Kname\x1b[m\x1b[K();\n'}
+[3.486777] (first_stage_endeffector) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.486792] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp:9\x1b[m\x1b[K,\n'}
+[3.486809] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:16\x1b[m\x1b[K:\n'}
+[3.486825] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:137:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.486841] (first_stage_endeffector) StderrLine: {'line': b'  137 | struct has_fixed_size<std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>\n'}
+[3.486857] (first_stage_endeffector) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.486874] (first_stage_endeffector) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.486889] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:137:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.486906] (first_stage_endeffector) StderrLine: {'line': b'  137 | struct has_fixed_size<std_msgs::msg::Float64MultiArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[3.486921] (first_stage_endeffector) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.486937] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:141:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.486953] (first_stage_endeffector) StderrLine: {'line': b'  141 | struct has_bounded_size<std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>\n'}
+[3.486970] (first_stage_endeffector) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.486985] (first_stage_endeffector) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.487004] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:141:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.487020] (first_stage_endeffector) StderrLine: {'line': b'  141 | struct has_bounded_size<std_msgs::msg::Float64MultiArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[3.487036] (first_stage_endeffector) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.487053] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:145:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.487073] (first_stage_endeffector) StderrLine: {'line': b'  145 | struct is_message<std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>\n'}
+[3.487089] (first_stage_endeffector) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.487105] (first_stage_endeffector) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.487121] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:145:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.487139] (first_stage_endeffector) StderrLine: {'line': b'  145 | struct is_message<std_msgs::msg::Float64MultiArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[3.487157] (first_stage_endeffector) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.508009] (-) TimerEvent: {}
+[3.549486] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:97:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.549593] (first_stage_endeffector) StderrLine: {'line': b'   97 |   rclcpp::Subscription<std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>::SharedPtr force_subscription_;\n'}
+[3.549617] (first_stage_endeffector) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.549636] (first_stage_endeffector) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.549656] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:97:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.549681] (first_stage_endeffector) StderrLine: {'line': b'   97 |   rclcpp::Subscription<std_msgs::msg::Float64MultiArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr force_subscription_;\n'}
+[3.549701] (first_stage_endeffector) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.549718] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:97:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[3.549740] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:97:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[3.549758] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:97:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[3.549775] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:97:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.549793] (first_stage_endeffector) StderrLine: {'line': b'   97 |   rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K force_subscription_;\n'}
+[3.549810] (first_stage_endeffector) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.549826] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.552960] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:97:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kforce_subscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.552992] (first_stage_endeffector) StderrLine: {'line': b'   97 |   rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr \x1b[01;31m\x1b[Kforce_subscription_\x1b[m\x1b[K;\n'}
+[3.553010] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.553028] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[3.556159] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:340:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.556211] (first_stage_endeffector) StderrLine: {'line': b'  340 |   void forceCallback(const std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K::SharedPtr msg) {\n'}
+[3.556233] (first_stage_endeffector) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.556252] (first_stage_endeffector) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.556270] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:340:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.556292] (first_stage_endeffector) StderrLine: {'line': b'  340 |   void forceCallback(const std_msgs::msg::Float64MultiArray::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[3.556309] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.556326] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:340:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.556344] (first_stage_endeffector) StderrLine: {'line': b'  340 |   void forceCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg::Float64MultiArray::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[3.556361] (first_stage_endeffector) StderrLine: {'line': b'      |                     \x1b[34m\x1b[K~\x1b[m\x1b[K                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[3.556377] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.556394] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:340:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.556411] (first_stage_endeffector) StderrLine: {'line': b'  340 |   void forceCallback(const std_msgs::msg::Float64MultiArray::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg) {\n'}
+[3.556428] (first_stage_endeffector) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.556444] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.557070] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:340:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.557091] (first_stage_endeffector) StderrLine: {'line': b'  340 |   void forceCallback(const std_msgs::msg::Float64MultiArray::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[3.557108] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.575268] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotController::RobotController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.575386] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kforce_subscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.575421] (first_stage_endeffector) StderrLine: {'line': b'   37 |     \x1b[01;31m\x1b[Kforce_subscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Float64MultiArray>(\n'}
+[3.575443] (first_stage_endeffector) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.575463] (first_stage_endeffector) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[3.575551] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:37:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.575573] (first_stage_endeffector) StderrLine: {'line': b'   37 |     force_subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KFloat64MultiArray\x1b[m\x1b[K>(\n'}
+[3.575591] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.575617] (first_stage_endeffector) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[KInt32MultiArray\x1b[m\x1b[K\n'}
+[3.575974] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:37:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRobotController::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (RobotController::*)(...), RobotController*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.575996] (first_stage_endeffector) StderrLine: {'line': b'   37 | rce_subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Float64MultiArray>(\x1b[m\x1b[K\n'}
+[3.576015] (first_stage_endeffector) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.576033] (first_stage_endeffector) StderrLine: {'line': b'\n'}
+[3.576052] (first_stage_endeffector) StderrLine: {'line': b'   38 | \x1b[01;31m\x1b[K  "/sensor_data", 10,\x1b[m\x1b[K\n'}
+[3.576069] (first_stage_endeffector) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                           \n'}
+[3.576086] (first_stage_endeffector) StderrLine: {'line': b'\n'}
+[3.576108] (first_stage_endeffector) StderrLine: {'line': b'   39 | \x1b[01;31m\x1b[K  std::bind(&RobotController::forceCallback, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[3.576126] (first_stage_endeffector) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[3.576152] (first_stage_endeffector) StderrLine: {'line': b'\n'}
+[3.576215] (first_stage_endeffector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[3.576236] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.576256] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.576274] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.576292] (first_stage_endeffector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1\x1b[m\x1b[K:\n'}
+[3.576310] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.576333] (first_stage_endeffector) StderrLine: {'line': b'   92 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_subscription(\n'}
+[3.576350] (first_stage_endeffector) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.576367] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.576385] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:37:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.576403] (first_stage_endeffector) StderrLine: {'line': b'   37 | rce_subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Float64MultiArray>(\x1b[m\x1b[K\n'}
+[3.576419] (first_stage_endeffector) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.576434] (first_stage_endeffector) StderrLine: {'line': b'\n'}
+[3.576450] (first_stage_endeffector) StderrLine: {'line': b'   38 | \x1b[01;31m\x1b[K  "/sensor_data", 10,\x1b[m\x1b[K\n'}
+[3.576465] (first_stage_endeffector) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                           \n'}
+[3.576481] (first_stage_endeffector) StderrLine: {'line': b'\n'}
+[3.576497] (first_stage_endeffector) StderrLine: {'line': b'   39 | \x1b[01;31m\x1b[K  std::bind(&RobotController::forceCallback, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[3.576512] (first_stage_endeffector) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[3.576528] (first_stage_endeffector) StderrLine: {'line': b'\n'}
+[3.603937] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.604040] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2400:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kversion control conflict marker in file\n'}
+[3.604066] (first_stage_endeffector) StderrLine: {'line': b' 2400 | \x1b[01;31m\x1b[K=======\x1b[m\x1b[K\n'}
+[3.604086] (first_stage_endeffector) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.604105] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2401:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.604125] (first_stage_endeffector) StderrLine: {'line': b' 2401 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[3.604151] (first_stage_endeffector) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.604169] (first_stage_endeffector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:2402:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kversion control conflict marker in file\n'}
+[3.604186] (first_stage_endeffector) StderrLine: {'line': b' 2402 | \x1b[01;31m\x1b[K>>>>>>>\x1b[m\x1b[K 486f333f442fd9f602a52c008d070af087fb37bf\n'}
+[3.604203] (first_stage_endeffector) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.608059] (-) TimerEvent: {}
+[3.708174] (-) TimerEvent: {}
+[3.808358] (-) TimerEvent: {}
+[3.908540] (-) TimerEvent: {}
+[4.008722] (-) TimerEvent: {}
+[4.108903] (-) TimerEvent: {}
+[4.209089] (-) TimerEvent: {}
+[4.309292] (-) TimerEvent: {}
+[4.409480] (-) TimerEvent: {}
+[4.509668] (-) TimerEvent: {}
+[4.609851] (-) TimerEvent: {}
+[4.710040] (-) TimerEvent: {}
+[4.810245] (-) TimerEvent: {}
+[4.910429] (-) TimerEvent: {}
+[5.010680] (-) TimerEvent: {}
+[5.110898] (-) TimerEvent: {}
+[5.211124] (-) TimerEvent: {}
+[5.311318] (-) TimerEvent: {}
+[5.411505] (-) TimerEvent: {}
+[5.511714] (-) TimerEvent: {}
+[5.611937] (-) TimerEvent: {}
+[5.712131] (-) TimerEvent: {}
+[5.812383] (-) TimerEvent: {}
+[5.912589] (-) TimerEvent: {}
+[6.012840] (-) TimerEvent: {}
+[6.113091] (-) TimerEvent: {}
+[6.213302] (-) TimerEvent: {}
+[6.313495] (-) TimerEvent: {}
+[6.413747] (-) TimerEvent: {}
+[6.513949] (-) TimerEvent: {}
+[6.614148] (-) TimerEvent: {}
+[6.714335] (-) TimerEvent: {}
+[6.814541] (-) TimerEvent: {}
+[6.914737] (-) TimerEvent: {}
+[7.015019] (-) TimerEvent: {}
+[7.115278] (-) TimerEvent: {}
+[7.152595] (first_stage_endeffector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76\xef\xbc\x9aCMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] \xe9\x8c\xaf\xe8\xaa\xa4 1\n'}
+[7.152845] (first_stage_endeffector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/first_stage_endeffector.dir/all] \xe9\x8c\xaf\xe8\xaa\xa4 2\n'}
+[7.153059] (first_stage_endeffector) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x8c\xaf\xe8\xaa\xa4 2\n'}
+[7.154845] (first_stage_endeffector) CommandEnded: {'returncode': 2}
+[7.174330] (first_stage_endeffector) JobEnded: {'identifier': 'first_stage_endeffector', 'rc': 2}
+[7.184716] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[100%] Built target ur5_ros2_cartesian
+-- Install configuration: ""
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/lib/ur5_endeffector_cartesian/ur5_ros2_cartesian
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/launch
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/launch/ur5_ros2_cartesian.launch.py
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/package_run_dependencies/ur5_endeffector_cartesian
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/parent_prefix_path/ur5_endeffector_cartesian
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/ament_prefix_path.sh
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/path.sh
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/path.dsv
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.bash
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.sh
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.zsh
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.dsv
+-- Installing: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/package.dsv
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/packages/ur5_endeffector_cartesian
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/cmake/ur5_endeffector_cartesianConfig.cmake
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/cmake/ur5_endeffector_cartesianConfig-version.cmake
+-- Up-to-date: /home/steven/ros2_ws/src/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/package.xml

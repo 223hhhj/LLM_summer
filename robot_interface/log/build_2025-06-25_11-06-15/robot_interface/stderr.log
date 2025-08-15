@@ -1,0 +1,2 @@
+/home/steven/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface/robot_joint_publisher.py:54: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  ["gripper", [250, 250, 250, 250, 200, 0, 1], 10.0]

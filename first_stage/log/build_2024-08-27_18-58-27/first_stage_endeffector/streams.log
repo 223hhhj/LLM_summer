@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[10.932s] [100%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+[11.576s] [100%] Built target first_stage_endeffector
+[11.586s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[11.618s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector
+[11.624s] -- Install configuration: ""
+[11.624s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector
+[11.627s] -- Set runtime path of "/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector" to ""
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/launch
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/launch/first_stage_endeffector.launch.py
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/package_run_dependencies/first_stage_endeffector
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/parent_prefix_path/first_stage_endeffector
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.sh
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.dsv
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.sh
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.dsv
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.bash
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.sh
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.zsh
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.dsv
+[11.628s] -- Installing: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.dsv
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/packages/first_stage_endeffector
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig.cmake
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig-version.cmake
+[11.628s] -- Up-to-date: /home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.xml
+[11.629s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector

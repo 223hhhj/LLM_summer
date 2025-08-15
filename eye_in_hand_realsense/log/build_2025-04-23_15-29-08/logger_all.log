@@ -1,0 +1,70 @@
+[0.042s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.042s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7459b060ab00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7459b060a6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7459b060a6b0>>)
+[0.132s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.package_identification.python_setup_py': free variable 'is_consecutive' referenced before assignment in enclosing scope
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 9, in <module>
+    import setuptools
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 18, in <module>
+    from setuptools.dist import Distribution
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 42, in <module>
+    from setuptools.config import setupcfg, pyprojecttoml
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/config/__init__.py", line 10, in <module>
+    from . import setupcfg
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/config/setupcfg.py", line 18, in <module>
+    from setuptools.extern.packaging.requirements import Requirement, InvalidRequirement
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_vendor/packaging/requirements.py", line 10, in <module>
+    from setuptools.extern.pyparsing import (  # noqa
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/extern/__init__.py", line 52, in create_module
+    return self.load_module(spec.name)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/extern/__init__.py", line 37, in load_module
+    __import__(extant)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_vendor/pyparsing/__init__.py", line 138, in <module>
+    from .exceptions import *
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_vendor/pyparsing/exceptions.py", line 15, in <module>
+    _extract_alphanums = _collapse_string_to_ranges(ExceptionWordUnicode.alphanums)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_vendor/pyparsing/util.py", line 210, in _collapse_string_to_ranges
+    last = collections.deque(
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_vendor/pyparsing/util.py", line 187, in is_consecutive
+    is_consecutive.prev, prev = c_int, is_consecutive.prev
+NameError: free variable 'is_consecutive' referenced before assignment in enclosing scope
+
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.133s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/steven/ros2_ws/src/eye_in_hand_realsense'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'eye_in_hand_realsense'
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults

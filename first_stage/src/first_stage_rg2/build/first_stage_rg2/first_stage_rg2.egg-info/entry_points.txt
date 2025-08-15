@@ -1,0 +1,4 @@
+[console_scripts]
+gripper_server = first_stage_rg2.gripper_control_client:main
+gripper_tester = first_stage_rg2.gripper_test:main
+rg2_node = first_stage_rg2.first_stage_rg2_ros2:main

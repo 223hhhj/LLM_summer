@@ -1,0 +1,2 @@
+[console_scripts]
+rg2_node = first_stage_rg2.first_stage_rg2_ros2:main

@@ -1,0 +1,42 @@
+# dual_arm_collaboration/config/dual_arm_planning_groups.yaml
+planning_groups:
+  - name: ur5_manipulator
+    joints:
+      - ur5_shoulder_pan_joint
+      - ur5_shoulder_lift_joint
+      - ur5_elbow_joint
+      - ur5_wrist_1_joint
+      - ur5_wrist_2_joint
+      - ur5_wrist_3_joint
+    links:
+      - ur5_base_link
+      - ur5_shoulder_link
+      - ur5_upper_arm_link
+      - ur5_forearm_link
+      - ur5_wrist_1_link
+      - ur5_wrist_2_link
+      - ur5_wrist_3_link
+      - ur5_ee_link
+    
+  - name: arm0710_manipulator
+    joints:
+      - arm0710_joint1
+      - arm0710_joint2
+      - arm0710_joint3
+      - arm0710_joint4
+      - arm0710_joint5
+      - arm0710_joint6
+    links:
+      - arm0710_base_link
+      - arm0710_link1
+      - arm0710_link2
+      - arm0710_link3
+      - arm0710_link4
+      - arm0710_link5
+      - arm0710_link6
+      - arm0710_end_effector
+
+  - name: dual_arms
+    subgroups:
+      - ur5_manipulator
+      - arm0710_manipulator

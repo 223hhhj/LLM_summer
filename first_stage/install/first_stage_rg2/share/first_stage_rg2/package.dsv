@@ -1,0 +1,6 @@
+source;share/first_stage_rg2/hook/pythonpath.ps1
+source;share/first_stage_rg2/hook/pythonpath.dsv
+source;share/first_stage_rg2/hook/pythonpath.sh
+source;share/first_stage_rg2/hook/ament_prefix_path.ps1
+source;share/first_stage_rg2/hook/ament_prefix_path.dsv
+source;share/first_stage_rg2/hook/ament_prefix_path.sh

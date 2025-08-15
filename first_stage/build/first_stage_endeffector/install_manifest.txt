@@ -1,0 +1,17 @@
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/launch/first_stage_endeffector.launch.py
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/package_run_dependencies/first_stage_endeffector
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/parent_prefix_path/first_stage_endeffector
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.sh
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.dsv
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.sh
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.dsv
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.bash
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.sh
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.zsh
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.dsv
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.dsv
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/packages/first_stage_endeffector
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig.cmake
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig-version.cmake
+/home/steven/ros2_ws/src/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.xml

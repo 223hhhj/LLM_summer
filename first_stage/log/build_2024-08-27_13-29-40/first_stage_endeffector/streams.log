@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[3.279s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationTypeCallback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.279s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:105:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::promise<void>[m[K’ has no member named ‘[01m[Kvalid[m[K’
+[3.279s]   105 |     if(orientation_type_promise.[01;31m[Kvalid[m[K()) {
+[3.280s]       |                                 [01;31m[K^~~~~[m[K
+[3.281s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationTypeReadyCallback(std::shared_ptr<std_srvs::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[3.281s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:120:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::promise<void>[m[K’ has no member named ‘[01m[Kvalid[m[K’
+[3.281s]   120 |       if(orientation_type_promise.[01;31m[Kvalid[m[K()) {
+[3.282s]       |                                   [01;31m[K^~~~~[m[K
+[6.708s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[6.708s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[6.708s] gmake: *** [Makefile:146：all] 錯誤 2
+[6.710s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

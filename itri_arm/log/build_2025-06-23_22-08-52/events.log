@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (itri_arm) JobQueued: {'identifier': 'itri_arm', 'dependencies': OrderedDict()}
+[0.000479] (itri_arm) JobStarted: {'identifier': 'itri_arm'}
+[0.003916] (itri_arm) JobProgress: {'identifier': 'itri_arm', 'progress': 'cmake'}
+[0.004250] (itri_arm) Command: {'cmd': ['/usr/bin/cmake', '/home/steven/ros2_ws/src/itri_arm', '-DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/itri_arm/install/itri_arm'], 'cwd': '/home/steven/ros2_ws/src/itri_arm/build/itri_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'steven'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/steven'), ('OLDPWD', '/home/steven/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('SYSTEMD_EXEC_PID', '2374'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'steven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'steven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/steven/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/steven-MS-7D86:@/tmp/.ICE-unix/2355,unix/steven-MS-7D86:/tmp/.ICE-unix/2355'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8238232d_f818_4893_8f1a_e1756773d241'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_TW.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('COLCON_WS', '/home/steven/workspace'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/steven/ros2_ws/src/itri_arm/build/itri_arm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/install/ur5_apriltag_move:/opt/ros/humble:/opt/ros/humble')]), 'shell': False}
+[0.100032] (-) TimerEvent: {}
+[0.146029] (itri_arm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200158] (-) TimerEvent: {}
+[0.213983] (itri_arm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.219067] (itri_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.258706] (itri_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.263622] (itri_arm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.263948] (itri_arm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.264412] (itri_arm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.266736] (itri_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300239] (-) TimerEvent: {}
+[0.306705] (itri_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.309785] (itri_arm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.309915] (itri_arm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.310110] (itri_arm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.316878] (itri_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400307] (-) TimerEvent: {}
+[0.500535] (-) TimerEvent: {}
+[0.600727] (-) TimerEvent: {}
+[0.614830] (itri_arm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.664942] (itri_arm) StdoutLine: {'line': b'-- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.687421] (itri_arm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.690322] (itri_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.695127] (itri_arm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.700787] (-) TimerEvent: {}
+[0.703284] (itri_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.712270] (itri_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.773683] (itri_arm) StdoutLine: {'line': b'-- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.800853] (-) TimerEvent: {}
+[0.819636] (itri_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.821240] (itri_arm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.835452] (itri_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.867722] (itri_arm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.869552] (itri_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.875816] (itri_arm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.877298] (itri_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.881945] (itri_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.887794] (itri_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.894090] (itri_arm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900935] (-) TimerEvent: {}
+[0.938240] (itri_arm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.938343] (itri_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.976554] (itri_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.977295] (itri_arm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001000] (-) TimerEvent: {}
+[1.004602] (itri_arm) StdoutLine: {'line': b'-- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.033456] (itri_arm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.075485] (itri_arm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.077207] (itri_arm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.077283] (itri_arm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/steven/ros2_ws/src/itri_arm/include>\n'}
+[1.077319] (itri_arm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.078896] (itri_arm) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.078953] (itri_arm) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.079306] (itri_arm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.079924] (itri_arm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.080339] (itri_arm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.081955] (itri_arm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.082010] (itri_arm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.082672] (itri_arm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.083725] (itri_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.101054] (-) TimerEvent: {}
+[1.110177] (itri_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.112305] (itri_arm) StdoutLine: {'line': b'-- Build files have been written to: /home/steven/ros2_ws/src/itri_arm/build/itri_arm\n'}
+[1.117390] (itri_arm) CommandEnded: {'returncode': 0}
+[1.117580] (itri_arm) JobProgress: {'identifier': 'itri_arm', 'progress': 'build'}
+[1.118698] (itri_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/steven/ros2_ws/src/itri_arm/build/itri_arm', '--', '-j32', '-l32'], 'cwd': '/home/steven/ros2_ws/src/itri_arm/build/itri_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'steven'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/steven'), ('OLDPWD', '/home/steven/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('SYSTEMD_EXEC_PID', '2374'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'steven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'steven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/steven/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/steven-MS-7D86:@/tmp/.ICE-unix/2355,unix/steven-MS-7D86:/tmp/.ICE-unix/2355'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8238232d_f818_4893_8f1a_e1756773d241'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_TW.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('COLCON_WS', '/home/steven/workspace'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/steven/ros2_ws/src/itri_arm/build/itri_arm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/install/ur5_apriltag_move:/opt/ros/humble:/opt/ros/humble')]), 'shell': False}
+[1.146040] (itri_arm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o\x1b[0m\n'}
+[1.201173] (-) TimerEvent: {}
+[1.301391] (-) TimerEvent: {}
+[1.401644] (-) TimerEvent: {}
+[1.501895] (-) TimerEvent: {}
+[1.602108] (-) TimerEvent: {}
+[1.702303] (-) TimerEvent: {}
+[1.802499] (-) TimerEvent: {}
+[1.902682] (-) TimerEvent: {}
+[2.002872] (-) TimerEvent: {}
+[2.103060] (-) TimerEvent: {}
+[2.185451] (itri_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.185593] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.185617] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.185640] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.185659] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.185677] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.185695] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.185713] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.185731] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.185750] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.185767] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:16\x1b[m\x1b[K,\n'}
+[2.185784] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1\x1b[m\x1b[K:\n'}
+[2.185805] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type itri_arm_hardware::ItriArmHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.185824] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:164:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Clock\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_clock_ptr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_clock_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.185844] (itri_arm) StderrLine: {'line': b'  164 |     RCLCPP_WARN_THROTTLE(logger_, *rclcpp::Clock().\x1b[01;31m\x1b[Kget_clock_ptr\x1b[m\x1b[K(), 1000,\n'}
+[2.185861] (itri_arm) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.187622] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.187650] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:164:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.187671] (itri_arm) StderrLine: {'line': b'  164 |     \x1b[01;31m\x1b[KRCLCPP_WARN_THROTTLE\x1b[m\x1b[K(logger_, *rclcpp::Clock().get_clock_ptr(), 1000,\n'}
+[2.187690] (itri_arm) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.191826] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool itri_arm_hardware::ItriArmHardware::parse_joint_angles(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.191868] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:271:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Clock\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_clock_ptr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_clock_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.191889] (itri_arm) StderrLine: {'line': b'  271 |     RCLCPP_WARN_THROTTLE(logger_, *rclcpp::Clock().\x1b[01;31m\x1b[Kget_clock_ptr\x1b[m\x1b[K(), 1000,\n'}
+[2.191912] (itri_arm) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.193769] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.193802] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:271:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.193822] (itri_arm) StderrLine: {'line': b'  271 |     \x1b[01;31m\x1b[KRCLCPP_WARN_THROTTLE\x1b[m\x1b[K(logger_, *rclcpp::Clock().get_clock_ptr(), 1000,\n'}
+[2.193843] (itri_arm) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.194568] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool itri_arm_hardware::ItriArmHardware::send_joint_command()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.194597] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:305:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kembedded \xe2\x80\x98\x1b[01m\x1b[K\\0\x1b[m\x1b[K\xe2\x80\x99 in format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-contains-nul\x07-Wformat-contains-nul\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.194620] (itri_arm) StderrLine: {'line': b'  305 |   snprintf(cmd, sizeof(cmd), "MOVJ %.3f %.3f %.3f %.3f %.3f %.3f\x1b[01;35m\x1b[K\\0\x1b[m\x1b[K",\n'}
+[2.194642] (itri_arm) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.203122] (-) TimerEvent: {}
+[2.303285] (-) TimerEvent: {}
+[2.403477] (-) TimerEvent: {}
+[2.503792] (-) TimerEvent: {}
+[2.512006] (itri_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[2.512128] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[2.512177] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[2.512211] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:314\x1b[m\x1b[K:\n'}
+[2.512241] (itri_arm) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = itri_arm_hardware::ItriArmHardware; B = hardware_interface::SystemInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.512274] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[2.512304] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Kitri_arm_hardware::ItriArmHardware::ItriArmHardware()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.512339] (itri_arm) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[2.512369] (itri_arm) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.512400] (itri_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1\x1b[m\x1b[K:\n'}
+[2.512432] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kitri_arm_hardware::ItriArmHardware::ItriArmHardware()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[2.512476] (itri_arm) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KItriArmHardware\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[2.512506] (itri_arm) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.512534] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:28:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger::Logger()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.512566] (itri_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.512596] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.512625] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.512654] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.512683] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.512712] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.512740] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.512769] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.512799] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.512830] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.512859] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.512889] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:16\x1b[m\x1b[K,\n'}
+[2.512918] (itri_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1\x1b[m\x1b[K:\n'}
+[2.512949] (itri_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:114:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.512979] (itri_arm) StderrLine: {'line': b'  114 |   \x1b[01;36m\x1b[KLogger\x1b[m\x1b[K()\n'}
+[2.513011] (itri_arm) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.595025] (itri_arm) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/itri_arm_hardware.dir/build.make:76\xef\xbc\x9aCMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o] \xe9\x8c\xaf\xe8\xaa\xa4 1\n'}
+[2.595243] (itri_arm) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/itri_arm_hardware.dir/all] \xe9\x8c\xaf\xe8\xaa\xa4 2\n'}
+[2.595573] (itri_arm) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x8c\xaf\xe8\xaa\xa4 2\n'}
+[2.597032] (itri_arm) CommandEnded: {'returncode': 2}
+[2.600772] (itri_arm) JobEnded: {'identifier': 'itri_arm', 'rc': 2}
+[2.603855] (-) TimerEvent: {}
+[2.610929] (-) EventReactorShutdown: {}

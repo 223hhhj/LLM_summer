@@ -1,0 +1,153 @@
+[0.014s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[2.682s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.682s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[2.683s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.683s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:59:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.683s]    59 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Move up after grasp!");
+[2.683s]       |               [01;31m[K^~~~~~[m[K
+[2.683s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:59:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.683s]    59 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move up after grasp!");
+[2.683s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.683s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:59:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.683s]    59 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move up after grasp!");
+[2.683s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.683s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:59:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.683s]    59 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move up after grasp!");
+[2.683s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.687s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:61:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose2[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose3[m[K’?
+[2.687s]    61 |   geometry_msgs::msg::Pose target_pose3 = [01;31m[Ktarget_pose2[m[K;
+[2.687s]       |                                           [01;31m[K^~~~~~~~~~~~[m[K
+[2.687s]       |                                           [32m[Ktarget_pose3[m[K
+[2.690s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfraction[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+[2.690s]    67 |   [01;31m[Kfraction[m[K = move_group_arm.computeCartesianPath(post_grasp_waypoints, eef_step, jump_threshold, trajectory_post_grasp);
+[2.690s]       |   [01;31m[K^~~~~~~~[m[K
+[2.690s]       |   [32m[Ksigaction[m[K
+[2.694s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:67:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_arm_[m[K’?
+[2.694s]    67 |   fraction = [01;31m[Kmove_group_arm[m[K.computeCartesianPath(post_grasp_waypoints, eef_step, jump_threshold, trajectory_post_grasp);
+[2.694s]       |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.694s]       |              [32m[Kmove_group_arm_[m[K
+[2.698s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:67:72:[m[K [01;31m[Kerror: [m[K‘[01m[Keef_step[m[K’ was not declared in this scope
+[2.699s]    67 |   fraction = move_group_arm.computeCartesianPath(post_grasp_waypoints, [01;31m[Keef_step[m[K, jump_threshold, trajectory_post_grasp);
+[2.699s]       |                                                                        [01;31m[K^~~~~~~~[m[K
+[2.705s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:67:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kjump_threshold[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_jump_threshold_t[m[K’?
+[2.705s]    67 |   fraction = move_group_arm.computeCartesianPath(post_grasp_waypoints, eef_step, [01;31m[Kjump_threshold[m[K, trajectory_post_grasp);
+[2.705s]       |                                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.705s]       |                                                                                  [32m[Krcl_jump_threshold_t[m[K
+[2.708s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.709s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[2.709s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.709s]    68 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Path planned for %f of the total path.", fraction);
+[2.709s]       |               [01;31m[K^~~~~~[m[K
+[2.709s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:68:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.709s]    68 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.709s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.709s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:68:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.709s]    68 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.709s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.709s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:68:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.709s]    68 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.709s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.712s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:76:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.712s]    76 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Move along X+ after moving up!");
+[2.712s]       |               [01;31m[K^~~~~~[m[K
+[2.712s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:76:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.712s]    76 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move along X+ after moving up!");
+[2.712s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.712s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:76:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.712s]    76 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move along X+ after moving up!");
+[2.712s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.712s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:76:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.712s]    76 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move along X+ after moving up!");
+[2.712s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.716s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:85:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.716s]    85 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Path planned for %f of the total path.", fraction);
+[2.716s]       |               [01;31m[K^~~~~~[m[K
+[2.716s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:85:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.716s]    85 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.716s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.716s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:85:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.716s]    85 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.716s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.716s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:85:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.716s]    85 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.716s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.720s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:93:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.720s]    93 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Move along Z- after moving along X+!");
+[2.720s]       |               [01;31m[K^~~~~~[m[K
+[2.720s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:93:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.720s]    93 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move along Z- after moving along X+!");
+[2.720s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.720s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:93:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.721s]    93 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move along Z- after moving along X+!");
+[2.721s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.721s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:93:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.721s]    93 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Move along Z- after moving along X+!");
+[2.721s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.724s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:102:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.724s]   102 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Path planned for %f of the total path.", fraction);
+[2.724s]       |               [01;31m[K^~~~~~[m[K
+[2.724s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:102:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.725s]   102 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.725s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.725s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:102:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.725s]   102 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.725s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.725s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:102:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.725s]   102 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Path planned for %f of the total path.", fraction);
+[2.725s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.731s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:111:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_width[m[K’ was not declared in this scope
+[2.731s]   111 |   [01;31m[Kgripper_width[m[K = 15; // 鬆開夾爪的寬度
+[2.731s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[2.737s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:112:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_force[m[K’ was not declared in this scope
+[2.737s]   112 |   [01;31m[Kgripper_force[m[K = 10; // 鬆開夾爪的力度
+[2.737s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[2.741s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.741s]                  from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[2.741s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:117:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.741s]   117 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Publishing Gripper Command: '%d', '%d'", gripper_width, gripper_force);
+[2.741s]       |               [01;31m[K^~~~~~[m[K
+[2.741s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:117:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.741s]   117 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing Gripper Command: '%d', '%d'", gripper_width, gripper_force);
+[2.741s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.741s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:117:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.741s]   117 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing Gripper Command: '%d', '%d'", gripper_width, gripper_force);
+[2.741s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.741s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:117:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.741s]   117 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing Gripper Command: '%d', '%d'", gripper_width, gripper_force);
+[2.742s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.746s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:118:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_publisher_[m[K’?
+[2.746s]   118 |   [01;31m[Kgripper_publisher[m[K->publish(gripper_command);
+[2.746s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.746s]       |   [32m[Kgripper_publisher_[m[K
+[5.361s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[5.361s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[5.362s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.363s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/lego_grasping:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

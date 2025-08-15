@@ -1,0 +1,133 @@
+[0.137s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.137s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b73bc672c20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b73bc6729e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b73bc6729e0>>)
+[0.167s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.package_identification.python_setup_py': invalid pattern ("\n        (?P<operator>(~=|==|!=|<=|>=|<|>|===))\n        (?P<version>\n            (?:\n                # The identity operators allow for an escape hatch that will\n                # do an exact string match of the version you wish to install.\n                # This will not be parsed by PEP 440 and we cannot determine\n                # any semantic meaning from it. This operator is discouraged\n                # but included entirely as an escape hatch.\n                (?<====)  # Only match for the identity operator\n                \\s*\n                [^\\s]*    # We just match everything, except for whitespace\n                          # since we are only testing for strict identity.\n            )\n            |\n            (?:\n                # The (non)equality operators allow for wild card and local\n                # versions to be specified so we have to define these two\n                # operators separately to enable that.\n                (?<===|!=)            # Only match for equals and not equals\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n\n                # You cannot use a wild card and a dev or local version\n                # together so group them with a | and make them optional.\n                (?:\n                    (?:[-_\\.]?dev[-_\\.]?[0-9]*)?         # dev release\n                    (?:\\+[a-z0-9]+(?:[-_\\.][a-z0-9]+)*)? # local\n                    |\n                    \\.\\*  # Wild card syntax of .*\n                )?\n            )\n            |\n            (?:\n                # The compatible operator requires at least two digits in the\n                # release segment.\n                (?<=~=)               # Only match for the compatible operator\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)+   # release  (We have a + instead of a *)\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n                (?:[-_\\.]?dev[-_\\.]?[0-9]*)?          # dev release\n            )\n            |\n            (?:\n                # All other operators only allow a sub set of what the\n                # (non)equality operators do. Specifically they do not allow\n                # local versions to be specified nor do they allow the prefix\n                # matching wild cards.\n                (?<!==|!=|~=)         # We have special cases for these\n                                      # operators so we want to make sure they\n                                      # don't match here.\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n                (?:[-_\\.]?dev[-_\\.]?[0-9]*)?          # dev release\n            )\n        )\n        ") passed to Regex
+Traceback (most recent call last):
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2967, in re
+    return re.compile(self.pattern, self.flags)
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 526, in _parse
+    code = _escape(source, this, state)
+  File "/usr/lib/python3.10/sre_parse.py", line 431, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape ( at position 3396 (line 80, column 17)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 9, in <module>
+    import setuptools
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 84, in <module>
+    __import__('pkg_resources.extern.packaging.requirements')
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 84, in <module>
+    REQUIREMENT.parseString("x[]")
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 1131, in parse_string
+    loc, tokens = self._parse(instring, 0)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3886, in parseImpl
+    loc, exprtokens = e._parse(instring, loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4114, in parseImpl
+    return e._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3864, in parseImpl
+    loc, resultlist = self.exprs[0]._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3886, in parseImpl
+    loc, exprtokens = e._parse(instring, loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4959, in parseImpl
+    loc, tokens = self_expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4114, in parseImpl
+    return e._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 4375, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3864, in parseImpl
+    loc, resultlist = self.exprs[0]._parse(
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 3958, in parseImpl
+    loc2 = e.try_parse(instring, loc, raise_fatal=True)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 880, in try_parse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2985, in parseImpl
+    result = self.re_match(instring, loc)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2975, in re_match
+    return self.re.match
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/steven/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing/core.py", line 2969, in re
+    raise ValueError(
+ValueError: invalid pattern ("\n        (?P<operator>(~=|==|!=|<=|>=|<|>|===))\n        (?P<version>\n            (?:\n                # The identity operators allow for an escape hatch that will\n                # do an exact string match of the version you wish to install.\n                # This will not be parsed by PEP 440 and we cannot determine\n                # any semantic meaning from it. This operator is discouraged\n                # but included entirely as an escape hatch.\n                (?<====)  # Only match for the identity operator\n                \\s*\n                [^\\s]*    # We just match everything, except for whitespace\n                          # since we are only testing for strict identity.\n            )\n            |\n            (?:\n                # The (non)equality operators allow for wild card and local\n                # versions to be specified so we have to define these two\n                # operators separately to enable that.\n                (?<===|!=)            # Only match for equals and not equals\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n\n                # You cannot use a wild card and a dev or local version\n                # together so group them with a | and make them optional.\n                (?:\n                    (?:[-_\\.]?dev[-_\\.]?[0-9]*)?         # dev release\n                    (?:\\+[a-z0-9]+(?:[-_\\.][a-z0-9]+)*)? # local\n                    |\n                    \\.\\*  # Wild card syntax of .*\n                )?\n            )\n            |\n            (?:\n                # The compatible operator requires at least two digits in the\n                # release segment.\n                (?<=~=)               # Only match for the compatible operator\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)+   # release  (We have a + instead of a *)\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n                (?:[-_\\.]?dev[-_\\.]?[0-9]*)?          # dev release\n            )\n            |\n            (?:\n                # All other operators only allow a sub set of what the\n                # (non)equality operators do. Specifically they do not allow\n                # local versions to be specified nor do they allow the prefix\n                # matching wild cards.\n                (?<!==|!=|~=)         # We have special cases for these\n                                      # operators so we want to make sure they\n                                      # don't match here.\n\n                \\s*\n                v?\n                (?:[0-9]+!)?          # epoch\n                [0-9]+(?:\\.[0-9]+)*   # release\n                (?:                   # pre release\n                    [-_\\.]?\n                    (a|b|c|rc|alpha|beta|pre|preview)\n                    [-_\\.]?\n                    [0-9]*\n                )?\n                (?:                                   # post release\n                    (?:-[0-9]+)|(?:[-_\\.]?(post|rev|r)[-_\\.]?[0-9]*)\n                )?\n                (?:[-_\\.]?dev[-_\\.]?[0-9]*)?          # dev release\n            )\n        )\n        ") passed to Regex
+
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/steven/ros2_ws/src/yolo_pf_realsense'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'yolo_pf_realsense'
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults

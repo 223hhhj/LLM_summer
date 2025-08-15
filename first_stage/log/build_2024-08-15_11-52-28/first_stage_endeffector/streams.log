@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.202s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:228:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRobotController::[m[K’ on member ‘[01m[KwaitForNewTarget[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.202s]   228 |   void [01;31m[KRobotController[m[K::waitForNewTarget()
+[4.202s]       |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.202s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:235:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRobotController::[m[K’ on member ‘[01m[KcoordinatesCallback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.203s]   235 |   void [01;31m[KRobotController[m[K::coordinatesCallback(const geometry_msgs::msg::Point::SharedPtr msg)
+[4.203s]       |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.203s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:235:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+[4.203s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:80:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’
+[4.203s]    80 |   void [01;36m[KcoordinatesCallback[m[K(const geometry_msgs::msg::Point::SharedPtr msg)
+[4.203s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.203s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRobotController::[m[K’ on member ‘[01m[KorientationCallback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.203s]   248 |   void [01;31m[KRobotController[m[K::orientationCallback(const geometry_msgs::msg::Quaternion::SharedPtr msg)
+[4.203s]       |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.203s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:248:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’
+[4.203s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:91:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’
+[4.203s]    91 |   void [01;36m[KorientationCallback[m[K(const geometry_msgs::msg::Quaternion::SharedPtr msg)
+[4.203s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.321s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::waitForNewTarget()[m[K’:
+[4.321s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:230:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_mutex[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.321s]   230 |       std::unique_lock<std::mutex> lock([01;31m[Ktarget_mutex[m[K);
+[4.321s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[4.322s]       |                                         [32m[Ktarget_pose[m[K
+[4.329s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:231:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_cv[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.329s]   231 |       [01;31m[Ktarget_cv[m[K.wait(lock, [this] { return new_target_received; });
+[4.329s]       |       [01;31m[K^~~~~~~~~[m[K
+[4.329s]       |       [32m[Ktarget_pose[m[K
+[4.347s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In lambda function:
+[4.347s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:231:44:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_target_received[m[K’ was not declared in this scope
+[4.347s]   231 |       target_cv.wait(lock, [this] { return [01;31m[Knew_target_received[m[K; });
+[4.347s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.363s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::waitForNewTarget()[m[K’:
+[4.363s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:232:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_target_received[m[K’ was not declared in this scope
+[4.363s]   232 |       [01;31m[Knew_target_received[m[K = false;
+[4.363s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.370s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.370s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:237:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_mutex[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.370s]   237 |       std::lock_guard<std::mutex> lock([01;31m[Ktarget_mutex[m[K);
+[4.370s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[4.370s]       |                                        [32m[Ktarget_pose[m[K
+[4.383s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:243:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_target_received[m[K’ was not declared in this scope
+[4.383s]   243 |           [01;31m[Knew_target_received[m[K = true;
+[4.383s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.389s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:244:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_cv[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.389s]   244 |           [01;31m[Ktarget_cv[m[K.notify_one();
+[4.389s]       |           [01;31m[K^~~~~~~~~[m[K
+[4.389s]       |           [32m[Ktarget_pose[m[K
+[4.396s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.396s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:250:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_mutex[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.396s]   250 |       std::lock_guard<std::mutex> lock([01;31m[Ktarget_mutex[m[K);
+[4.396s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[4.397s]       |                                        [32m[Ktarget_pose[m[K
+[4.408s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:255:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_target_received[m[K’ was not declared in this scope
+[4.408s]   255 |           [01;31m[Knew_target_received[m[K = true;
+[4.408s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.415s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:256:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_cv[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.415s]   256 |           [01;31m[Ktarget_cv[m[K.notify_one();
+[4.415s]       |           [01;31m[K^~~~~~~~~[m[K
+[4.415s]       |           [32m[Ktarget_pose[m[K
+[9.220s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[9.221s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[9.221s] gmake: *** [Makefile:146：all] 錯誤 2
+[9.222s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

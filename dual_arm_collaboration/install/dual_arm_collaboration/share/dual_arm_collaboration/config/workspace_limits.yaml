@@ -1,0 +1,27 @@
+# dual_arm_collaboration/config/workspace_limits.yaml
+ur5_workspace:
+  x_min: -0.8
+  x_max: 0.8
+  y_min: -1.0
+  y_max: 0.0
+  z_min: 0.0
+  z_max: 1.2
+
+arm0710_workspace:
+  x_min: -0.8
+  x_max: 0.8
+  y_min: 0.0
+  y_max: 1.0
+  z_min: 0.0
+  z_max: 1.2
+
+collaboration_zone:
+  x_center: 0.0
+  y_center: 0.0
+  z_center: 0.3
+  radius: 0.4
+
+safety:
+  min_distance: 0.3
+  warning_distance: 0.5
+  emergency_stop_distance: 0.15

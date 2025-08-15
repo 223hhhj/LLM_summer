@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target itri_arm_hardware[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K In member function ‘[01m[Kvoid itri_arm_hardware::ItriArmHardware::read_thread_function()[m[K’:
+[01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:245:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest_position_data[m[K’ was not declared in this scope
+  245 |         [01;31m[Krequest_position_data[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:[m[K At global scope:
+[01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:254:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool itri_arm_hardware::ItriArmHardware::request_position_data()[m[K’
+  254 | bool [01;31m[KItriArmHardware[m[K::request_position_data()
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:254:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool itri_arm_hardware::ItriArmHardware::request_position_data()[m[K’
+In file included from [01m[K/home/steven/ros2_ws/src/itri_arm/src/itri_arm_hardware.cpp:1[m[K:
+[01m[K/home/steven/ros2_ws/src/itri_arm/include/itri_arm/itri_arm_hardware.hpp:29:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass itri_arm_hardware::ItriArmHardware[m[K’ defined here
+   29 | class [01;36m[KItriArmHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/itri_arm_hardware.dir/build.make:76：CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/itri_arm_hardware.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

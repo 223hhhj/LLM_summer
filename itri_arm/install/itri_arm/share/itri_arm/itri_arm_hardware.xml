@@ -1,0 +1,9 @@
+<library path="itri_arm_hardware">
+  <class name="itri_arm_hardware/ItriArmHardware" 
+         type="itri_arm_hardware::ItriArmHardware" 
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ITRI Arm Hardware Interface for ros2_control
+    </description>
+  </class>
+</library>

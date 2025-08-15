@@ -1,0 +1,67 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:265:36:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  265 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>::SharedPtr gripper_publisher;
+      |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:265:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  265 |   rclcpp::Publisher<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K::SharedPtr gripper_publisher;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:265:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  265 |   rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::[01;31m[KSharedPtr[m[K gripper_publisher;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:265:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_publisher[m[K’ does not name a type
+  265 |   rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Kgripper_publisher[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_publisher[m[K’?
+   32 |     [01;31m[Kgripper_publisher[m[K = this->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_publisher[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:32:63:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   32 |     gripper_publisher = this->create_publisher<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>("custom_gripper", 10);
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:32:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_publisher<<expression error> >(const char [15], int)[m[K’
+   32 |     gripper_publisher = [01;31m[Kthis->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:32:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |     gripper_publisher = [01;31m[Kthis->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::performFrontAction()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:197:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_pose_id0[m[K’?
+  197 |     [01;31m[Knew_pose[m[K.orientation.x = 0.0;
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Knew_pose_id0[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::performSideAction()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:211:5:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Knew_pose[m[K’
+  211 |     [01;31m[Knew_pose[m[K.orientation.x = 0.0;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:212:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pose[m[K’ was not declared in this scope
+  212 |     [01;31m[Knew_pose[m[K.orientation.y = 0.707;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::performBackAction()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:225:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_pose_id2[m[K’?
+  225 |     [01;31m[Knew_pose[m[K.orientation.x = 0.0;
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Knew_pose_id2[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::publishGripperCommand(int, int)[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:236:20:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  236 |     std_msgs::msg::[01;31m[KInt32MultiArray[m[K gripper_command;
+      |                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:237:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_command[m[K’ was not declared in this scope
+  237 |     [01;31m[Kgripper_command[m[K.data = {width, force};
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:239:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_publisher[m[K’?
+  239 |     [01;31m[Kgripper_publisher[m[K->publish(gripper_command);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_publisher[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

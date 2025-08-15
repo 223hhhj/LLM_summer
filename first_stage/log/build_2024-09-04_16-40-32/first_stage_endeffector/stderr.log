@@ -1,0 +1,4 @@
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:80:12:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCHECK_GRASP[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   80 |     switch [01;35m[K([m[Kstate_) {
+      |            [01;35m[K^[m[K

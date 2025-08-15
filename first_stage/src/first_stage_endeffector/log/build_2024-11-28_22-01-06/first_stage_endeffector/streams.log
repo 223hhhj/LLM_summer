@@ -1,0 +1,8 @@
+[0.009s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.060s] [ 50%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+[0.741s] /usr/bin/ld: /home/steven/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5: undefined reference to `warehouse_ros::DatabaseLoader::~DatabaseLoader()'
+[0.762s] collect2: error: ld returned 1 exit status
+[0.763s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:423：first_stage_endeffector] 錯誤 1
+[0.763s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[0.763s] gmake: *** [Makefile:146：all] 錯誤 2
+[0.765s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

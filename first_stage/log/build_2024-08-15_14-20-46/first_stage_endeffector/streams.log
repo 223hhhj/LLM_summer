@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.272s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::waitForNewTarget()[m[K’:
+[4.272s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:233:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_mutex[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.272s]   233 |     std::unique_lock<std::mutex> lock([01;31m[Ktarget_mutex[m[K);
+[4.273s]       |                                       [01;31m[K^~~~~~~~~~~~[m[K
+[4.273s]       |                                       [32m[Ktarget_pose[m[K
+[4.277s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:234:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_cv[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+[4.277s]   234 |     [01;31m[Ktarget_cv[m[K.wait(lock, [this](){ return new_target_received; });
+[4.278s]       |     [01;31m[K^~~~~~~~~[m[K
+[4.278s]       |     [32m[Ktarget_pose[m[K
+[4.289s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In lambda function:
+[4.289s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:234:43:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_target_received[m[K’ was not declared in this scope
+[4.289s]   234 |     target_cv.wait(lock, [this](){ return [01;31m[Knew_target_received[m[K; });
+[4.289s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.300s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::waitForNewTarget()[m[K’:
+[4.300s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:236:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_target_received[m[K’ was not declared in this scope
+[4.301s]   236 |     [01;31m[Knew_target_received[m[K = false;
+[4.301s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.051s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[9.051s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[9.051s] gmake: *** [Makefile:146：all] 錯誤 2
+[9.052s] Invoked command in '/home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/build/first_stage_endeffector -- -j32 -l32

@@ -1,0 +1,25 @@
+[0.309s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_rg2': PYTHONPATH=/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/first_stage_rg2 build --build-base /home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/build install --record /home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/install.log --single-version-externally-managed install_data
+[0.417s] running egg_info
+[0.417s] writing ../../build/first_stage_rg2/first_stage_rg2.egg-info/PKG-INFO
+[0.417s] writing dependency_links to ../../build/first_stage_rg2/first_stage_rg2.egg-info/dependency_links.txt
+[0.417s] writing entry points to ../../build/first_stage_rg2/first_stage_rg2.egg-info/entry_points.txt
+[0.417s] writing requirements to ../../build/first_stage_rg2/first_stage_rg2.egg-info/requires.txt
+[0.417s] writing top-level names to ../../build/first_stage_rg2/first_stage_rg2.egg-info/top_level.txt
+[0.418s] reading manifest file '../../build/first_stage_rg2/first_stage_rg2.egg-info/SOURCES.txt'
+[0.418s] adding license file 'LICENSE'
+[0.418s] writing manifest file '../../build/first_stage_rg2/first_stage_rg2.egg-info/SOURCES.txt'
+[0.418s] running build
+[0.418s] running build_py
+[0.418s] copying first_stage_rg2/first_stage_rg2_ros2.py -> /home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/build/lib/first_stage_rg2
+[0.418s] running install
+[0.418s] running install_lib
+[0.419s] copying /home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/build/lib/first_stage_rg2/first_stage_rg2_ros2.py -> /home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2
+[0.419s] byte-compiling /home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2/first_stage_rg2_ros2.py to first_stage_rg2_ros2.cpython-310.pyc
+[0.419s] running install_data
+[0.419s] running install_egg_info
+[0.420s] removing '/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.420s] Copying ../../build/first_stage_rg2/first_stage_rg2.egg-info to /home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first_stage_rg2-0.0.0-py3.10.egg-info
+[0.421s] running install_scripts
+[0.430s] Installing rg2_node script to /home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/first_stage_rg2
+[0.430s] writing list of installed files to '/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/install.log'
+[0.441s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_rg2' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/first_stage/install/first_stage_rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/first_stage_rg2 build --build-base /home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/build install --record /home/steven/ros2_ws/src/first_stage/build/first_stage_rg2/install.log --single-version-externally-managed install_data

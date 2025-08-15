@@ -1,0 +1,45 @@
+[0.007s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm:/home/steven/ros2_ws/src/install/yolo_pf_realsense:/home/steven/ros2_ws/src/install/robotiq3f_ros2:/home/steven/ros2_ws/src/install/robot_interface:/home/steven/ros2_ws/src/install/rg2:/home/steven/ros2_ws/src/install/my_robot_socket_node:/home/steven/ros2_ws/src/install/multi_realsense_launch:/home/steven/ros2_ws/src/install/first_stage_rg2:/home/steven/ros2_ws/src/install/eye_in_hand_realsense:/home/steven/ros2_ws/src/install/dual_realsense /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target itri_arm_hardware[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/itri_arm_hardware.dir/src/itri_arm_hardware.cpp.o[0m
+[2.210s] [100%] [32m[1mLinking CXX shared library libitri_arm_hardware.so[0m
+[2.337s] [100%] Built target itri_arm_hardware
+[2.343s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm:/home/steven/ros2_ws/src/install/yolo_pf_realsense:/home/steven/ros2_ws/src/install/robotiq3f_ros2:/home/steven/ros2_ws/src/install/robot_interface:/home/steven/ros2_ws/src/install/rg2:/home/steven/ros2_ws/src/install/my_robot_socket_node:/home/steven/ros2_ws/src/install/multi_realsense_launch:/home/steven/ros2_ws/src/install/first_stage_rg2:/home/steven/ros2_ws/src/install/eye_in_hand_realsense:/home/steven/ros2_ws/src/install/dual_realsense /usr/bin/cmake --build /home/steven/ros2_ws/src/itri_arm/build/itri_arm -- -j32 -l32
+[2.349s] Invoking command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm:/home/steven/ros2_ws/src/install/yolo_pf_realsense:/home/steven/ros2_ws/src/install/robotiq3f_ros2:/home/steven/ros2_ws/src/install/robot_interface:/home/steven/ros2_ws/src/install/rg2:/home/steven/ros2_ws/src/install/my_robot_socket_node:/home/steven/ros2_ws/src/install/multi_realsense_launch:/home/steven/ros2_ws/src/install/first_stage_rg2:/home/steven/ros2_ws/src/install/eye_in_hand_realsense:/home/steven/ros2_ws/src/install/dual_realsense /usr/bin/cmake --install /home/steven/ros2_ws/src/itri_arm/build/itri_arm
+[2.352s] -- Install configuration: ""
+[2.352s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/itri_arm_hardware.xml
+[2.352s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/include/itri_arm
+[2.352s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/include/itri_arm/itri_arm
+[2.352s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/include/itri_arm/itri_arm/itri_arm_hardware.hpp
+[2.353s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/lib/libitri_arm_hardware.so
+[2.353s] -- Set runtime path of "/home/steven/ros2_ws/src/itri_arm/install/itri_arm/lib/libitri_arm_hardware.so" to ""
+[2.353s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/config
+[2.353s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/config/controllers.yaml
+[2.353s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/launch
+[2.353s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/launch/itri_arm_control.launch.py
+[2.353s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/urdf
+[2.353s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/urdf/itri_arm.ros2_control.xacro
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/urdf/itri_arm.urdf.xacro
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/urdf/itri_arm_hardware.xml
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/library_path.sh
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/library_path.dsv
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/package_run_dependencies/itri_arm
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/parent_prefix_path/itri_arm
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/ament_prefix_path.sh
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/ament_prefix_path.dsv
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/path.sh
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/environment/path.dsv
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.bash
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.sh
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.zsh
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/local_setup.dsv
+[2.354s] -- Installing: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/package.dsv
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/packages/itri_arm
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/itri_arm
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/export_itri_armExport.cmake
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/export_itri_armExport-noconfig.cmake
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/ament_cmake_export_targets-extras.cmake
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/itri_armConfig.cmake
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/cmake/itri_armConfig-version.cmake
+[2.354s] -- Up-to-date: /home/steven/ros2_ws/src/itri_arm/install/itri_arm/share/itri_arm/package.xml
+[2.355s] Invoked command in '/home/steven/ros2_ws/src/itri_arm/build/itri_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ros2_ws/install/yolo_pf_realsense:/home/steven/ros2_ws/install/robot_arm_controller:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/multi_realsense_launch:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/install/eye_in_hand_realsense:/home/steven/ros2_ws/install/dual_realsense:/home/steven/ros2_ws/install/arm_socket_comm:/home/steven/ros2_ws/src/install/yolo_pf_realsense:/home/steven/ros2_ws/src/install/robotiq3f_ros2:/home/steven/ros2_ws/src/install/robot_interface:/home/steven/ros2_ws/src/install/rg2:/home/steven/ros2_ws/src/install/my_robot_socket_node:/home/steven/ros2_ws/src/install/multi_realsense_launch:/home/steven/ros2_ws/src/install/first_stage_rg2:/home/steven/ros2_ws/src/install/eye_in_hand_realsense:/home/steven/ros2_ws/src/install/dual_realsense /usr/bin/cmake --install /home/steven/ros2_ws/src/itri_arm/build/itri_arm

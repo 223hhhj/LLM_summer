@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating rg2.egg-info
+writing rg2.egg-info/PKG-INFO
+writing dependency_links to rg2.egg-info/dependency_links.txt
+writing entry points to rg2.egg-info/entry_points.txt
+writing requirements to rg2.egg-info/requires.txt
+writing top-level names to rg2.egg-info/top_level.txt
+writing manifest file 'rg2.egg-info/SOURCES.txt'
+reading manifest file 'rg2.egg-info/SOURCES.txt'
+writing manifest file 'rg2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2.egg-link (link to .)
+Installing test_node script to /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/rg2
+
+Installed /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2
+running symlink_data
+creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index
+creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index/resource_index
+creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index/resource_index/packages
+symbolically linking /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/resource/rg2 -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index/resource_index/packages
+symbolically linking /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/package.xml -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/rg2

@@ -1,0 +1,38 @@
+[0.008s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[3.451s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[3.451s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:39:35:[m[K [01;31m[Kerror: [m[K‘[01m[KgripperStateCallback[m[K’ is not a member of ‘[01m[KRobotController[m[K’
+[3.451s]    39 |       std::bind(&RobotController::[01;31m[KgripperStateCallback[m[K, this, std::placeholders::_1));
+[3.451s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.457s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[3.457s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:101:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::controlGripper(int, int)[m[K’
+[3.457s]   101 |         if ([01;31m[KcontrolGripper(30, 10)[m[K) {
+[3.457s]       |             [01;31m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.457s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:385:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::controlGripper(int, int, const string&)[m[K’
+[3.457s]   385 |   bool [01;36m[KcontrolGripper[m[K(int width, int force, const std::string& operation)
+[3.457s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.457s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:385:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[3.457s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:111:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::controlGripper(int, int)[m[K’
+[3.457s]   111 |         if ([01;31m[KcontrolGripper(6, 10)[m[K) {
+[3.457s]       |             [01;31m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.457s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:385:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::controlGripper(int, int, const string&)[m[K’
+[3.457s]   385 |   bool [01;36m[KcontrolGripper[m[K(int width, int force, const std::string& operation)
+[3.458s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.458s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:385:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[3.458s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:121:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::controlGripper(int, int)[m[K’
+[3.458s]   121 |             [01;31m[KcontrolGripper(30, 10)[m[K;
+[3.458s]       |             [01;31m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.458s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:385:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool RobotController::controlGripper(int, int, const string&)[m[K’
+[3.458s]   385 |   bool [01;36m[KcontrolGripper[m[K(int width, int force, const std::string& operation)
+[3.458s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.458s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:385:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[3.470s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kstd::string RobotController::stateToString(RobotController::State)[m[K’:
+[3.470s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:519:19:[m[K [01;31m[Kerror: [m[K‘[01m[KGRASP_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’; did you mean ‘[01m[KRELEASE_OBJECT[m[K’?
+[3.470s]   519 |       case State::[01;31m[KGRASP_OBJECT[m[K: return "GRASP_OBJECT";
+[3.470s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[3.470s]       |                   [32m[KRELEASE_OBJECT[m[K
+[6.986s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[6.986s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[6.986s] gmake: *** [Makefile:146：all] 錯誤 2
+[6.988s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

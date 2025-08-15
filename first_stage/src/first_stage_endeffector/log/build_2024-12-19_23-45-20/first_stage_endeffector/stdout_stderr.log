@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+/usr/bin/ld: CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o: in function `RobotController::moveToObservation()':
+first_stage_endeffector.cpp:(.text._ZN15RobotController17moveToObservationEv[_ZN15RobotController17moveToObservationEv]+0x809): undefined reference to `RobotController::moveToPose(geometry_msgs::msg::Pose_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: first_stage_endeffector.cpp:(.text._ZN15RobotController17moveToObservationEv[_ZN15RobotController17moveToObservationEv]+0x911): undefined reference to `RobotController::moveRelativeZ(double, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: first_stage_endeffector.cpp:(.text._ZN15RobotController17moveToObservationEv[_ZN15RobotController17moveToObservationEv]+0xaa7): undefined reference to `RobotController::moveToPose(geometry_msgs::msg::Pose_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: first_stage_endeffector.cpp:(.text._ZN15RobotController17moveToObservationEv[_ZN15RobotController17moveToObservationEv]+0xbaf): undefined reference to `RobotController::moveRelativeZ(double, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:423：first_stage_endeffector] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

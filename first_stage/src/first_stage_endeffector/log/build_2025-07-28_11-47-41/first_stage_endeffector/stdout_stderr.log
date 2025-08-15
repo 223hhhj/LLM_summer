@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+gmake[2]: *** 沒有規則可製作目標「/usr/lib/x86_64-linux-gnu/libfreeimage.so」，由「first_stage_endeffector」 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

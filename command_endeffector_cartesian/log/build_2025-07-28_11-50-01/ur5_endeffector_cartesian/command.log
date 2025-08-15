@@ -1,0 +1,2 @@
+Invoking command in '/home/steven/ros2_ws/src/command_endeffector_cartesian/build/ur5_endeffector_cartesian': /usr/bin/cmake --build /home/steven/ros2_ws/src/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+Invoked command in '/home/steven/ros2_ws/src/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': /usr/bin/cmake --build /home/steven/ros2_ws/src/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

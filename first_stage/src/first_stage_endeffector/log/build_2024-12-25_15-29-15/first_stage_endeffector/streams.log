@@ -1,0 +1,47 @@
+[0.008s] Invoking command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[3.278s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::timerCallback()[m[K’:
+[3.278s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:168:33:[m[K [01;31m[Kerror: [m[K‘[01m[KRELEASE_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.278s]   168 |                 setState(State::[01;31m[KRELEASE_OBJECT[m[K);
+[3.278s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.278s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:172:19:[m[K [01;31m[Kerror: [m[K‘[01m[KRELEASE_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.278s]   172 |       case State::[01;31m[KRELEASE_OBJECT[m[K:
+[3.278s]       |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.288s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::coordinatesCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.288s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:833:26:[m[K [01;31m[Kerror: [m[K‘[01m[KWAIT_FOR_COORDINATES[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.288s]   833 |     if (state_ == State::[01;31m[KWAIT_FOR_COORDINATES[m[K) {
+[3.288s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.290s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::orientationCallback(geometry_msgs::msg::Quaternion_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.290s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:846:26:[m[K [01;31m[Kerror: [m[K‘[01m[KWAIT_FOR_COORDINATES[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.290s]   846 |     if (state_ == State::[01;31m[KWAIT_FOR_COORDINATES[m[K) {
+[3.290s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.293s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kvoid RobotController::checkStateTransition()[m[K’:
+[3.293s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:870:23:[m[K [01;31m[Kerror: [m[K‘[01m[KMOVE_TO_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’; did you mean ‘[01m[KMOVE_TO_HOME[m[K’?
+[3.293s]   870 |       setState(State::[01;31m[KMOVE_TO_OBJECT[m[K);
+[3.293s]       |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.293s]       |                       [32m[KMOVE_TO_HOME[m[K
+[3.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In member function ‘[01m[Kstd::string RobotController::stateToString(RobotController::State)[m[K’:
+[3.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:934:19:[m[K [01;31m[Kerror: [m[K‘[01m[KMOVE_TO_INTERMEDIATE[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.294s]   934 |       case State::[01;31m[KMOVE_TO_INTERMEDIATE[m[K: return "MOVE_TO_INTERMEDIATE";
+[3.294s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:935:19:[m[K [01;31m[Kerror: [m[K‘[01m[KWAIT_FOR_COORDINATES[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.294s]   935 |       case State::[01;31m[KWAIT_FOR_COORDINATES[m[K: return "WAIT_FOR_COORDINATES";
+[3.294s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:936:19:[m[K [01;31m[Kerror: [m[K‘[01m[KMOVE_TO_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’; did you mean ‘[01m[KMOVE_TO_HOME[m[K’?
+[3.294s]   936 |       case State::[01;31m[KMOVE_TO_OBJECT[m[K: return "MOVE_TO_OBJECT";
+[3.294s]       |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.294s]       |                   [32m[KMOVE_TO_HOME[m[K
+[3.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:937:19:[m[K [01;31m[Kerror: [m[K‘[01m[KGRASP_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.294s]   937 |       case State::[01;31m[KGRASP_OBJECT[m[K: return "GRASP_OBJECT";
+[3.294s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[3.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:938:19:[m[K [01;31m[Kerror: [m[K‘[01m[KCHECK_GRASP[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.294s]   938 |       case State::[01;31m[KCHECK_GRASP[m[K: return "CHECK_GRASP";
+[3.294s]       |                   [01;31m[K^~~~~~~~~~~[m[K
+[3.294s] [01m[K/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:943:19:[m[K [01;31m[Kerror: [m[K‘[01m[KRELEASE_OBJECT[m[K’ is not a member of ‘[01m[KRobotController::State[m[K’
+[3.294s]   943 |       case State::[01;31m[KRELEASE_OBJECT[m[K: return "RELEASE_OBJECT";
+[3.294s]       |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.964s] gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+[6.964s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+[6.964s] gmake: *** [Makefile:146：all] 錯誤 2
+[6.966s] Invoked command in '/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/build/first_stage_endeffector -- -j32 -l32

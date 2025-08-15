@@ -1,0 +1,46 @@
+[0.425s] Invoking command in '/home/steven/ros2_ws/src/dual_arm_collaboration': PYTHONPATH=/home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/dual_arm_collaboration build --build-base /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build install --record /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/install.log --single-version-externally-managed install_data
+[0.593s] running egg_info
+[0.593s] creating build/dual_arm_collaboration/dual_arm_collaboration.egg-info
+[0.599s] writing build/dual_arm_collaboration/dual_arm_collaboration.egg-info/PKG-INFO
+[0.599s] writing dependency_links to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/dependency_links.txt
+[0.599s] writing entry points to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/entry_points.txt
+[0.599s] writing requirements to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/requires.txt
+[0.599s] writing top-level names to build/dual_arm_collaboration/dual_arm_collaboration.egg-info/top_level.txt
+[0.599s] writing manifest file 'build/dual_arm_collaboration/dual_arm_collaboration.egg-info/SOURCES.txt'
+[0.611s] reading manifest file 'build/dual_arm_collaboration/dual_arm_collaboration.egg-info/SOURCES.txt'
+[0.611s] writing manifest file 'build/dual_arm_collaboration/dual_arm_collaboration.egg-info/SOURCES.txt'
+[0.611s] running build
+[0.611s] running build_py
+[0.611s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build
+[0.611s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build/lib
+[0.611s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build/lib/dual_arm_collaboration
+[0.611s] copying dual_arm_collaboration/dual_arm_controller.py -> /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build/lib/dual_arm_collaboration
+[0.611s] copying dual_arm_collaboration/__init__.py -> /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build/lib/dual_arm_collaboration
+[0.611s] running install
+[0.613s] running install_lib
+[0.619s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration
+[0.619s] copying /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build/lib/dual_arm_collaboration/dual_arm_controller.py -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration
+[0.619s] copying /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build/lib/dual_arm_collaboration/__init__.py -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration
+[0.620s] byte-compiling /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration/dual_arm_controller.py to dual_arm_controller.cpython-310.pyc
+[0.620s] byte-compiling /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration/__init__.py to __init__.cpython-310.pyc
+[0.620s] running install_data
+[0.620s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/ament_index
+[0.620s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/ament_index/resource_index
+[0.620s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/ament_index/resource_index/packages
+[0.620s] copying resource/dual_arm_collaboration -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/ament_index/resource_index/packages
+[0.620s] copying package.xml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration
+[0.620s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/launch
+[0.620s] copying launch/dual_arm_system.launch.py -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/launch
+[0.620s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+[0.620s] copying config/workspace_limits.yaml -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/config
+[0.620s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/urdf
+[0.620s] copying urdf/dual_arm_system.urdf.xacro -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/urdf
+[0.620s] creating /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/rviz
+[0.620s] copying rviz/dual_arm_view.rviz -> /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/share/dual_arm_collaboration/rviz
+[0.620s] running install_egg_info
+[0.626s] Copying build/dual_arm_collaboration/dual_arm_collaboration.egg-info to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages/dual_arm_collaboration-1.0.0-py3.10.egg-info
+[0.627s] running install_scripts
+[0.651s] Installing arm0710_controller script to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/dual_arm_collaboration
+[0.651s] Installing dual_arm_coordinator script to /home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/dual_arm_collaboration
+[0.651s] writing list of installed files to '/home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/install.log'
+[0.666s] Invoked command in '/home/steven/ros2_ws/src/dual_arm_collaboration' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/dual_arm_collaboration/install/dual_arm_collaboration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/dual_arm_collaboration build --build-base /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/build install --record /home/steven/ros2_ws/src/dual_arm_collaboration/build/dual_arm_collaboration/install.log --single-version-externally-managed install_data

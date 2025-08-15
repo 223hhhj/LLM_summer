@@ -1,0 +1,26 @@
+[0.455s] Invoking command in '/home/steven/ros2_ws/src/robotiq3f_ros2': PYTHONPATH=/home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robotiq3f_ros2 build --build-base /home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/build install --record /home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/install.log --single-version-externally-managed install_data
+[0.623s] running egg_info
+[0.629s] writing build/robotiq3f_ros2/robotiq3f_ros2.egg-info/PKG-INFO
+[0.629s] writing dependency_links to build/robotiq3f_ros2/robotiq3f_ros2.egg-info/dependency_links.txt
+[0.629s] writing entry points to build/robotiq3f_ros2/robotiq3f_ros2.egg-info/entry_points.txt
+[0.629s] writing requirements to build/robotiq3f_ros2/robotiq3f_ros2.egg-info/requires.txt
+[0.629s] writing top-level names to build/robotiq3f_ros2/robotiq3f_ros2.egg-info/top_level.txt
+[0.641s] reading manifest file 'build/robotiq3f_ros2/robotiq3f_ros2.egg-info/SOURCES.txt'
+[0.642s] writing manifest file 'build/robotiq3f_ros2/robotiq3f_ros2.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] copying robotiq3f_ros2/robotiq_gripper_node.py -> /home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/build/lib/robotiq3f_ros2
+[0.642s] running install
+[0.644s] running install_lib
+[0.651s] copying /home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/build/lib/robotiq3f_ros2/robotiq_gripper_node.py -> /home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/python3.10/site-packages/robotiq3f_ros2
+[0.651s] byte-compiling /home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/python3.10/site-packages/robotiq3f_ros2/robotiq_gripper_node.py to robotiq_gripper_node.cpython-310.pyc
+[0.652s] running install_data
+[0.652s] running install_egg_info
+[0.659s] removing '/home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/python3.10/site-packages/robotiq3f_ros2-1.0.0-py3.10.egg-info' (and everything under it)
+[0.659s] Copying build/robotiq3f_ros2/robotiq3f_ros2.egg-info to /home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/python3.10/site-packages/robotiq3f_ros2-1.0.0-py3.10.egg-info
+[0.659s] running install_scripts
+[0.685s] Installing gripper_status_viewer script to /home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/robotiq3f_ros2
+[0.685s] Installing gripper_test_commander script to /home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/robotiq3f_ros2
+[0.685s] Installing robotiq_gripper_node script to /home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/robotiq3f_ros2
+[0.685s] writing list of installed files to '/home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/install.log'
+[0.700s] Invoked command in '/home/steven/ros2_ws/src/robotiq3f_ros2' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/robotiq3f_ros2/install/robotiq3f_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robotiq3f_ros2 build --build-base /home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/build install --record /home/steven/ros2_ws/src/robotiq3f_ros2/build/robotiq3f_ros2/install.log --single-version-externally-managed install_data

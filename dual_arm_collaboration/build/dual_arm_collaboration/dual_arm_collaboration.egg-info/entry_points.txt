@@ -1,0 +1,3 @@
+[console_scripts]
+arm0710_controller = dual_arm_collaboration.arm0710_controller:main
+dual_arm_coordinator = dual_arm_collaboration.dual_arm_coordinator:main

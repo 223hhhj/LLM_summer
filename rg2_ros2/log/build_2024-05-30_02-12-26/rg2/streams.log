@@ -1,0 +1,26 @@
+[0.300s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build --no-deps symlink_data
+[0.403s] running develop
+[0.403s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.403s]   warnings.warn(
+[0.461s] running egg_info
+[0.461s] creating rg2.egg-info
+[0.461s] writing rg2.egg-info/PKG-INFO
+[0.461s] writing dependency_links to rg2.egg-info/dependency_links.txt
+[0.461s] writing entry points to rg2.egg-info/entry_points.txt
+[0.461s] writing requirements to rg2.egg-info/requires.txt
+[0.461s] writing top-level names to rg2.egg-info/top_level.txt
+[0.461s] writing manifest file 'rg2.egg-info/SOURCES.txt'
+[0.462s] reading manifest file 'rg2.egg-info/SOURCES.txt'
+[0.462s] writing manifest file 'rg2.egg-info/SOURCES.txt'
+[0.482s] running build_ext
+[0.482s] Creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2.egg-link (link to .)
+[0.483s] Installing test_node script to /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/rg2
+[0.483s] 
+[0.483s] Installed /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2
+[0.483s] running symlink_data
+[0.483s] creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index
+[0.483s] creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index/resource_index
+[0.483s] creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index/resource_index/packages
+[0.483s] symbolically linking /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/resource/rg2 -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index/resource_index/packages
+[0.483s] symbolically linking /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/package.xml -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/rg2
+[0.494s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2' returned '0': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build --no-deps symlink_data

@@ -1,0 +1,62 @@
+[0.468s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build
+    available_commands = await self._get_available_commands(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands
+    output = await check_output(
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/home/steven/ros2_ws/src/yolo_pf_realsense/setup.py", line 7, in <module>
+    setup(
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 172, in setup
+    ok = dist.parse_command_line()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 471, in parse_command_line
+    if self.handle_display_options(option_order):
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1185, in handle_display_options
+    return _Distribution.handle_display_options(self, option_order)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 685, in handle_display_options
+    self.print_commands()
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 964, in print_commands
+    return _Distribution.print_commands(self)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 754, in print_commands
+    self.print_command_list(std_commands, "Standard commands", max_length)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 721, in print_command_list
+    klass = self.get_command_class(cmd)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/dist.py", line 957, in get_command_class
+    return _Distribution.get_command_class(self, command)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 827, in get_command_class
+    __import__(module_name)
+  File "/home/steven/.local/lib/python3.10/site-packages/setuptools/_distutils/command/check.py", line 12, in <module>
+    import docutils.parsers.rst
+  File "/usr/lib/python3/dist-packages/docutils/parsers/rst/__init__.py", line 75, in <module>
+    from docutils.parsers.rst import roles, states
+  File "/usr/lib/python3/dist-packages/docutils/parsers/rst/states.py", line 1070, in <module>
+    class Body(RSTState):
+  File "/usr/lib/python3/dist-packages/docutils/parsers/rst/states.py", line 1869, in Body
+    substitution=re.compile(r"""
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 512, in _parse
+    sourceget()
+  File "/usr/lib/python3.10/sre_parse.py", line 257, in get
+    self.__next()
+  File "/usr/lib/python3.10/sre_parse.py", line 237, in __next
+    char = self.decoded_string[index]
+TypeError: string indices must be integers
+
